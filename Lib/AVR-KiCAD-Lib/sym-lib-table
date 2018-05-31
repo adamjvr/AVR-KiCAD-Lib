@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name ICs)(type Legacy)(uri C:/Users/adam/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/ICs.lib)(options "")(descr ""))
+  (lib (name Caps)(type Legacy)(uri C:/Users/adam/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/Caps.lib)(options "")(descr ""))
+  (lib (name Connectors)(type Legacy)(uri C:/Users/adam/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/Connectors.lib)(options "")(descr ""))
+  (lib (name Resistors)(type Legacy)(uri C:/Users/adam/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/Resistors.lib)(options "")(descr ""))
+)
