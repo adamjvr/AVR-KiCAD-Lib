@@ -10,7 +10,7 @@ F2 "" -200 0 50 H I C CNN
 F3 "" -100 100 50 H I C CNN
 F4 "*" 100 250 50 H V C CNN "Cost QTY: 1"
 F5 "*" 200 350 50 H V C CNN "Cost QTY: 1000"
-F6 "*" 300 450 50 H V C CNN "Cost QTY: 3000"
+F6 "*" 300 450 50 H V C CNN "Cost QTY: 2500"
 F7 "*" 400 550 50 H V C CNN "Cost QTY: 5000"
 F8 "*" 500 650 50 H V C CNN "Cost QTY: 10000"
 F9 "*" 600 750 50 H V C CNN "MFR"
@@ -30,10 +30,9 @@ F22 "*" 1800 1950 50 H V C CNN "Tolerance"
 F23 "*" 1900 2050 50 H V C CNN "Type"
 F24 "*" 2000 2150 50 H V C CNN "Voltage"
 F25 "*" 2100 2300 50 H V C CNN "Package"
-F26 "*" 2200 2400 50 H V C CNN "Component"
-F27 "*" 2500 2700 50 H V C CNN "Description"
-F28 "*" 2300 2500 50 H V C CNN "_Value_"
-F29 "*" 2400 2600 50 H V C CNN "Management_ID"
+F26 "*" 2500 2700 50 H V C CNN "Description"
+F27 "*" 2300 2500 50 H V C CNN "_Value_"
+F28 "*" 2400 2600 50 H V C CNN "Management_ID"
 DRAW
 P 2 1 1 0 0 100 0 -100 N
 P 2 1 1 0 50 100 50 -100 N
@@ -51,7 +50,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "*" 100 250 50 H V C CNN "Cost QTY: 1"
 F5 "*" 200 350 50 H V C CNN "Cost QTY: 1000"
-F6 "*" 300 450 50 H V C CNN "Cost QTY: 3000"
+F6 "*" 300 450 50 H V C CNN "Cost QTY: 2500"
 F7 "*" 400 550 50 H V C CNN "Cost QTY: 5000"
 F8 "*" 500 650 50 H V C CNN "Cost QTY: 10000"
 F9 "*" 600 750 50 H V C CNN "MFR"
