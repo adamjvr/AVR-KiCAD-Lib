@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HLMP-4700-C0002
+F https://docs.broadcom.com/docs/AV02-1557EN
+$ENDCMP
+#
 #End Doc Library

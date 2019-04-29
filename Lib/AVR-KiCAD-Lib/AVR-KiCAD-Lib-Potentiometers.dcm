@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP P0915N-EC15BR100K
+F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf
+$ENDCMP
+#
+$CMP P0915N-FC15BR10K
+F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf
+$ENDCMP
+#
+$CMP P0915N-QC15AR500K
+F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf
+$ENDCMP
+#
+#End Doc Library
