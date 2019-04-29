@@ -80,6 +80,10 @@ $CMP UES1H2R2MDM1TD
 F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
 $ENDCMP
 #
+$CMP UFW1H101MPD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
 $CMP UUD1H150MCL1GS
 F http://nichicon-us.com/english/products/pdfs/e-uud.pdf
 $ENDCMP
