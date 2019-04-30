@@ -32,6 +32,14 @@ $CMP RC0603JR-0710ML
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP RC1206FR-07100KL
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RC1206FR-07100RL
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
 $CMP RC1206FR-0710KL
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP

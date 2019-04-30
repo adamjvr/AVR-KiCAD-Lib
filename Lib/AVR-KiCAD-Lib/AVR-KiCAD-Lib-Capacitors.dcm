@@ -56,6 +56,10 @@ $CMP EEV-EB2C100Q
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1202.pdf
 $ENDCMP
 #
+$CMP F861KG103M310A
+F https://content.kemet.com/datasheets/KEM_F3001_F861_X2_310.pdf
+$ENDCMP
+#
 $CMP FKP2O100471D00KSSD
 F https://www.wima.de/wp-content/uploads/media/e_WIMA_FKP_2.pdf
 $ENDCMP
