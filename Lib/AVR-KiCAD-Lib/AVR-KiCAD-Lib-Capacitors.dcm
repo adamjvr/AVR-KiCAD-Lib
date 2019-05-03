@@ -8,6 +8,10 @@ $CMP C0805C103KCRACAUTO
 F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
 $ENDCMP
 #
+$CMP C0805C222KDRACAUTO
+F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
+$ENDCMP
+#
 $CMP C1206C101J5GACTU
 F https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf
 $ENDCMP
@@ -24,12 +28,20 @@ $CMP CC0603KRX7R9BB473
 F http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
 $ENDCMP
 #
+$CMP CL21A475KACLRNC
+F https://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KACLRNC.jsp
+$ENDCMP
+#
 $CMP CL21B104KCFNNNE
 F https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104KCFNNNE.pdf
 $ENDCMP
 #
 $CMP CL21B224KBFNNNE
 F https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL21B224KBFNNNE.pdf
+$ENDCMP
+#
+$CMP CL21C470JC61PNC
+F https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/11/CL21C470JC61PNC.pdf
 $ENDCMP
 #
 $CMP ECA-2CHG010
@@ -76,7 +88,15 @@ $CMP UCS2C221MHD1TN
 F http://nichicon-us.com/english/products/pdfs/e-ucs.pdf
 $ENDCMP
 #
+$CMP UES1E100MDM1TD
+F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
+$ENDCMP
+#
 $CMP UES1H010MDM
+F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
+$ENDCMP
+#
+$CMP UES1H100MPM1TD
 F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
 $ENDCMP
 #
@@ -84,8 +104,36 @@ $CMP UES1H2R2MDM1TD
 F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
 $ENDCMP
 #
+$CMP UFG1H010MDM
+F http://nichicon-us.com/english/products/pdfs/e-ufg.pdf
+$ENDCMP
+#
+$CMP UFW1H100MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
 $CMP UFW1H101MPD
 F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H2R2MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H3R3MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H470MED1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H4R7MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UKA1V221MPD1TD
+F http://nichicon-us.com/english/products/pdfs/e-uka.pdf
 $ENDCMP
 #
 $CMP UUD1H150MCL1GS

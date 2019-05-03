@@ -4,4 +4,8 @@ $CMP OPAx134_DIP
 F https://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
+$CMP OPAx134_DIP_Single
+F https://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
 #End Doc Library
