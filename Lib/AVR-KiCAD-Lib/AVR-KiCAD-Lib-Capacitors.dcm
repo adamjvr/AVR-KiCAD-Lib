@@ -4,6 +4,10 @@ $CMP 08055A471FAT2A
 F http://datasheets.avx.com/C0GNP0-Dielectric.pdf
 $ENDCMP
 #
+$CMP B32529C0223K189
+F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
+$ENDCMP
+#
 $CMP C0805C103KCRACAUTO
 F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
 $ENDCMP
@@ -18,6 +22,14 @@ $ENDCMP
 #
 $CMP C1206C102KARECAUTO
 F https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf
+$ENDCMP
+#
+$CMP C1206C562KDRACAUTO
+F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
+$ENDCMP
+#
+$CMP C1210C333JAGAC7800
+F https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf
 $ENDCMP
 #
 $CMP CC0603FRNPO9BN471
@@ -150,6 +162,10 @@ $ENDCMP
 #
 $CMP UUX1J101MNL1GS
 F http://nichicon-us.com/english/products/pdfs/e-uux.pdf
+$ENDCMP
+#
+$CMP UVR2A0R1MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-uvr.pdf
 $ENDCMP
 #
 #End Doc Library
