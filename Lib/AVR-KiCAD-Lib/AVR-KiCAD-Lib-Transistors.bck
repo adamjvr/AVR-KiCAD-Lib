@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N2484
+F https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2484.PDF
+$ENDCMP
+#
+$CMP 2N3904BU
+F https://www.onsemi.com/pub/Collateral/PZT3904-D.pdf
+$ENDCMP
+#
+$CMP 2N5088
+F https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N5088%20SERIES.PDF
+$ENDCMP
+#
+$CMP 2N5089
+F https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N5088%20SERIES.PDF
+$ENDCMP
+#
+$CMP 2N5457
+F https://www.mouser.com/datasheet/2/68/2n5457-5459-1518584.pdf
+$ENDCMP
+#
+$CMP 2N7000
+F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$ENDCMP
+#
+$CMP J201
+F http://pdf.datasheetcatalog.com/datasheet_pdf/interfet-corporation/J201_to_SMPJ202.pdf
+$ENDCMP
+#
+$CMP J202
+F http://pdf.datasheetcatalog.com/datasheet_pdf/interfet-corporation/J201_to_SMPJ202.pdf
+$ENDCMP
+#
+$CMP J204
+F http://pdf.datasheetcatalog.com/datasheet_pdf/interfet-corporation/J201_to_SMPJ202.pdf
+$ENDCMP
+#
+#End Doc Library

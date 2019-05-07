@@ -1,0 +1,171 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 08055A471FAT2A
+F http://datasheets.avx.com/C0GNP0-Dielectric.pdf
+$ENDCMP
+#
+$CMP B32529C0223K189
+F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
+$ENDCMP
+#
+$CMP C0805C103KCRACAUTO
+F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
+$ENDCMP
+#
+$CMP C0805C222KDRACAUTO
+F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
+$ENDCMP
+#
+$CMP C1206C101J5GACTU
+F https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf
+$ENDCMP
+#
+$CMP C1206C102KARECAUTO
+F https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf
+$ENDCMP
+#
+$CMP C1206C562KDRACAUTO
+F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
+$ENDCMP
+#
+$CMP C1210C333JAGAC7800
+F https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf
+$ENDCMP
+#
+$CMP CC0603FRNPO9BN471
+F http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf
+$ENDCMP
+#
+$CMP CC0603KRX7R9BB473
+F http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP CL21A475KACLRNC
+F https://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KACLRNC.jsp
+$ENDCMP
+#
+$CMP CL21B104KCFNNNE
+F https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B104KCFNNNE.pdf
+$ENDCMP
+#
+$CMP CL21B224KBFNNNE
+F https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL21B224KBFNNNE.pdf
+$ENDCMP
+#
+$CMP CL21C470JC61PNC
+F https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/11/CL21C470JC61PNC.pdf
+$ENDCMP
+#
+$CMP ECA-2CHG010
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0026+ECA2CHG010+7+WW
+$ENDCMP
+#
+$CMP ECH-U1H392JX5
+F industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0013+ECHU1H392JX5+7+WW
+$ENDCMP
+#
+$CMP ECH-U1H473GX9
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0013+ECHU1H473GX9+7+WW
+$ENDCMP
+#
+$CMP ECP-U1C105MA5
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0012+ECPU1C105MA5+7+WW
+$ENDCMP
+#
+$CMP ECQ-E1105KF
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0023+ECQE1105KF+7+WW
+$ENDCMP
+#
+$CMP ECW-U1104JC9
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0001+ECWU1104JC9+7+WW
+$ENDCMP
+#
+$CMP EEV-EB2C100Q
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1202.pdf
+$ENDCMP
+#
+$CMP F861KG103M310A
+F https://content.kemet.com/datasheets/KEM_F3001_F861_X2_310.pdf
+$ENDCMP
+#
+$CMP FKP2O100471D00KSSD
+F https://www.wima.de/wp-content/uploads/media/e_WIMA_FKP_2.pdf
+$ENDCMP
+#
+$CMP GRM21B5C1H223FA01L
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
+$ENDCMP
+#
+$CMP LDECE4100KA5N00
+F https://content.kemet.com/datasheets/KEM_F3078_LDE.pdf
+$ENDCMP
+#
+$CMP TEMPLATE_POLAR
+F *
+$ENDCMP
+#
+$CMP UCS2C221MHD1TN
+F http://nichicon-us.com/english/products/pdfs/e-ucs.pdf
+$ENDCMP
+#
+$CMP UES1E100MDM1TD
+F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
+$ENDCMP
+#
+$CMP UES1H010MDM
+F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
+$ENDCMP
+#
+$CMP UES1H100MPM1TD
+F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
+$ENDCMP
+#
+$CMP UES1H2R2MDM1TD
+F http://nichicon-us.com/english/products/pdfs/e-ues.pdf
+$ENDCMP
+#
+$CMP UFG1H010MDM
+F http://nichicon-us.com/english/products/pdfs/e-ufg.pdf
+$ENDCMP
+#
+$CMP UFW1H100MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H101MPD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H2R2MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H3R3MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H470MED1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UFW1H4R7MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-ufw.pdf
+$ENDCMP
+#
+$CMP UKA1V221MPD1TD
+F http://nichicon-us.com/english/products/pdfs/e-uka.pdf
+$ENDCMP
+#
+$CMP UUD1H150MCL1GS
+F http://nichicon-us.com/english/products/pdfs/e-uud.pdf
+$ENDCMP
+#
+$CMP UUX1J101MNL1GS
+F http://nichicon-us.com/english/products/pdfs/e-uux.pdf
+$ENDCMP
+#
+$CMP UVR2A0R1MDD1TD
+F http://nichicon-us.com/english/products/pdfs/e-uvr.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ECP-U1C105MA5
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0012+ECPU1C105MA5+7+WW
+$ENDCMP
+#
+$CMP ECQ-E1105KF
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0023+ECQE1105KF+7+WW
+$ENDCMP
+#
+$CMP UUD1H150MCL1GS
+F http://nichicon-us.com/english/products/pdfs/e-uud.pdf
+$ENDCMP
+#
 #End Doc Library

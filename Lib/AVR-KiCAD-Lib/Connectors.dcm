@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 54-00129
+F https://tensility.s3.amazonaws.com/uploads/pdffiles/54-00129.pdf?X-Amz-Expires=600&X-Amz-Date=20190429T194025Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIS2S4WRDQDSWDRZQ%2F20190429%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=99ed9c1577b582c8da530602e03991aa31410fe8aa1a56b6fd76746e6c00ec53
+$ENDCMP
+#
 #End Doc Library
