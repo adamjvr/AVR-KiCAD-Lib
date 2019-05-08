@@ -8,6 +8,18 @@ $CMP B32529C0223K189
 F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
 $ENDCMP
 #
+$CMP B32529C0224J000
+F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
+$ENDCMP
+#
+$CMP B32529C0332J289
+F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
+$ENDCMP
+#
+$CMP B32529C0333J189
+F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
+$ENDCMP
+#
 $CMP C0805C103KCRACAUTO
 F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
 $ENDCMP
@@ -98,6 +110,22 @@ $ENDCMP
 #
 $CMP LDECE4100KA5N00
 F https://content.kemet.com/datasheets/KEM_F3078_LDE.pdf
+$ENDCMP
+#
+$CMP PFR5471J630J11L4BULK
+F https://api.kemet.com/component-edge/download/specsheet/F411JH471J630C.pdf
+$ENDCMP
+#
+$CMP PHE850EA4220MA01R17
+F https://content.kemet.com/datasheets/F3294_PHE850.pdf
+$ENDCMP
+#
+$CMP PHE850EA4330MA02R17
+F https://content.kemet.com/datasheets/F3294_PHE850.pdf
+$ENDCMP
+#
+$CMP PHE850EA4470MA03R17
+F https://content.kemet.com/datasheets/F3294_PHE850.pdf
 $ENDCMP
 #
 $CMP TEMPLATE_POLAR
