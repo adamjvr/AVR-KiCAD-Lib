@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM833
+F https://www.ti.com/lit/ds/symlink/lm833-n.pdf
+$ENDCMP
+#
+$CMP LT1026
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1026fb.pdf
+$ENDCMP
+#
+#End Doc Library

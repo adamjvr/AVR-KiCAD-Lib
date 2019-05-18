@@ -20,6 +20,10 @@ $CMP B32529C0333J189
 F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
 $ENDCMP
 #
+$CMP B32529C0392J000
+F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
+$ENDCMP
+#
 $CMP C0805C103KCRACAUTO
 F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
 $ENDCMP
@@ -90,6 +94,10 @@ $ENDCMP
 #
 $CMP ECW-U1104JC9
 F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABD0001+ECWU1104JC9+7+WW
+$ENDCMP
+#
+$CMP EEE-1HA010NR
+F https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf
 $ENDCMP
 #
 $CMP EEV-EB2C100Q

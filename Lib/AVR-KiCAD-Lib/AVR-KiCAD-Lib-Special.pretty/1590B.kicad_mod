@@ -1,4 +1,4 @@
-(module 1590B (layer F.Cu) (tedit 5CD46A55)
+(module 1590B (layer F.Cu) (tedit 5CD623EA)
   (fp_text reference REF** (at 2.7 -108.05) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -8661,4 +8661,5 @@
   (fp_line (start 31.807117 -85.376342) (end 32.249923 -85.376114) (layer Dwgs.User) (width 0.2))
   (fp_line (start 34.565318 -85.374924) (end 34.567118 -88.874923) (layer Dwgs.User) (width 0.2))
   (fp_line (start 31.808917 -88.876341) (end 31.803172 -88.876352) (layer Dwgs.User) (width 0.2))
+  (fp_line (start 25.494107 -115.15) (end 25.494107 15) (layer Dwgs.User) (width 0.12))
 )
