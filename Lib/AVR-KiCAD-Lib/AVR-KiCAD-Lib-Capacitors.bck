@@ -56,6 +56,10 @@ $CMP CC0603KRX7R9BB473
 F http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
 $ENDCMP
 #
+$CMP CL10C151JB8NFNC
+F https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/11/CL10C151JB8NFNC.pdf
+$ENDCMP
+#
 $CMP CL21A475KACLRNC
 F https://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KACLRNC.jsp
 $ENDCMP

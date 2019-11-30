@@ -12,4 +12,12 @@ $CMP P0915N-QC15AR500K
 F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf
 $ENDCMP
 #
+$CMP RV16AF-42-15R1-100K
+F https://www.mouser.com/datasheet/2/13/Taiwan_Alpha_06112018__Data_Sheet_for_Suffix_3LA-1370767.pdf
+$ENDCMP
+#
+$CMP RV16AF-42-15R1-500K
+F https://www.mouser.com/datasheet/2/13/Taiwan_Alpha_06112018__Data_Sheet_for_Suffix_3LA-1370767.pdf
+$ENDCMP
+#
 #End Doc Library
