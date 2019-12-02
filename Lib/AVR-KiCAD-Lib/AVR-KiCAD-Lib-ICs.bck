@@ -1,11 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ECP5UM5G_85_CABGA381
+F http://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
 $CMP LM833
 F https://www.ti.com/lit/ds/symlink/lm833-n.pdf
 $ENDCMP
 #
 $CMP LT1026
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1026fb.pdf
+$ENDCMP
+#
+$CMP MT41K64M16TW-107_J-TR
+F http://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
 $ENDCMP
 #
 $CMP STM32H745XIH6
