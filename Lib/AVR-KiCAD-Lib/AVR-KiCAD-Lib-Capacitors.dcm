@@ -116,6 +116,10 @@ $CMP FKP2O100471D00KSSD
 F https://www.wima.de/wp-content/uploads/media/e_WIMA_FKP_2.pdf
 $ENDCMP
 #
+$CMP GRM155R60J475ME47D
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-01.pdf
+$ENDCMP
+#
 $CMP GRM21B5C1H223FA01L
 F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
 $ENDCMP

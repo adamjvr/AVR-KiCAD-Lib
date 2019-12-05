@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DFE201210U-2R2M=P2
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/inductor/chip/o05e.ashx?la=en-us
+$ENDCMP
+#
+$CMP FBMJ1608HM180NTR
+F https://www.yuden.co.jp/productdata/catalog/chipbeads01_e.pdf
+$ENDCMP
+#
+#End Doc Library

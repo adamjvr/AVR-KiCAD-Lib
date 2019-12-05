@@ -20,6 +20,10 @@ $CMP STM32H745XIH6
 F https://www.st.com/resource/en/datasheet/stm32h745ii.pdf
 $ENDCMP
 #
+$CMP STUSB1600AQTR
+F https://www.st.com/resource/en/datasheet/stusb1600.pdf
+$ENDCMP
+#
 $CMP WM8994ECS-R
 F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/WM8994_v4.5.pdf
 $ENDCMP
