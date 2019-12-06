@@ -8,4 +8,8 @@ $CMP FBMJ1608HM180NTR
 F https://www.yuden.co.jp/productdata/catalog/chipbeads01_e.pdf
 $ENDCMP
 #
+$CMP MMZ1608B601CTAH0
+F https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz1608_en.pdf
+$ENDCMP
+#
 #End Doc Library
