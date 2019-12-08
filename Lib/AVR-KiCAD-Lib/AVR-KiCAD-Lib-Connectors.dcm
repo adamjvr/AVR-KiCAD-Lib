@@ -4,4 +4,8 @@ $CMP 1054500101
 F https://www.molex.com/pdm_docs/ps/PS-105448-001.pdf
 $ENDCMP
 #
+$CMP BU2032SM-JJ-GTR
+F http://www.memoryprotectiondevices.com/datasheets/BU2032SM-JJ-GTR-datasheet.pdf
+$ENDCMP
+#
 #End Doc Library

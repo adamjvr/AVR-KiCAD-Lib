@@ -24,6 +24,10 @@ $CMP B32529C0392J000
 F https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf
 $ENDCMP
 #
+$CMP C0402C104K9PACTU
+F https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf
+$ENDCMP
+#
 $CMP C0402C221J5GACTU
 F https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf
 $ENDCMP
@@ -58,6 +62,14 @@ $ENDCMP
 #
 $CMP CC0603FRNPO9BN471
 F http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf
+$ENDCMP
+#
+$CMP CC0603KRX5R6BB225
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf
+$ENDCMP
+#
+$CMP CC0603KRX5R7BB105
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf
 $ENDCMP
 #
 $CMP CC0603KRX7R9BB473
@@ -130,6 +142,10 @@ $ENDCMP
 #
 $CMP GRM155R61A225KE95D
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61A225KE95-01.pdf
+$ENDCMP
+#
+$CMP GRM188R61A106KE69D
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf
 $ENDCMP
 #
 $CMP GRM21B5C1H223FA01L

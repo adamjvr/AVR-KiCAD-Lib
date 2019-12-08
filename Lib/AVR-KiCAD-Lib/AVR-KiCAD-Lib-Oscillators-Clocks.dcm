@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP KC2016K25.0000C1GE00
+F https://global.kyocera.com/prdct/electro/product/pdf/clock_k_e.pdf
+$ENDCMP
+#
 $CMP NX3215SA-32.768K-STD-MUA-8
 F https://www.ndk.com/images/products/catalog/c_NX3215SA-STD-MUA-14_e.pdf
 $ENDCMP
