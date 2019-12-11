@@ -1,4 +1,4 @@
-(module 1054500101_USB_C (layer F.Cu) (tedit 5DE9C516)
+(module 1054500101_USB_C (layer F.Cu) (tedit 5DF1583D)
   (fp_text reference REF** (at -2.95 -1.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

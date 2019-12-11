@@ -36,6 +36,10 @@ $CMP C0603C475K9PACTU
 F https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf
 $ENDCMP
 #
+$CMP C0603X103K1RAC3316
+F https://content.kemet.com/datasheets/KEM_X7R_FT_VW_AUDI.pdf
+$ENDCMP
+#
 $CMP C0805C103KCRACAUTO
 F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
 $ENDCMP
@@ -142,6 +146,10 @@ $ENDCMP
 #
 $CMP GRM155R61A225KE95D
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61A225KE95-01.pdf
+$ENDCMP
+#
+$CMP GRM188R60J226MEA0D
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J226MEA0-01.pdf
 $ENDCMP
 #
 $CMP GRM188R61A106KE69D

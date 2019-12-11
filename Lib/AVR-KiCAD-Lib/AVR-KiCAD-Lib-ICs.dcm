@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AT25SF081-SSHD-T
+F http://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
 $CMP ECP5UM5G_85_CABGA381
 F http://www.latticesemi.com/view_document?document_id=50461
 $ENDCMP

@@ -36,4 +36,8 @@ $CMP J204
 F http://pdf.datasheetcatalog.com/datasheet_pdf/interfet-corporation/J201_to_SMPJ202.pdf
 $ENDCMP
 #
+$CMP SI7223DN-T1-GE3
+F http://www.vishay.com/docs/75609/si7223dn.pdf
+$ENDCMP
+#
 #End Doc Library
