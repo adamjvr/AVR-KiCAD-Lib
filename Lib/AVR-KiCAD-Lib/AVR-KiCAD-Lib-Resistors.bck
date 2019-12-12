@@ -36,4 +36,8 @@ $CMP RC1206FR-075K6L
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP YC124-JR-0751RL
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf
+$ENDCMP
+#
 #End Doc Library
