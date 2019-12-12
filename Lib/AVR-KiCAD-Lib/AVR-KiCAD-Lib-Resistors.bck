@@ -24,6 +24,18 @@ $CMP RC0402FR-074K7L
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP RC0603FR-0715KL
+F https://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf&fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf
+$ENDCMP
+#
+$CMP RC0603FR-0718KL
+F https://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf&fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf
+$ENDCMP
+#
+$CMP RC0603FR-074K7P
+F https://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf&fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf
+$ENDCMP
+#
 $CMP RC1206FR-07180KL
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP

@@ -180,8 +180,16 @@ $CMP PHE850EA4470MA03R17
 F https://content.kemet.com/datasheets/F3294_PHE850.pdf
 $ENDCMP
 #
+$CMP T491A106K010AT
+F https://content.kemet.com/datasheets/KEM_T2005_T491.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_POLAR
 F *
+$ENDCMP
+#
+$CMP TEMPLATE_POLAR_copy
+F https://content.kemet.com/datasheets/KEM_T2005_T491.pdf
 $ENDCMP
 #
 $CMP UCS2C221MHD1TN

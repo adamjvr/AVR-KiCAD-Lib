@@ -16,6 +16,10 @@ $CMP LD1117S50TR
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf
 $ENDCMP
 #
+$CMP LM1085ISX-5.0_NOPB
+F http://www.ti.com/lit/ds/symlink/lm1085.pdf
+$ENDCMP
+#
 $CMP LM833
 F https://www.ti.com/lit/ds/symlink/lm833-n.pdf
 $ENDCMP
@@ -42,6 +46,14 @@ $ENDCMP
 #
 $CMP STUSB1600AQTR
 F https://www.st.com/resource/en/datasheet/stusb1600.pdf
+$ENDCMP
+#
+$CMP TLV62569DBVR
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TPS78633DCQR
+F http://www.ti.com/lit/ds/symlink/tps786.pdf
 $ENDCMP
 #
 $CMP WM8994ECS-R

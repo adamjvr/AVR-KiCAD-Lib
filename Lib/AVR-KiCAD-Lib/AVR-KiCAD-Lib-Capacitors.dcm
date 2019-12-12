@@ -76,6 +76,10 @@ $CMP CC0603KRX5R7BB105
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf
 $ENDCMP
 #
+$CMP CC0603KRX7R9BB471
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
 $CMP CC0603KRX7R9BB473
 F http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
 $ENDCMP
@@ -160,6 +164,10 @@ $CMP GRM21B5C1H223FA01L
 F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
 $ENDCMP
 #
+$CMP GRM21BR61A226ME51L
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A226ME51-01.pdf
+$ENDCMP
+#
 $CMP LDECE4100KA5N00
 F https://content.kemet.com/datasheets/KEM_F3078_LDE.pdf
 $ENDCMP
@@ -180,8 +188,16 @@ $CMP PHE850EA4470MA03R17
 F https://content.kemet.com/datasheets/F3294_PHE850.pdf
 $ENDCMP
 #
+$CMP T491A106K010AT
+F https://content.kemet.com/datasheets/KEM_T2005_T491.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_POLAR
 F *
+$ENDCMP
+#
+$CMP TEMPLATE_copy
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
 $ENDCMP
 #
 $CMP UCS2C221MHD1TN
