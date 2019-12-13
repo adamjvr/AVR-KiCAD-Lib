@@ -196,10 +196,6 @@ $CMP TEMPLATE_POLAR
 F *
 $ENDCMP
 #
-$CMP TEMPLATE_copy
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
-$ENDCMP
-#
 $CMP UCS2C221MHD1TN
 F http://nichicon-us.com/english/products/pdfs/e-ucs.pdf
 $ENDCMP

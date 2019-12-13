@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 6N138S
+F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N138-39%20Series.pdf
+$ENDCMP
+#
 $CMP AT25SF081-SSHD-T
 F http://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
@@ -46,6 +50,10 @@ $ENDCMP
 #
 $CMP STUSB1600AQTR
 F https://www.st.com/resource/en/datasheet/stusb1600.pdf
+$ENDCMP
+#
+$CMP TLV62569DBVR
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 $ENDCMP
 #
 $CMP TPS78633DCQR
