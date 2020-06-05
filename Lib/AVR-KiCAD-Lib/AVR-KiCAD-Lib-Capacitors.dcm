@@ -168,7 +168,15 @@ $CMP GRM21BR61A226ME51L
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A226ME51-01.pdf
 $ENDCMP
 #
+$CMP LDECD3470KA5N00
+F https://content.kemet.com/datasheets/KEM_F3078_LDE.pdf
+$ENDCMP
+#
 $CMP LDECE4100KA5N00
+F https://content.kemet.com/datasheets/KEM_F3078_LDE.pdf
+$ENDCMP
+#
+$CMP LDEQD1220KA5N00
 F https://content.kemet.com/datasheets/KEM_F3078_LDE.pdf
 $ENDCMP
 #
@@ -250,6 +258,34 @@ $ENDCMP
 #
 $CMP UUD1H150MCL1GS
 F http://nichicon-us.com/english/products/pdfs/e-uud.pdf
+$ENDCMP
+#
+$CMP UUQ1H010MCL1GB
+F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
+$ENDCMP
+#
+$CMP UUQ1H100MCL1GB
+F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
+$ENDCMP
+#
+$CMP UUQ1H220MCL1GS
+F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
+$ENDCMP
+#
+$CMP UUQ1H2R2MCL1GB
+F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
+$ENDCMP
+#
+$CMP UUQ1H3R3MCL1GB
+F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
+$ENDCMP
+#
+$CMP UUQ1H470MCL1GS
+F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
+$ENDCMP
+#
+$CMP UUQ1V4R7MCL1GB
+F https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf
 $ENDCMP
 #
 $CMP UUX1J101MNL1GS

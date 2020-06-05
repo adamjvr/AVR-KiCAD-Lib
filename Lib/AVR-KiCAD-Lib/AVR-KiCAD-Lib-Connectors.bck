@@ -8,4 +8,28 @@ $CMP BU2032SM-JJ-GTR
 F http://www.memoryprotectiondevices.com/datasheets/BU2032SM-JJ-GTR-datasheet.pdf
 $ENDCMP
 #
+$CMP PPPC052LFBN-RC
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
+$CMP PPPC061LFBN-RC
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
+$CMP PPTC081LFBN-RC
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
+$CMP PPTC081LFBN-RC_copy
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
+$CMP PPTC101LFBN-RC
+F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
+$ENDCMP
+#
+$CMP PRPC005DAAN-RC
+F https://drawings-pdf.s3.amazonaws.com/11636.pdf
+$ENDCMP
+#
 #End Doc Library

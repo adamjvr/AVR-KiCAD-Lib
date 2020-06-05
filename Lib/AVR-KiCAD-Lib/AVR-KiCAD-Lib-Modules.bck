@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SPSGRF-915
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/f9/a3/aa/67/de/86/4b/62/DM00171035.pdf/files/DM00171035.pdf/jcr:content/translations/en.DM00171035.pdf
+$ENDCMP
+#
+$CMP SPSGRFC-915
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/21/ae/a6/78/64/3b/46/5d/DM00347814/files/DM00347814.pdf/jcr:content/translations/en.DM00347814.pdf
+$ENDCMP
+#
+#End Doc Library
