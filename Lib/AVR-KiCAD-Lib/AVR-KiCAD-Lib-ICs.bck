@@ -32,10 +32,6 @@ $CMP LT1026
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1026fb.pdf
 $ENDCMP
 #
-$CMP MCP3208-CI_SL
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21298e.pdf
-$ENDCMP
-#
 $CMP MCP3208T-CI_SL
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21298e.pdf
 $ENDCMP
