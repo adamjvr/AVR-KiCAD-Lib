@@ -12,6 +12,10 @@ $CMP ECP5UM5G_85_CABGA381
 F http://www.latticesemi.com/view_document?document_id=50461
 $ENDCMP
 #
+$CMP GRM31CR71H475KA12L
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
+$ENDCMP
+#
 $CMP LD1117S18TR
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf
 $ENDCMP
@@ -58,6 +62,10 @@ $ENDCMP
 #
 $CMP TLV62569DBVR
 F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TPS61165DBVR
+F https://www.ti.com/lit/ds/symlink/tps61165.pdf?ts=1588356548090
 $ENDCMP
 #
 $CMP TPS78633DCQR
