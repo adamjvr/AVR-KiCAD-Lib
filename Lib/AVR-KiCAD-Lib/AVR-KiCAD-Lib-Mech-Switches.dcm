@@ -4,4 +4,12 @@ $CMP 100SP1T1B4M2QE
 F https://www.e-switch.com/system/asset/product_line/data_sheet/129/100.pdf
 $ENDCMP
 #
+$CMP B3U-1000P
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf
+$ENDCMP
+#
+$CMP CUS-12TB
+F https://www.nidec-copal-electronics.com/e/catalog/switch/cus.pdf
+$ENDCMP
+#
 #End Doc Library

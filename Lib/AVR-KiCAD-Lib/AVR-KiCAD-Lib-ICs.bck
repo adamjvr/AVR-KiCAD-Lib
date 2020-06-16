@@ -4,6 +4,10 @@ $CMP 6N138S
 F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N138-39%20Series.pdf
 $ENDCMP
 #
+$CMP 74HC4052D
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=37237&prodName=74HC4051D
+$ENDCMP
+#
 $CMP AT25SF081-SSHD-T
 F http://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
@@ -44,6 +48,10 @@ $CMP MT41K64M16TW-107_J-TR
 F http://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
 $ENDCMP
 #
+$CMP PCA9518DBQR
+F https://www.ti.com/lit/ds/symlink/pca9518.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592279180263
+$ENDCMP
+#
 $CMP REF6225IDGKT
 F https://www.ti.com/lit/ds/symlink/ref6225.pdf
 $ENDCMP
@@ -52,12 +60,20 @@ $CMP ST1L05APU33R
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/ff/8f/1c/11/ff/dc/46/ac/CD00186925.pdf/files/CD00186925.pdf/jcr:content/translations/en.CD00186925.pdf
 $ENDCMP
 #
+$CMP STM32F446RET6
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf
+$ENDCMP
+#
 $CMP STM32H745XIH6
 F https://www.st.com/resource/en/datasheet/stm32h745ii.pdf
 $ENDCMP
 #
 $CMP STUSB1600AQTR
 F https://www.st.com/resource/en/datasheet/stusb1600.pdf
+$ENDCMP
+#
+$CMP TEMPLATE_copy
+F https://www.ti.com/lit/ds/symlink/pca9518.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592279180263
 $ENDCMP
 #
 $CMP TLV62569DBVR

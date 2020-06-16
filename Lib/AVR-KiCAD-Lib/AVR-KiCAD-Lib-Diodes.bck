@@ -1,11 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ESDA6V1BC6
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf
+$ENDCMP
+#
 $CMP ESDA7P60-1U1M
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/44/e9/26/44/42/ee/4f/e5/DM00139972.pdf/files/DM00139972.pdf/jcr:content/translations/en.DM00139972.pdf
 $ENDCMP
 #
 $CMP MSP3V3-M3_89A
 F http://www.vishay.com/docs/88486/msp3v3.pdf
+$ENDCMP
+#
+$CMP PESD3V3L2BT,215
+F https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf
 $ENDCMP
 #
 $CMP SMDJ15CA

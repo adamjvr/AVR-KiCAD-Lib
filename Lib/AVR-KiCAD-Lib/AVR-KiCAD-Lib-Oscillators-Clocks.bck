@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABM3B-8.000MHZ-B2-T
+F https://abracon.com/Resonators/abm3b.pdf
+$ENDCMP
+#
+$CMP ABS07-32.768KHZ-9-T
+F https://abracon.com/Resonators/ABS07.pdf
+$ENDCMP
+#
 $CMP KC2016K25.0000C1GE00
 F https://global.kyocera.com/prdct/electro/product/pdf/clock_k_e.pdf
 $ENDCMP

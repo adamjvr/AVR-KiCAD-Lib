@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BLM15HG601SN1D
+F https://www.murata.com/en-global/products/productdata/8796740223006/ENFA0024.pdf
+$ENDCMP
+#
 $CMP DFE201210U-2R2M=P2
 F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/inductor/chip/o05e.ashx?la=en-us
 $ENDCMP
@@ -10,6 +14,10 @@ $ENDCMP
 #
 $CMP L1210R2R2MDWIT
 F https://content.kemet.com/datasheets/F3115.pdf
+$ENDCMP
+#
+$CMP MI0603K300R-10
+F https://www.laird.com/sites/default/files/2018-11/Catalog_EMI%20FILTERING%20RF%200717.pdf
 $ENDCMP
 #
 $CMP MMZ1608B601CTAH0
