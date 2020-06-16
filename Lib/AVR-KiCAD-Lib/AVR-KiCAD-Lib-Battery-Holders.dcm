@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BU2032SM-JJ-GTR
+F http://www.memoryprotectiondevices.com/datasheets/BU2032SM-JJ-GTR-datasheet.pdf
+$ENDCMP
+#
+$CMP BU2450SM-JJ-GTR
+F http://www.memoryprotectiondevices.com/datasheets/BU2450SM-JJ-GTR-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

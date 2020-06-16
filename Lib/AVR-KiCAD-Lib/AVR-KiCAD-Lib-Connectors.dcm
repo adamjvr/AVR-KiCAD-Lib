@@ -8,10 +8,6 @@ $CMP 20021121-00010C4LF
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf
 $ENDCMP
 #
-$CMP BU2032SM-JJ-GTR
-F http://www.memoryprotectiondevices.com/datasheets/BU2032SM-JJ-GTR-datasheet.pdf
-$ENDCMP
-#
 $CMP PPPC052LFBN-RC
 F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
 $ENDCMP
