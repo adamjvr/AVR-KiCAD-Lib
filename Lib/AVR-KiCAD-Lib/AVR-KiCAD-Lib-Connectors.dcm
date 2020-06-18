@@ -24,6 +24,10 @@ $CMP 20021121-00010C4LF
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf
 $ENDCMP
 #
+$CMP BM04B-SRSS-TB(LF)(SN)
+F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+$ENDCMP
+#
 $CMP PPPC052LFBN-RC
 F https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf
 $ENDCMP

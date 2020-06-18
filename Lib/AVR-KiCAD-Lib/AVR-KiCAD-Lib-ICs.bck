@@ -12,6 +12,10 @@ $CMP AT25SF081-SSHD-T
 F http://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
 #
+$CMP BQ24210DQCT
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq24210
+$ENDCMP
+#
 $CMP ECP5UM5G_85_CABGA381
 F http://www.latticesemi.com/view_document?document_id=50461
 $ENDCMP
@@ -40,6 +44,10 @@ $CMP LT1026
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1026fb.pdf
 $ENDCMP
 #
+$CMP MAX3073EESD+
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
 $CMP MCP3208T-CI_SL
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21298e.pdf
 $ENDCMP
@@ -54,6 +62,14 @@ $ENDCMP
 #
 $CMP REF6225IDGKT
 F https://www.ti.com/lit/ds/symlink/ref6225.pdf
+$ENDCMP
+#
+$CMP SN74LV541APWR
+F https://www.ti.com/lit/ds/symlink/sn74lv541a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592459122319
+$ENDCMP
+#
+$CMP SN74LVC541APWR
+F https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592457494021
 $ENDCMP
 #
 $CMP ST1L05APU33R
@@ -72,12 +88,20 @@ $CMP STUSB1600AQTR
 F https://www.st.com/resource/en/datasheet/stusb1600.pdf
 $ENDCMP
 #
-$CMP TEMPLATE_copy
-F https://www.ti.com/lit/ds/symlink/pca9518.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592279180263
+$CMP TCA9546APWR
+F https://www.ti.com/lit/ds/symlink/tca9546a.pdf
+$ENDCMP
+#
+$CMP TCA9548APWR
+F https://www.ti.com/lit/ds/symlink/tca9548a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592362720242
 $ENDCMP
 #
 $CMP TLV62569DBVR
 F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TPS560430XDBVR
+F https://www.ti.com/lit/ds/symlink/tps560430.pdf
 $ENDCMP
 #
 $CMP TPS61165DBVR
@@ -86,6 +110,10 @@ $ENDCMP
 #
 $CMP TPS78633DCQR
 F http://www.ti.com/lit/ds/symlink/tps786.pdf
+$ENDCMP
+#
+$CMP TXB0108PWR
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108
 $ENDCMP
 #
 $CMP WM8994ECS-R

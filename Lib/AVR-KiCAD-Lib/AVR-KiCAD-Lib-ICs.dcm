@@ -64,6 +64,14 @@ $CMP REF6225IDGKT
 F https://www.ti.com/lit/ds/symlink/ref6225.pdf
 $ENDCMP
 #
+$CMP SN74LV541APWR
+F https://www.ti.com/lit/ds/symlink/sn74lv541a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592459122319
+$ENDCMP
+#
+$CMP SN74LVC541APWR
+F https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592457494021
+$ENDCMP
+#
 $CMP ST1L05APU33R
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/ff/8f/1c/11/ff/dc/46/ac/CD00186925.pdf/files/CD00186925.pdf/jcr:content/translations/en.CD00186925.pdf
 $ENDCMP
@@ -102,6 +110,10 @@ $ENDCMP
 #
 $CMP TPS78633DCQR
 F http://www.ti.com/lit/ds/symlink/tps786.pdf
+$ENDCMP
+#
+$CMP TXB0108PWR
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108
 $ENDCMP
 #
 $CMP WM8994ECS-R
