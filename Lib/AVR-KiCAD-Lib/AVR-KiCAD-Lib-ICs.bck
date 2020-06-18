@@ -8,6 +8,14 @@ $CMP 74HC4052D
 F http://toshiba.semicon-storage.com/info/docget.jsp?did=37237&prodName=74HC4051D
 $ENDCMP
 #
+$CMP AP63203WU-7
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63205WU-7
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
 $CMP AT25SF081-SSHD-T
 F http://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP

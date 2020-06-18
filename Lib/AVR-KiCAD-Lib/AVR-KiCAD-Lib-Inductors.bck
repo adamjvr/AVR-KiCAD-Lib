@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ASPI-0628-3R9M-T1
+F https://abracon.com/Magnetics/new/ASPI-0628.pdf
+$ENDCMP
+#
 $CMP BLM15HG601SN1D
 F https://www.murata.com/en-global/products/productdata/8796740223006/ENFA0024.pdf
 $ENDCMP
@@ -30,6 +34,14 @@ $ENDCMP
 #
 $CMP SDR0604-180YL
 F https://www.bourns.com/docs/Product-Datasheets/SDR0604.pdf
+$ENDCMP
+#
+$CMP SDR0805-3R9ML
+F https://www.bourns.com/docs/Product-Datasheets/SDR0805.pdf
+$ENDCMP
+#
+$CMP SRP6540-4R7M
+F https://www.bourns.com/docs/Product-Datasheets/SRP6540.pdf
 $ENDCMP
 #
 $CMP SRR4028-120Y

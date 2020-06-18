@@ -208,6 +208,14 @@ $CMP GRM32EC72A106KE05L
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf
 $ENDCMP
 #
+$CMP GRT31CC81C226KE01L
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CC81C226KE01-01.pdf
+$ENDCMP
+#
+$CMP GRT31CR61H106KE01L
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106KE01-01.pdf
+$ENDCMP
+#
 $CMP LDECD3470KA5N00
 F https://content.kemet.com/datasheets/KEM_F3078_LDE.pdf
 $ENDCMP
