@@ -44,6 +44,10 @@ $CMP C0805C103KCRACAUTO
 F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
 $ENDCMP
 #
+$CMP C0805C104M5RACTU
+F https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf
+$ENDCMP
+#
 $CMP C0805C222KDRACAUTO
 F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
 $ENDCMP
@@ -64,6 +68,14 @@ $CMP C1210C333JAGAC7800
 F https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf
 $ENDCMP
 #
+$CMP C2012X7R2A104K125AA
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
+$CMP C3216X5R1V156M160AC
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
 $CMP CC0603FRNPO9BN471
 F http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf
 $ENDCMP
@@ -82,6 +94,14 @@ $ENDCMP
 #
 $CMP CC0603KRX7R9BB473
 F http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf
+$ENDCMP
+#
+$CMP CGA3E2X7R1H104K080AA
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf
+$ENDCMP
+#
+$CMP CL05C090CB5NNNC
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C090CB5NNNC.jsp
 $ENDCMP
 #
 $CMP CL10C151JB8NFNC
@@ -144,8 +164,12 @@ $CMP FKP2O100471D00KSSD
 F https://www.wima.de/wp-content/uploads/media/e_WIMA_FKP_2.pdf
 $ENDCMP
 #
+$CMP GCM1555C1H180GA16D
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H180GA16-01.pdf
+$ENDCMP
+#
 $CMP GRM155R60J475ME47D
-F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-01.pdf
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
 $ENDCMP
 #
 $CMP GRM155R61A225KE95D
@@ -160,12 +184,28 @@ $CMP GRM188R61A106KE69D
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf
 $ENDCMP
 #
+$CMP GRM188R61A106KE69J
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf
+$ENDCMP
+#
 $CMP GRM21B5C1H223FA01L
 F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
 $ENDCMP
 #
+$CMP GRM21BD70J226ME44L
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BD70J226ME44-01.pdf
+$ENDCMP
+#
 $CMP GRM21BR61A226ME51L
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A226ME51-01.pdf
+$ENDCMP
+#
+$CMP GRM31CR71H475KA12L
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
+$ENDCMP
+#
+$CMP GRM32EC72A106KE05L
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106KE05-01.pdf
 $ENDCMP
 #
 $CMP LDECD3470KA5N00

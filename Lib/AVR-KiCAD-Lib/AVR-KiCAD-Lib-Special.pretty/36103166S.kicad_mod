@@ -1,4 +1,4 @@
-(module 36103166S (layer F.Cu) (tedit 5EA73FDD)
+(module 36103166S (layer F.Cu) (tedit 5EEABC0E)
   (fp_text reference REF** (at -6.85 -9.45) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -21,8 +21,8 @@
   (pad 1 smd roundrect (at -8.1 6.425 180) (size 1 4.35) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at -8.1 -6.425 180) (size 1 4.35) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at -6.425 -8.1 90) (size 1 4.35) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model "C:/Users/adam/Documents/GitHub/growbx-KiCAD-Lib/Lib/3D-Models/WE-SHC-36103166S (rev1).stp"
-    (offset (xyz 0 0 -2.4))
+  (model "${AVR_KICAD_LIB}/3D/STEP/WE-SHC-36103166S (rev1).stp"
+    (offset (xyz 0 0 -2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

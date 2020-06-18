@@ -10,4 +10,8 @@ D Power symbol creates a global label with name "+18V"
 K power-flag
 $ENDCMP
 #
+$CMP 36103166S
+F https://www.we-online.de/katalog/datasheet/36103166S.pdf
+$ENDCMP
+#
 #End Doc Library

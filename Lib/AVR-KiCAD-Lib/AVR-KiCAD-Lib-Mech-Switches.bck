@@ -12,4 +12,8 @@ $CMP CUS-12TB
 F https://www.nidec-copal-electronics.com/e/catalog/switch/cus.pdf
 $ENDCMP
 #
+$CMP CVS-04TB
+F https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf
+$ENDCMP
+#
 #End Doc Library

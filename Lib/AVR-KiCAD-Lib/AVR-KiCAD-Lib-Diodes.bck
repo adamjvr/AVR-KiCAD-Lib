@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABS210-13
+F https://www.comchiptech.com/admin/files/product/20190215095655.pdf
+$ENDCMP
+#
 $CMP ESDA6V1BC6
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf
 $ENDCMP

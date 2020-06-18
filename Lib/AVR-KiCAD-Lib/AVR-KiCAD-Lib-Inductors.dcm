@@ -24,4 +24,20 @@ $CMP MMZ1608B601CTAH0
 F https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz1608_en.pdf
 $ENDCMP
 #
+$CMP SDR0403-120ML
+F https://www.bourns.com/docs/Product-Datasheets/sdr0403.pdf
+$ENDCMP
+#
+$CMP SDR0604-180YL
+F https://www.bourns.com/docs/Product-Datasheets/SDR0604.pdf
+$ENDCMP
+#
+$CMP SRR4028-120Y
+F https://www.bourns.com/docs/Product-Datasheets/SRR4028.pdf
+$ENDCMP
+#
+$CMP SRR5028-180Y
+F https://www.bourns.com/docs/Product-Datasheets/SRR5028.pdf
+$ENDCMP
+#
 #End Doc Library
