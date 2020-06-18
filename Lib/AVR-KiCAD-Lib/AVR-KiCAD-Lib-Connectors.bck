@@ -52,4 +52,12 @@ $CMP RJHSE-5381
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf
 $ENDCMP
 #
+$CMP TEMPLATE
+F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
+$ENDCMP
+#
+$CMP TSW-108-07-G-T
+F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -2281,8 +2281,8 @@ F22 "10%" 1800 1950 50 H I C CNN "Tolerance"
 F23 "Capacitor" 1900 2050 50 H I C CNN "Type"
 F24 "50V" 2000 2150 50 H I C CNN "Voltage"
 F25 "1206" 2100 2300 50 H I C CNN "Package"
-F26 "10µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)" 2500 2700 50 H I C CNN "Description"
-F27 "10uF" 2300 2500 50 H V C CNN "_Value_"
+F26 "10uF" 2300 2500 50 H V C CNN "_Value_"
+F27 "10µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)" 2500 2700 50 H I C CNN "Description"
 F28 "*" 2400 2600 50 H I C CNN "Management_ID"
 DRAW
 P 2 1 1 0 0 100 0 -100 N
