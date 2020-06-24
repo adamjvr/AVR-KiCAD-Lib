@@ -20,4 +20,8 @@ $CMP CVS-04TB
 F https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf
 $ENDCMP
 #
+$CMP TL3301NF260QG
+F http://spec_sheets.e-switch.com/specs/P010517.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -52,8 +52,16 @@ $CMP LT1026
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1026fb.pdf
 $ENDCMP
 #
+$CMP MAX13450EAUD+
+F https://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
+$ENDCMP
+#
 $CMP MAX3073EESD+
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MCP23017T-E_ML
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
 $ENDCMP
 #
 $CMP MCP3208T-CI_SL

@@ -200,6 +200,10 @@ $CMP GRM21BR61A226ME51L
 F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61A226ME51-01.pdf
 $ENDCMP
 #
+$CMP GRM21BR61C106KE15K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf
+$ENDCMP
+#
 $CMP GRM31CR71H475KA12L
 F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
 $ENDCMP
@@ -250,6 +254,14 @@ $ENDCMP
 #
 $CMP TEMPLATE_POLAR
 F *
+$ENDCMP
+#
+$CMP TEMPLATE_POLAR_copy
+F *
+$ENDCMP
+#
+$CMP UCM1C470MCL1GS
+F http://nichicon-us.com/english/products/pdfs/e-ucm.pdf
 $ENDCMP
 #
 $CMP UCS2C221MHD1TN

@@ -1,5 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0395121002
+F https://www.molex.com/pdm_docs/sd/395121002_sd.pdf
+$ENDCMP
+#
+$CMP 0395121004
+F https://www.molex.com/pdm_docs/sd/395121002_sd.pdf
+$ENDCMP
+#
+$CMP 0395121006
+F https://www.molex.com/pdm_docs/sd/395121002_sd.pdf
+$ENDCMP
+#
+$CMP 0395121006_copy
+F https://www.molex.com/pdm_docs/sd/395121002_sd.pdf
+$ENDCMP
+#
 $CMP 0675031020
 F https://www.molex.com/pdm_docs/sd/675031020_sd.pdf
 $ENDCMP
@@ -18,6 +34,10 @@ $ENDCMP
 #
 $CMP 1755736
 F https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1755794.pdf
+$ENDCMP
+#
+$CMP 1757242
+F https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1757242.pdf
 $ENDCMP
 #
 $CMP 20021121-00010C4LF
