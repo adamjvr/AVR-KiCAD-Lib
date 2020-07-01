@@ -104,6 +104,22 @@ $CMP STUSB1600AQTR
 F https://www.st.com/resource/en/datasheet/stusb1600.pdf
 $ENDCMP
 #
+$CMP TCA6416APWR
+F https://www.ti.com/lit/ds/symlink/tca6416a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593222624822
+$ENDCMP
+#
+$CMP TCA6416APWR_copy
+F https://www.ti.com/lit/ds/symlink/tca6416a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593222624822
+$ENDCMP
+#
+$CMP TCA6416ARTWR
+F https://www.ti.com/lit/ds/symlink/tca6416a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593222624822
+$ENDCMP
+#
+$CMP TCA6424ARGJR
+F https://www.ti.com/lit/ds/symlink/tca6424a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593218790209
+$ENDCMP
+#
 $CMP TCA9546APWR
 F https://www.ti.com/lit/ds/symlink/tca9546a.pdf
 $ENDCMP

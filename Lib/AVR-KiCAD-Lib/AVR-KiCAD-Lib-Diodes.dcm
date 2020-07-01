@@ -4,6 +4,10 @@ $CMP ABS210-13
 F https://www.comchiptech.com/admin/files/product/20190215095655.pdf
 $ENDCMP
 #
+$CMP B240A-13-F
+F https://www.diodes.com/assets/Datasheets/ds13004.pdf
+$ENDCMP
+#
 $CMP ESDA6V1BC6
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf
 $ENDCMP
@@ -12,12 +16,20 @@ $CMP ESDA7P60-1U1M
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/44/e9/26/44/42/ee/4f/e5/DM00139972.pdf/files/DM00139972.pdf/jcr:content/translations/en.DM00139972.pdf
 $ENDCMP
 #
+$CMP LTST-C194TBKT
+F http://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF
+$ENDCMP
+#
 $CMP MSP3V3-M3_89A
 F http://www.vishay.com/docs/88486/msp3v3.pdf
 $ENDCMP
 #
 $CMP PESD3V3L2BT,215
 F https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf
+$ENDCMP
+#
+$CMP RC0402FR-0710RL
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
 $CMP SMDJ15CA
