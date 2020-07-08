@@ -8,6 +8,10 @@ $CMP 0395121002
 F https://www.molex.com/pdm_docs/sd/395121002_sd.pdf
 $ENDCMP
 #
+$CMP 0395121003
+F https://www.molex.com/pdm_docs/sd/395121002_sd.pdf
+$ENDCMP
+#
 $CMP 0395121004
 F https://www.molex.com/pdm_docs/sd/395121002_sd.pdf
 $ENDCMP

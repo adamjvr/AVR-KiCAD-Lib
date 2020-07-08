@@ -56,6 +56,10 @@ $CMP MAX13450EAUD+
 F https://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
 $ENDCMP
 #
+$CMP MAX14830ETM+
+F https://datasheets.maximintegrated.com/en/ds/MAX14830.pdf
+$ENDCMP
+#
 $CMP MAX3073EESD+
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
@@ -108,10 +112,6 @@ $CMP TCA6416APWR
 F https://www.ti.com/lit/ds/symlink/tca6416a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593222624822
 $ENDCMP
 #
-$CMP TCA6416APWR_copy
-F https://www.ti.com/lit/ds/symlink/tca6416a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593222624822
-$ENDCMP
-#
 $CMP TCA6416ARTWR
 F https://www.ti.com/lit/ds/symlink/tca6416a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593222624822
 $ENDCMP
@@ -150,6 +150,10 @@ $ENDCMP
 #
 $CMP WM8994ECS-R
 F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/WM8994_v4.5.pdf
+$ENDCMP
+#
+$CMP ZXGD3009E6TA
+F https://www.diodes.com/assets/Datasheets/ZXGD3009E6.pdf
 $ENDCMP
 #
 #End Doc Library

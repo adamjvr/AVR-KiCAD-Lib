@@ -56,6 +56,10 @@ $CMP MAX13450EAUD+
 F https://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
 $ENDCMP
 #
+$CMP MAX14830ETM+
+F https://datasheets.maximintegrated.com/en/ds/MAX14830.pdf
+$ENDCMP
+#
 $CMP MAX3073EESD+
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP

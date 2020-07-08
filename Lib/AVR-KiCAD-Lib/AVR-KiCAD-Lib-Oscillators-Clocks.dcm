@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABLS-3.6864MHZ-B4-T
+F https://abracon.com/Resonators/abls.pdf
+$ENDCMP
+#
 $CMP ABM3B-8.000MHZ-B2-T
 F https://abracon.com/Resonators/abm3b.pdf
 $ENDCMP
