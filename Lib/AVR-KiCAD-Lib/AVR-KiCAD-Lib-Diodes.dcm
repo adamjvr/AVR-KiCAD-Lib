@@ -16,8 +16,16 @@ $CMP ESDA7P60-1U1M
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/44/e9/26/44/42/ee/4f/e5/DM00139972.pdf/files/DM00139972.pdf/jcr:content/translations/en.DM00139972.pdf
 $ENDCMP
 #
+$CMP LTST-C194KGKT
+F https://optoelectronics.liteon.com/upload/download/DS22-2010-0197/LTST-C194KGKT.PDF
+$ENDCMP
+#
 $CMP LTST-C194TBKT
 F http://optoelectronics.liteon.com/upload/download/DS22-2010-0025/LTST-C194TBKT.PDF
+$ENDCMP
+#
+$CMP LW_Q38G_Q1OO_3K6L_1
+F https://dammedia.osram.info/media/resource/hires/osram-dam-2493071/LW%20Q38G.pdf
 $ENDCMP
 #
 $CMP MSP3V3-M3_89A

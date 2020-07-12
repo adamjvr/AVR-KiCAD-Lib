@@ -80,6 +80,18 @@ $CMP RJHSE-5381
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf
 $ENDCMP
 #
+$CMP S2B-PH-K-S(LF)(SN)
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP S3B-PH-K-S(LF)(SN)
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP S3B-PH-K-S(LF)(SN)_copy
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
 $CMP TSW-108-07-G-T
 F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP

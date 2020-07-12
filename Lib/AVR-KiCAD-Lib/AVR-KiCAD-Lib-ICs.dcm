@@ -16,8 +16,16 @@ $CMP AP63205WU-7
 F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
 $ENDCMP
 #
+$CMP AP7361C-33FGE-7
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
 $CMP AT25SF081-SSHD-T
 F http://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
+$CMP AZ1117CR-3.3TRG1
+F https://www.diodes.com/assets/Datasheets/AZ1117C.pdf
 $ENDCMP
 #
 $CMP BQ24210DQCT
@@ -126,6 +134,10 @@ $ENDCMP
 #
 $CMP TCA9548APWR
 F https://www.ti.com/lit/ds/symlink/tca9548a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592362720242
+$ENDCMP
+#
+$CMP TLV1117-33IDRJR
+F https://www.ti.com/lit/ds/symlink/tlv1117.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1594334377767
 $ENDCMP
 #
 $CMP TLV62569DBVR
