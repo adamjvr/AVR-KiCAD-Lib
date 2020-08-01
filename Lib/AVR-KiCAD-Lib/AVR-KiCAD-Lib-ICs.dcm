@@ -20,6 +20,10 @@ $CMP AP7361C-33FGE-7
 F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
 $ENDCMP
 #
+$CMP AT24C16D-STUM-T
+F http://ww1.microchip.com/downloads/en/devicedoc/atmel-8906f-seeprom-at24c16d-datasheet.pdf
+$ENDCMP
+#
 $CMP AT25SF081-SSHD-T
 F http://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
@@ -58,6 +62,10 @@ $ENDCMP
 #
 $CMP LT1026
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1026fb.pdf
+$ENDCMP
+#
+$CMP LTC2941CDCB-1#TRMPBF
+F https://www.analog.com/media/en/technical-documentation/data-sheets/29411f.pdf
 $ENDCMP
 #
 $CMP MAX13450EAUD+

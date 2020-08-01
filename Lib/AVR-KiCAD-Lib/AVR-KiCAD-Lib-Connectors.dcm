@@ -20,6 +20,10 @@ $CMP 0395121006
 F https://www.molex.com/pdm_docs/sd/395121002_sd.pdf
 $ENDCMP
 #
+$CMP 0475890001
+F https://www.molex.com/pdm_docs/sd/475890001_sd.pdf
+$ENDCMP
+#
 $CMP 0675031020
 F https://www.molex.com/pdm_docs/sd/675031020_sd.pdf
 $ENDCMP
@@ -94,6 +98,14 @@ $ENDCMP
 #
 $CMP S3B-PH-K-S(LF)(SN)
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP TC2050-IDC-NL-FP
+F https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf
+$ENDCMP
+#
+$CMP TSW-103-07-G-T
+F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #
 $CMP TSW-108-07-G-T

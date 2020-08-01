@@ -60,6 +60,10 @@ $CMP C1206C102KARECAUTO
 F https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf
 $ENDCMP
 #
+$CMP C1206C105K3RACAUTO
+F https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf
+$ENDCMP
+#
 $CMP C1206C562KDRACAUTO
 F https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf
 $ENDCMP

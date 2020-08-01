@@ -112,6 +112,10 @@ $CMP RC1206JR-072K2L
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP WSLT2512R5000FEA
+F https://www.vishay.com/docs/30121/wslt2512.pdf
+$ENDCMP
+#
 $CMP YC124-JR-0751RL
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf
 $ENDCMP

@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ASPI-0615FS-100M-T2
+F https://abracon.com/Magnetics/new/ASPI-0615FS.pdf
+$ENDCMP
+#
 $CMP ASPI-0628-3R9M-T1
 F https://abracon.com/Magnetics/new/ASPI-0628.pdf
 $ENDCMP
@@ -38,6 +42,10 @@ $ENDCMP
 #
 $CMP SDR0805-3R9ML
 F https://www.bourns.com/docs/Product-Datasheets/SDR0805.pdf
+$ENDCMP
+#
+$CMP SRN8040-220M
+F https://www.bourns.com/docs/Product-Datasheets/SRN8040.pdf
 $ENDCMP
 #
 $CMP SRP6540-4R7M
