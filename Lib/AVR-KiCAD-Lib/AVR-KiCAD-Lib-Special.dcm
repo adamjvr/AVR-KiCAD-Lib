@@ -14,6 +14,10 @@ $CMP 36103166S
 F https://www.we-online.de/katalog/datasheet/36103166S.pdf
 $ENDCMP
 #
+$CMP 5033981892
+F https://www.molex.com/pdm_docs/sd/5033981892_sd.pdf
+$ENDCMP
+#
 $CMP Arduino_Micro
 F https://www.arduino.cc/en/uploads/Main/arduino-micro-schematic.pdf
 $ENDCMP

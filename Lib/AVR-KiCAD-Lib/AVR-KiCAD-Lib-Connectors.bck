@@ -104,6 +104,10 @@ $CMP TC2050-IDC-NL-FP
 F https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf
 $ENDCMP
 #
+$CMP TSM-104-01-S-DV
+F http://suddendocs.samtec.com/catalog_english/tsm.pdf
+$ENDCMP
+#
 $CMP TSW-103-07-G-T
 F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
