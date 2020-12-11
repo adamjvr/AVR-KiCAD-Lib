@@ -4,6 +4,10 @@ $CMP BLUENRG-M2SA
 F https://www.st.com/resource/en/datasheet/bluenrg-m2.pdf
 $ENDCMP
 #
+$CMP CMWX1ZZABZ-078
+F https://wireless.murata.com/pub/RFM/data/type_abz.pdf
+$ENDCMP
+#
 $CMP SPSGRF-915
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/f9/a3/aa/67/de/86/4b/62/DM00171035.pdf/files/DM00171035.pdf/jcr:content/translations/en.DM00171035.pdf
 $ENDCMP

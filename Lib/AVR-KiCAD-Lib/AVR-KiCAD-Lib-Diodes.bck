@@ -44,10 +44,6 @@ $CMP PESD3V3L2BT,215
 F https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf
 $ENDCMP
 #
-$CMP RC0402FR-0710RL
-F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
-$ENDCMP
-#
 $CMP SMAJ30CA
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
 $ENDCMP
