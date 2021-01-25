@@ -56,6 +56,10 @@ $CMP 20021121-00010C4LF
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf
 $ENDCMP
 #
+$CMP 5016
+F https://www.keyelco.com/userAssets/file/M65p55.pdf
+$ENDCMP
+#
 $CMP B2B-PH-K-S(LF)(SN)
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
@@ -94,6 +98,10 @@ $ENDCMP
 #
 $CMP PRPC005DAAN-RC
 F https://drawings-pdf.s3.amazonaws.com/11636.pdf
+$ENDCMP
+#
+$CMP RCU-0C
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English
 $ENDCMP
 #
 $CMP RJHSE-5381
