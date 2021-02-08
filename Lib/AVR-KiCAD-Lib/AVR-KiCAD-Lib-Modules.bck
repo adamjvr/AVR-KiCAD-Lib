@@ -16,4 +16,8 @@ $CMP SPSGRFC-915
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/21/ae/a6/78/64/3b/46/5d/DM00347814/files/DM00347814.pdf/jcr:content/translations/en.DM00347814.pdf
 $ENDCMP
 #
+$CMP STM32WB5MMGH6TR
+F https://www.st.com/resource/en/datasheet/stm32wb5mmg.pdf
+$ENDCMP
+#
 #End Doc Library
