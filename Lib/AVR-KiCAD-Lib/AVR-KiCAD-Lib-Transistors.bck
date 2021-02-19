@@ -24,6 +24,18 @@ $CMP 2N7000
 F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
 $ENDCMP
 #
+$CMP BSS138
+F https://www.onsemi.com/pub/Collateral/BSS138-D.PDF
+$ENDCMP
+#
+$CMP DMP3125L-7
+F https://www.diodes.com/assets/Datasheets/DMP3125L.pdf
+$ENDCMP
+#
+$CMP IRLML6346TRPBF
+F https://www.infineon.com/dgdl/irlml6346pbf.pdf?fileId=5546d462533600a401535668a336262e
+$ENDCMP
+#
 $CMP J201
 F http://pdf.datasheetcatalog.com/datasheet_pdf/interfet-corporation/J201_to_SMPJ202.pdf
 $ENDCMP

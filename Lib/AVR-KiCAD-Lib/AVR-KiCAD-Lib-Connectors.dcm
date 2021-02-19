@@ -76,6 +76,10 @@ $CMP BM04B-SRSS-TB(LF)(SN)
 F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
 $ENDCMP
 #
+$CMP DX07S016JA1R1500
+F https://www.jae.com/direct/topics/topics_file_download/?topics_id=91780&ext_no=04&_lang=en&v=2020041313384666992409
+$ENDCMP
+#
 $CMP NMJ6HCD3-AU
 F https://www.neutrik.com/media/8584/download/st-nmj6hcd3.pdf?v=1
 $ENDCMP
@@ -112,6 +116,10 @@ $CMP S2B-PH-K-S(LF)(SN)
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
+$CMP S2B-PH-SM4-TB(LF)(SN)
+F https://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
 $CMP S3B-PH-K-S(LF)(SN)
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
@@ -133,6 +141,14 @@ F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #
 $CMP TSW-108-07-G-T
+F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
+$ENDCMP
+#
+$CMP TSW-112-07-G-S
+F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
+$ENDCMP
+#
+$CMP TSW-116-07-L-S
 F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #

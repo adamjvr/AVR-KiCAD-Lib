@@ -88,6 +88,10 @@ $CMP MCP3208T-CI_SL
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21298e.pdf
 $ENDCMP
 #
+$CMP MCP73831T-2ACI_MC
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf
+$ENDCMP
+#
 $CMP MT41K64M16TW-107_J-TR
 F http://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
 $ENDCMP
@@ -152,6 +156,10 @@ $CMP TLV62569DBVR
 F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 $ENDCMP
 #
+$CMP TLV75533PDBVR
+F https://www.ti.com/lit/ds/symlink/tlv755p.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1613655963783
+$ENDCMP
+#
 $CMP TPS560430XDBVR
 F https://www.ti.com/lit/ds/symlink/tps560430.pdf
 $ENDCMP
@@ -166,6 +174,10 @@ $ENDCMP
 #
 $CMP TXB0108PWR
 F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108
+$ENDCMP
+#
+$CMP USBLC6-2P6
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf
 $ENDCMP
 #
 $CMP WM8994ECS-R
