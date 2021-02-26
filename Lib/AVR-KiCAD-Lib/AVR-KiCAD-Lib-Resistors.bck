@@ -4,6 +4,14 @@ $CMP AC0402FR-07120RL
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
 $ENDCMP
 #
+$CMP AC0402FR-07220KL
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
+$ENDCMP
+#
+$CMP AC0402FR-07470KL
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf
+$ENDCMP
+#
 $CMP CRCW0402294KFKED
 F https://www.vishay.com/docs/20035/dcrcwe3.pdf
 $ENDCMP
@@ -12,16 +20,32 @@ $CMP ERA-3AEB3741V
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
 $ENDCMP
 #
+$CMP RC0402FR-07100KL
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
 $CMP RC0402FR-0710KL
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RC0402FR-0710ML
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
 $CMP RC0402FR-07120KL
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
+$CMP RC0402FR-0717K4L
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
 $CMP RC0402FR-071KL
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RC0402FR-071ML
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
 $ENDCMP
 #
 $CMP RC0402FR-07200KL
@@ -110,6 +134,14 @@ $ENDCMP
 #
 $CMP RC1206JR-072K2L
 F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP RT0402FRE0722KL
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
+$ENDCMP
+#
+$CMP RT0402FRE0722KL_copy
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf
 $ENDCMP
 #
 $CMP WSLT2512R5000FEA
