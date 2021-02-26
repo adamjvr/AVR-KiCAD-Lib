@@ -12,6 +12,10 @@ $CMP BAT20JFILM
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/81/a4/1f/0e/ca/8c/47/ba/CD00012201/files/CD00012201.pdf/jcr:content/translations/en.CD00012201.pdf
 $ENDCMP
 #
+$CMP BPW20RF
+F https://www.vishay.com/docs/81570/bpw20rf.pdf
+$ENDCMP
+#
 $CMP ESDA6V1BC6
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf
 $ENDCMP

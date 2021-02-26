@@ -20,6 +20,10 @@ $CMP AP7361C-33FGE-7
 F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
 $ENDCMP
 #
+$CMP AS7341-DLGT
+F https://media.digikey.com/pdf/Data%20Sheets/Austriamicrosystems%20PDFs/AS7341_DS.pdf
+$ENDCMP
+#
 $CMP AT24C16D-STUM-T
 F http://ww1.microchip.com/downloads/en/devicedoc/atmel-8906f-seeprom-at24c16d-datasheet.pdf
 $ENDCMP
@@ -42,6 +46,10 @@ $ENDCMP
 #
 $CMP GRM31CR71H475KA12L
 F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us
+$ENDCMP
+#
+$CMP HDC1080DMBR
+F https://www.ti.com/lit/ds/symlink/hdc1080.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1614238925919
 $ENDCMP
 #
 $CMP LD1117S18TR
@@ -100,12 +108,20 @@ $CMP MT41K64M16TW-107_J-TR
 F http://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
 $ENDCMP
 #
+$CMP OPA388IDBVT
+F https://www.ti.com/lit/ds/symlink/opa388.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1614306952770
+$ENDCMP
+#
 $CMP PCA9518DBQR
 F https://www.ti.com/lit/ds/symlink/pca9518.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1592279180263
 $ENDCMP
 #
 $CMP REF6225IDGKT
 F https://www.ti.com/lit/ds/symlink/ref6225.pdf
+$ENDCMP
+#
+$CMP SN74LV4051ARGYR
+F https://www.ti.com/lit/ds/symlink/sn74lv4051a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1614317166680
 $ENDCMP
 #
 $CMP SN74LV541APWR
@@ -162,6 +178,10 @@ $ENDCMP
 #
 $CMP TLV75533PDBVR
 F https://www.ti.com/lit/ds/symlink/tlv755p.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1613655963783
+$ENDCMP
+#
+$CMP TPIS1T1086_L5.5
+F https://media.digikey.com/pdf/Data%20Sheets/Excelitas%20PDFs/TPiS_1T_1086.pdf
 $ENDCMP
 #
 $CMP TPS560430XDBVR
