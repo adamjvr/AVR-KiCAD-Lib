@@ -24,4 +24,8 @@ $CMP STM32WB5MMGH6TR
 F https://www.st.com/resource/en/datasheet/stm32wb5mmg.pdf
 $ENDCMP
 #
+$CMP TMCSILENTSTEPSTICK
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
+$ENDCMP
+#
 #End Doc Library
