@@ -159,7 +159,7 @@
     (property "Value" "BU2450SM-JJ-GTR" (id 1) (at 2.54 -8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "growbox-KiCAD-Battery-Holders:BU2450SM-JJ-GTR" (id 2) (at -5.08 0 0)
+    (property "Footprint" "AVR-KiCAD-Lib-Battery-Holders:BU2450SM-JJ-GTR" (id 2) (at -5.08 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.memoryprotectiondevices.com/datasheets/BU2450SM-JJ-GTR-datasheet.pdf" (id 3) (at -2.54 2.54 0)
