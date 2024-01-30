@@ -41,9 +41,9 @@
     (solder_paste_margin_ratio -0.1) (tstamp 98f280c6-8837-4dd5-a347-5ceeeaa363ce))
   (pad "10" smd oval (at -1.016 -2.35) (size 0.25 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin_ratio -0.1) (tstamp e5a76e1a-f6f9-4301-a02a-c13c73b11d46))
-  (model "smd\\MSOP_10.wrl"
+  (model ":KICAD_AVR_3D:STEP/msop-10.step"
     (offset (xyz 0 0 0))
-    (scale (xyz 0.3 0.35 0.3))
-    (rotate (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
   )
 )
