@@ -1,0 +1,149 @@
+(footprint "MKP1837410011"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.54 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a9669bc9-54f8-4285-9b90-f5f05c1688e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MKP1837410011"
+		(at 0 -8.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2ba50b0-a2c7-42bc-9354-0561b5b3e41d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -9.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acfc2bec-1e92-42de-b9a4-7a8af3d022ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -9.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98953bfc-a07b-434e-8c82-a41f5c72d9f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -9.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2a29e8a-2a34-45c0-8f80-d1301d1ddd1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -3.75)
+		(end -4.5 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29f38f8c-cbff-4050-a9d8-84b20dd3720b")
+	)
+	(fp_line
+		(start -4.5 -3.75)
+		(end 4.5 -3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2dcf5b2-f4d3-4133-b4db-837f6810c2c0")
+	)
+	(fp_line
+		(start -4.5 3.81)
+		(end 4.5 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "130eeb48-7dab-48a3-b593-02a2cbab7a37")
+	)
+	(fp_line
+		(start 4.5 -3.75)
+		(end 4.5 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59bdcbf8-7ad4-4744-be02-bf9a053dd9ff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cce12c6e-95d1-4320-ac7d-a88565f7e412")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42279d2d-5b1e-47d4-b6d5-43c13708dd2f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "632950e2-6afc-4872-a6d4-2f9b0f221367")
+	)
+	(model "${KICAD_AVR_3D}/STEP/MKP1837410011.step"
+		(offset
+			(xyz -4.5 -3.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -27304,6 +27304,17 @@
 			)
 		)
 		(symbol "OPAx134_DIP_3_1"
+			(rectangle
+				(start -1.27 -3.81)
+				(end 1.27 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at 0 -15.24 90)
 				(length 3.81)
