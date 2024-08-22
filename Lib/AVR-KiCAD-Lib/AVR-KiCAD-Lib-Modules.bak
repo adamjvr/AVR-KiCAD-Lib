@@ -1,1838 +1,6509 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "BLUENRG-M2SA" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BLUENRG-M2SA" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:BLUENRG-M2SA" (at -5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.st.com/resource/en/datasheet/bluenrg-m2.pdf" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "9.31000" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "5.08300" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "4.88750" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "4.80930" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "4.69200" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "STMicroelectronics" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "BLUENRG-M2SA" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "497-BLUENRG-M2SACT-ND" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "2.5mm" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "6/6/2020" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "6/6/2020" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "SMT" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "20" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "2.4GHZ RF Module" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "1.7V ~{} 3.6V" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Bluetooth Bluetooth v5.0 Transceiver Module 2.4GHz ~{} 2.4835GHz Integrated, Chip Surface Mount" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "BLUENRG-M2SA" (at 44.45 -30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "BLUENRG-M2SA_1_1"
-      (polyline
-        (pts
-          (xy 17.78 -10.16)
-          (xy 17.78 -1.27)
-          (xy 20.32 -1.27)
-          (xy 20.32 -7.62)
-          (xy 22.86 -7.62)
-          (xy 22.86 -1.27)
-          (xy 25.4 -1.27)
-          (xy 25.4 -7.62)
-          (xy 27.94 -7.62)
-          (xy 27.94 -1.27)
-          (xy 30.48 -1.27)
-          (xy 30.48 -7.62)
-          (xy 33.02 -7.62)
-          (xy 33.02 -1.27)
-          (xy 35.56 -1.27)
-        )
-        (stroke (width 0.762) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 0 0) (end 50.8 -29.21)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin input line (at -5.08 -12.7 0) (length 5.08)
-        (name "ADC2" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 25.4 -34.29 90) (length 5.08)
-        (name "DIO8" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 27.94 -34.29 90) (length 5.08)
-        (name "DIO11" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -34.29 90) (length 5.08)
-        (name "DIO9" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 33.02 -34.29 90) (length 5.08)
-        (name "DIO10" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 -34.29 90) (length 5.08)
-        (name "ANATEST1" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 55.88 -22.86 180) (length 5.08)
-        (name "DIO0" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 55.88 -20.32 180) (length 5.08)
-        (name "DIO2" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 55.88 -17.78 180) (length 5.08)
-        (name "DIO3" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 55.88 -15.24 180) (length 5.08)
-        (name "DIO1" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 55.88 -12.7 180) (length 5.08)
-        (name "RESETN" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 -15.24 0) (length 5.08)
-        (name "ADC1" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 55.88 -10.16 180) (length 5.08)
-        (name "DIO12" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -17.78 0) (length 5.08)
-        (name "DIO4" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -20.32 0) (length 5.08)
-        (name "DIO5" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -22.86 0) (length 5.08)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 -34.29 90) (length 5.08)
-        (name "ANATESTIO/DIO14" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 17.78 -34.29 90) (length 5.08)
-        (name "DIO7/BOOT" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 20.32 -34.29 90) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 22.86 -34.29 90) (length 5.08)
-        (name "DIO6" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CMWX1ZZABZ-078" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "CMWX1ZZABZ-078" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at -5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wireless.murata.com/pub/RFM/data/type_abz.pdf" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "15.75000" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "9.97500" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "9.30000" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "9.00000" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Murata Electronics" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "CMWX1ZZABZ-078" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "*" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "*" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "*" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "*" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "*" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "*" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "*" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "*" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "*" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "*" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "*" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "General ISM < 1GHz LoRa™ Transceiver Module 868MHz, 915MHz  Surface Mount" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "*" (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "D24V22F12" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at 0 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D24V22F12" (at 5.08 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:D24V22F12" (at -1.27 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.pololu.com/product/2855" (at 24.13 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "12.95 " (at 6.35 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 8.89 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 11.43 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 13.97 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 16.51 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Pololu Robotics & Electronics" (at 19.05 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "D24V22F12" (at 21.59 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Pololu Robotics & Electronics" (at 24.13 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "D24V22F12" (at 26.67 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "Adam Vadala-Roth" (at 29.21 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "6mm" (at 31.75 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "9/26/2023" (at 59.69 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "9/26/2023" (at 34.29 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 36.83 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 39.37 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (at 41.91 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "5" (at 44.45 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 46.99 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "N/A" (at 49.53 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Module" (at 52.07 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "36V IN 12V OUT" (at 54.61 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (at 57.15 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "DCDC Regulator Module 24-36V IN 12VDC OUT" (at 64.77 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "D24V22F12" (at 5.08 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 64.77 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "D24V22F12_1_1"
-      (rectangle (start 0 13.97) (end 11.43 0)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin input line (at 13.97 5.08 180) (length 2.54)
-        (name "PG" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -2.54 8.89 0) (length 2.54)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -2.54 11.43 0) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 1.27 0) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 13.97 11.43 180) (length 2.54)
-        (name "VOUT" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "D24V22F3" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at 0 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D24V22F3" (at 5.08 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:D24V22F12" (at -1.27 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.pololu.com/product/2857" (at 24.13 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "11.95 " (at 6.35 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 8.89 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 11.43 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 13.97 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 16.51 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Pololu Robotics & Electronics" (at 19.05 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "D24V22F3" (at 21.59 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Pololu Robotics & Electronics" (at 24.13 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "D24V22F5" (at 26.67 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "Adam Vadala-Roth" (at 29.21 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "6mm" (at 31.75 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "9/26/2023" (at 59.69 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "9/26/2023" (at 34.29 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 36.83 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 39.37 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (at 41.91 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "5" (at 44.45 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 46.99 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "N/A" (at 49.53 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Module" (at 52.07 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "36V IN 3.3V OUT" (at 54.61 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (at 57.15 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "DCDC Regulator Module 24-36V IN 3.3VDC OUT" (at 64.77 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "D24V22F3" (at 5.08 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 64.77 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "D24V22F3_1_1"
-      (rectangle (start 0 13.97) (end 11.43 0)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin input line (at 13.97 5.08 180) (length 2.54)
-        (name "PG" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -2.54 8.89 0) (length 2.54)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -2.54 11.43 0) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 1.27 0) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 13.97 11.43 180) (length 2.54)
-        (name "VOUT" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "D24V22F5" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at 0 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D24V22F5" (at 5.08 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:D24V22F12" (at -1.27 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.pololu.com/product/2858" (at 24.13 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "11.95 " (at 6.35 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 8.89 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 11.43 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 13.97 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 16.51 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Pololu Robotics & Electronics" (at 19.05 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "D24V22F5" (at 21.59 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Pololu Robotics & Electronics" (at 24.13 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "D24V22F5" (at 26.67 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "Adam Vadala-Roth" (at 29.21 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "6mm" (at 31.75 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "9/26/2023" (at 59.69 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "9/26/2023" (at 34.29 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 36.83 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 39.37 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (at 41.91 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "5" (at 44.45 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 46.99 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "N/A" (at 49.53 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Module" (at 52.07 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "36V IN 5V OUT" (at 54.61 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (at 57.15 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "DCDC Regulator Module 24-36V IN 5VDC OUT" (at 64.77 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "D24V22F5" (at 5.08 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 64.77 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "D24V22F5_1_1"
-      (rectangle (start 0 13.97) (end 11.43 0)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin input line (at 13.97 5.08 180) (length 2.54)
-        (name "PG" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -2.54 8.89 0) (length 2.54)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -2.54 11.43 0) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 1.27 0) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 13.97 11.43 180) (length 2.54)
-        (name "VOUT" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "D24V5F12" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at 1.27 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D24V5F12" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:D24V5F12" (at -5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.pololu.com/file/0J792/d24v5x-schematic.pdf" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "4.95 " (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Pololu" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "D24V5F12" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Pololu" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "D24V5F12" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "Adam Vadala-Roth" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "4.02mm" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "1/1/2022" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "1/1/2022" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "yes" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "4" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "DCDC Regulator Module" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "36VDC IN, 12VDC OUT" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "D24V5F12 synchronous buck voltage regulator takes an input voltage of up to 36 V " (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "D24V5F12" (at 3.81 -13.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "D24V5F12_0_1"
-      (rectangle (start 0 0) (end 15.24 -12.7)
-        (stroke (width 0.1524) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "D24V5F12_1_1"
-      (pin power_out line (at 17.78 -2.54 180) (length 2.54)
-        (name "VOUT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 17.78 -10.16 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -2.54 -2.54 0) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -2.54 -6.35 0) (length 2.54)
-        (name "SHDN" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "SCD30" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SCD30" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:MODULE_SCD30" (at -5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/CD_DS_SCD30_Datasheet_D1.pdf" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "54.00000" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Sensirion AG" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "SCD30" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "1649-1098-ND" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "*" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "2/25/2021" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "2/25/2021" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "7" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "CO2 Sensor" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "3.3V-5.5V" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Carbon Dioxide (CO2) Sensor I²C, Modbus, PWM" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "SCD30" (at 2.54 -22.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "SCD30_0_1"
-      (rectangle (start 0 0) (end 17.78 -20.32)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "SCD30_1_1"
-      (pin power_in line (at 22.86 -2.54 180) (length 5.08)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -17.78 180) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -5.08 0) (length 5.08)
-        (name "TX/SCL" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -2.54 0) (length 5.08)
-        (name "RX/SDA" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at -5.08 -12.7 0) (length 5.08)
-        (name "RDY" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at -5.08 -15.24 0) (length 5.08)
-        (name "PWM" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 -17.78 0) (length 5.08)
-        (name "SEL" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "SPSGRF-915" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SPSGRF-915" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:XCVR_SPSGRF-915" (at 52.07 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/f9/a3/aa/67/de/86/4b/62/DM00171035.pdf/files/DM00171035.pdf/jcr:content/translations/en.DM00171035.pdf" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "15.79000" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "10.00160" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "9.32480" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "9.02400" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "STMicroelectronics" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "SPSGRF-915" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "497-15956-ND" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "2mm" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "6/4/2020" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "6/4/2020" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "SMT" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "11" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "SoM" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "1.8V ~{} 3.6V" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary Module" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "General ISM < 1GHz  Transceiver Module 915MHz Integrated, Chip Surface Mount" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "SPSGRF-915" (at 6.35 -30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "SPSGRF-915_0_1"
-      (rectangle (start 0 0) (end 22.86 -29.21)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "SPSGRF-915_1_1"
-      (polyline
-        (pts
-          (xy 2.54 -10.16)
-          (xy 2.54 -1.27)
-          (xy 5.08 -1.27)
-          (xy 5.08 -7.62)
-          (xy 7.62 -7.62)
-          (xy 7.62 -1.27)
-          (xy 10.16 -1.27)
-          (xy 10.16 -7.62)
-          (xy 12.7 -7.62)
-          (xy 12.7 -1.27)
-          (xy 15.24 -1.27)
-          (xy 15.24 -7.62)
-          (xy 17.78 -7.62)
-          (xy 17.78 -1.27)
-          (xy 20.32 -1.27)
-        )
-        (stroke (width 0.762) (type default))
-        (fill (type none))
-      )
-      (pin bidirectional line (at -5.08 -12.7 0) (length 5.08)
-        (name "GPIO3" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 27.94 -15.24 180) (length 5.08)
-        (name "SPI_CS" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 27.94 -12.7 180) (length 5.08)
-        (name "SDN" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -15.24 0) (length 5.08)
-        (name "GPIO2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -17.78 0) (length 5.08)
-        (name "GPIO1" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -20.32 0) (length 5.08)
-        (name "GPIO0" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -5.08 -22.86 0) (length 5.08)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -26.67 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 27.94 -22.86 180) (length 5.08)
-        (name "SPI_CLK" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 27.94 -20.32 180) (length 5.08)
-        (name "SPI_MISO" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 27.94 -17.78 180) (length 5.08)
-        (name "SPI_MOSI" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "SPSGRFC-915" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SPSGRFC-915" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:XCVR_SPSGRF-915" (at 52.07 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/21/ae/a6/78/64/3b/46/5d/DM00347814/files/DM00347814.pdf/jcr:content/translations/en.DM00347814.pdf" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "12.35000" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "7.82040" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "7.29120" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "7.05600" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "STMicroelectronics" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "SPSGRFC-915" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "497-17226-ND" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "2mm" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "6/4/2020" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "6/4/2020" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "SMT" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "11" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "SoM" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "1.8V ~{} 3.6V" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary Module" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "General ISM < 1GHz  Transceiver Module 433MHz, 868MHz, 915MHz Antenna Not Included, U.FL Surface Mount" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "SPSGRFC-915" (at 6.35 -30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "SPSGRFC-915_0_1"
-      (rectangle (start 0 0) (end 22.86 -29.21)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "SPSGRFC-915_1_1"
-      (polyline
-        (pts
-          (xy 2.54 -10.16)
-          (xy 2.54 -1.27)
-          (xy 5.08 -1.27)
-          (xy 5.08 -7.62)
-          (xy 7.62 -7.62)
-          (xy 7.62 -1.27)
-          (xy 10.16 -1.27)
-          (xy 10.16 -7.62)
-          (xy 12.7 -7.62)
-          (xy 12.7 -1.27)
-          (xy 15.24 -1.27)
-          (xy 15.24 -7.62)
-          (xy 17.78 -7.62)
-          (xy 17.78 -1.27)
-          (xy 20.32 -1.27)
-        )
-        (stroke (width 0.762) (type default))
-        (fill (type none))
-      )
-      (pin bidirectional line (at -5.08 -12.7 0) (length 5.08)
-        (name "GPIO3" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 27.94 -15.24 180) (length 5.08)
-        (name "SPI_CS" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 27.94 -12.7 180) (length 5.08)
-        (name "SDN" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -15.24 0) (length 5.08)
-        (name "GPIO2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -17.78 0) (length 5.08)
-        (name "GPIO1" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -20.32 0) (length 5.08)
-        (name "GPIO0" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -5.08 -22.86 0) (length 5.08)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -26.67 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 27.94 -22.86 180) (length 5.08)
-        (name "SPI_CLK" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 27.94 -20.32 180) (length 5.08)
-        (name "SPI_MISO" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 27.94 -17.78 180) (length 5.08)
-        (name "SPI_MOSI" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "STM32WB5MMGH6TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "STM32WB5MMGH6TR" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:STM32WB5MMGH6TR" (at 58.42 15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wb5mmg.pdf" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "12.98000" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "9.01250" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "STMicroelectronics" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "STM32WB5MMGH6TR" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "497-STM32WB5MMGH6TR-ND" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "1.382mm" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "2/8/2021" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "2/8/2021" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "SMT" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "86" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "RF and MCU Integrated Module" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "1.71-3.6V" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® Transceiver Module 2.4GHz Integrated, Chip Surface Mount" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "STM32WB5MMGH6TR" (at 7.62 -129.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "STM32WB5MMGH6TR_1_1"
-      (rectangle (start 0 0) (end 25.4 -127)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin bidirectional line (at -5.08 -7.62 0) (length 5.08)
-        (name "PA2" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -99.06 0) (length 5.08)
-        (name "NRST" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -68.58 0) (length 5.08)
-        (name "PB9" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08)
-        (name "PC0" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -96.52 0) (length 5.08)
-        (name "PH3-BOOT0" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -66.04 0) (length 5.08)
-        (name "PB8" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -63.5 0) (length 5.08)
-        (name "PB7" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -58.42 0) (length 5.08)
-        (name "PB5" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -5.08 0) (length 5.08)
-        (name "PA1" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -55.88 0) (length 5.08)
-        (name "PB4" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -53.34 0) (length 5.08)
-        (name "PB3" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -33.02 180) (length 5.08)
-        (name "PC10" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -35.56 180) (length 5.08)
-        (name "PC11" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -38.1 180) (length 5.08)
-        (name "PC12" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -40.64 0) (length 5.08)
-        (name "PA13" (effects (font (size 1.27 1.27))))
-        (number "25" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -43.18 0) (length 5.08)
-        (name "PA14" (effects (font (size 1.27 1.27))))
-        (number "26" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -45.72 0) (length 5.08)
-        (name "PA15" (effects (font (size 1.27 1.27))))
-        (number "27" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -33.02 0) (length 5.08)
-        (name "PA10" (effects (font (size 1.27 1.27))))
-        (number "28" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -38.1 0) (length 5.08)
-        (name "PA12" (effects (font (size 1.27 1.27))))
-        (number "29" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -2.54 0) (length 5.08)
-        (name "PA0" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -35.56 0) (length 5.08)
-        (name "PA11" (effects (font (size 1.27 1.27))))
-        (number "30" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -45.72 180) (length 5.08)
-        (name "PD0" (effects (font (size 1.27 1.27))))
-        (number "33" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -48.26 180) (length 5.08)
-        (name "PD1" (effects (font (size 1.27 1.27))))
-        (number "34" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -81.28 0) (length 5.08)
-        (name "PB13" (effects (font (size 1.27 1.27))))
-        (number "35" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -20.32 180) (length 5.08)
-        (name "PC6" (effects (font (size 1.27 1.27))))
-        (number "36" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -83.82 0) (length 5.08)
-        (name "PB14" (effects (font (size 1.27 1.27))))
-        (number "37" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -86.36 0) (length 5.08)
-        (name "PB15" (effects (font (size 1.27 1.27))))
-        (number "38" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -60.96 0) (length 5.08)
-        (name "PB6" (effects (font (size 1.27 1.27))))
-        (number "39" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -40.64 180) (length 5.08)
-        (name "PC13" (effects (font (size 1.27 1.27))))
-        (number "40" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -78.74 0) (length 5.08)
-        (name "PB12" (effects (font (size 1.27 1.27))))
-        (number "41" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -109.22 180) (length 5.08)
-        (name "PE4" (effects (font (size 1.27 1.27))))
-        (number "42" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08)
-        (name "PC5" (effects (font (size 1.27 1.27))))
-        (number "45" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -76.2 0) (length 5.08)
-        (name "PB11" (effects (font (size 1.27 1.27))))
-        (number "46" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -73.66 0) (length 5.08)
-        (name "PB10" (effects (font (size 1.27 1.27))))
-        (number "47" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -50.8 0) (length 5.08)
-        (name "PB2" (effects (font (size 1.27 1.27))))
-        (number "48" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08)
-        (name "PC4" (effects (font (size 1.27 1.27))))
-        (number "49" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -27.94 0) (length 5.08)
-        (name "PA8" (effects (font (size 1.27 1.27))))
-        (number "50" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -25.4 0) (length 5.08)
-        (name "PA9" (effects (font (size 1.27 1.27))))
-        (number "51" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -22.86 0) (length 5.08)
-        (name "PA7" (effects (font (size 1.27 1.27))))
-        (number "52" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -20.32 0) (length 5.08)
-        (name "PA6" (effects (font (size 1.27 1.27))))
-        (number "53" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -17.78 0) (length 5.08)
-        (name "PA5" (effects (font (size 1.27 1.27))))
-        (number "54" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -15.24 0) (length 5.08)
-        (name "PA4" (effects (font (size 1.27 1.27))))
-        (number "55" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -12.7 0) (length 5.08)
-        (name "PA3" (effects (font (size 1.27 1.27))))
-        (number "56" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 30.48 -121.92 180) (length 5.08)
-        (name "ANT_IN" (effects (font (size 1.27 1.27))))
-        (number "58" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 30.48 -124.46 180) (length 5.08)
-        (name "RF_OUT" (effects (font (size 1.27 1.27))))
-        (number "59" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -104.14 0) (length 5.08)
-        (name "PH0" (effects (font (size 1.27 1.27))))
-        (number "61" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -106.68 0) (length 5.08)
-        (name "PH1" (effects (font (size 1.27 1.27))))
-        (number "62" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -83.82 180) (length 5.08)
-        (name "PD14" (effects (font (size 1.27 1.27))))
-        (number "63" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -101.6 180) (length 5.08)
-        (name "PE1" (effects (font (size 1.27 1.27))))
-        (number "64" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -81.28 180) (length 5.08)
-        (name "PD13" (effects (font (size 1.27 1.27))))
-        (number "65" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -78.74 180) (length 5.08)
-        (name "PD12" (effects (font (size 1.27 1.27))))
-        (number "66" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -66.04 180) (length 5.08)
-        (name "PD7" (effects (font (size 1.27 1.27))))
-        (number "67" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -53.34 180) (length 5.08)
-        (name "PD2" (effects (font (size 1.27 1.27))))
-        (number "68" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -30.48 180) (length 5.08)
-        (name "PC9" (effects (font (size 1.27 1.27))))
-        (number "69" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08)
-        (name "PC3" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -55.88 180) (length 5.08)
-        (name "PD3" (effects (font (size 1.27 1.27))))
-        (number "70" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -22.86 180) (length 5.08)
-        (name "PC7" (effects (font (size 1.27 1.27))))
-        (number "71" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -106.68 180) (length 5.08)
-        (name "PE3" (effects (font (size 1.27 1.27))))
-        (number "72" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -58.42 180) (length 5.08)
-        (name "PD4" (effects (font (size 1.27 1.27))))
-        (number "73" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -71.12 180) (length 5.08)
-        (name "PD9" (effects (font (size 1.27 1.27))))
-        (number "74" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -68.58 180) (length 5.08)
-        (name "PD8" (effects (font (size 1.27 1.27))))
-        (number "75" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -86.36 180) (length 5.08)
-        (name "PD15" (effects (font (size 1.27 1.27))))
-        (number "76" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -73.66 180) (length 5.08)
-        (name "PD10" (effects (font (size 1.27 1.27))))
-        (number "77" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -104.14 180) (length 5.08)
-        (name "PE2" (effects (font (size 1.27 1.27))))
-        (number "78" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -99.06 180) (length 5.08)
-        (name "PE0" (effects (font (size 1.27 1.27))))
-        (number "79" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08)
-        (name "PC2" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -60.96 180) (length 5.08)
-        (name "PD5" (effects (font (size 1.27 1.27))))
-        (number "80" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -63.5 180) (length 5.08)
-        (name "PD6" (effects (font (size 1.27 1.27))))
-        (number "81" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -76.2 180) (length 5.08)
-        (name "PD11" (effects (font (size 1.27 1.27))))
-        (number "82" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -25.4 180) (length 5.08)
-        (name "PC8" (effects (font (size 1.27 1.27))))
-        (number "83" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 30.48 -116.84 180) (length 5.08)
-        (name "ANT_NC" (effects (font (size 1.27 1.27))))
-        (number "85" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08)
-        (name "PC1" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "STM32WB5MMGH6TR_2_1"
-      (rectangle (start 0 0) (end 25.4 -25.4)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (rectangle (start 25.4 -25.4) (end 25.4 -25.4)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin power_in line (at -5.08 -15.24 0) (length 5.08)
-        (name "VBAT" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -5.08 -17.78 0) (length 5.08)
-        (name "VSSSPMPS" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -5.08 -20.32 0) (length 5.08)
-        (name "VDDSMPS" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -2.54 180) (length 5.08)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "31" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -5.08 -22.86 0) (length 5.08)
-        (name "VDDUSB" (effects (font (size 1.27 1.27))))
-        (number "32" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -5.08 -2.54 0) (length 5.08)
-        (name "VREF+" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -15.24 180) (length 5.08)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -12.7 180) (length 5.08)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "57" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -7.62 0) (length 5.08)
-        (name "VDDA" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -10.16 180) (length 5.08)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "60" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -7.62 180) (length 5.08)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "84" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -5.08 180) (length 5.08)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "86" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TEMPLATE" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TEMPLATE" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at -5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "*" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "*" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "*" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "*" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "*" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "*" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "*" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "*" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "*" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "*" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "*" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "*" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "*" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "*" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "*" (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "WeeWay_DCDC_Module" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "M" (at -1.27 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WeeWay_DCDC_Module" (at 2.54 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Modules:Weeway_DCDC_Module" (at -3.81 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at -1.27 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "*" (at 3.81 10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 6.35 12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 8.89 15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 11.43 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 13.97 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "WeeWay" (at 16.51 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "*" (at 19.05 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "*" (at 21.59 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "*" (at 24.13 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (at 26.67 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "6.5mm" (at 29.21 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "8/16/2023" (at 57.15 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "8/16/2023" (at 31.75 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 34.29 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 36.83 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (at 39.37 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "4" (at 41.91 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 44.45 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 46.99 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Module" (at 49.53 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "12V IN 5V OUT" (at 52.07 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (at 54.61 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "DCDC Module 12VDC IN and 5VDC OUT" (at 62.23 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "5V_DCDC" (at 59.69 67.31 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (at 62.23 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "WeeWay_DCDC_Module_1_1"
-      (rectangle (start 0 0) (end 11.43 -10.16)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin input line (at -2.54 -1.27 0) (length 2.54)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -2.54 -3.81 0) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at -2.54 -8.89 0) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 13.97 -1.27 180) (length 2.54)
-        (name "VOUT" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "BLUENRG-M2SA"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUENRG-M2SA"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:BLUENRG-M2SA"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bluenrg-m2.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bluetooth Bluetooth v5.0 Transceiver Module 2.4GHz ~{} 2.4835GHz Integrated, Chip Surface Mount"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "9.31000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "5.08300"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "4.88750"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "4.80930"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "4.69200"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "STMicroelectronics"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "BLUENRG-M2SA"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "497-BLUENRG-M2SACT-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.5mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "6/6/2020"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "6/6/2020"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "20"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "2.4GHZ RF Module"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1.7V ~{} 3.6V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "BLUENRG-M2SA"
+			(at 44.45 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BLUENRG-M2SA_1_1"
+			(polyline
+				(pts
+					(xy 17.78 -10.16) (xy 17.78 -1.27) (xy 20.32 -1.27) (xy 20.32 -7.62) (xy 22.86 -7.62) (xy 22.86 -1.27)
+					(xy 25.4 -1.27) (xy 25.4 -7.62) (xy 27.94 -7.62) (xy 27.94 -1.27) (xy 30.48 -1.27) (xy 30.48 -7.62)
+					(xy 33.02 -7.62) (xy 33.02 -1.27) (xy 35.56 -1.27)
+				)
+				(stroke
+					(width 0.762)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 0)
+				(end 50.8 -29.21)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -5.08 -12.7 0)
+				(length 5.08)
+				(name "ADC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 -34.29 90)
+				(length 5.08)
+				(name "DIO8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 27.94 -34.29 90)
+				(length 5.08)
+				(name "DIO11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -34.29 90)
+				(length 5.08)
+				(name "DIO9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 33.02 -34.29 90)
+				(length 5.08)
+				(name "DIO10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -34.29 90)
+				(length 5.08)
+				(name "ANATEST1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 55.88 -22.86 180)
+				(length 5.08)
+				(name "DIO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 55.88 -20.32 180)
+				(length 5.08)
+				(name "DIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 55.88 -17.78 180)
+				(length 5.08)
+				(name "DIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 55.88 -15.24 180)
+				(length 5.08)
+				(name "DIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 55.88 -12.7 180)
+				(length 5.08)
+				(name "RESETN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -15.24 0)
+				(length 5.08)
+				(name "ADC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 55.88 -10.16 180)
+				(length 5.08)
+				(name "DIO12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -17.78 0)
+				(length 5.08)
+				(name "DIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -20.32 0)
+				(length 5.08)
+				(name "DIO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -22.86 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -34.29 90)
+				(length 5.08)
+				(name "ANATESTIO/DIO14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -34.29 90)
+				(length 5.08)
+				(name "DIO7/BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -34.29 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 -34.29 90)
+				(length 5.08)
+				(name "DIO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "CMWX1ZZABZ-078"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CMWX1ZZABZ-078"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wireless.murata.com/pub/RFM/data/type_abz.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General ISM < 1GHz LoRa™ Transceiver Module 868MHz, 915MHz  Surface Mount"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "15.75000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "9.97500"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "9.30000"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "9.00000"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "CMWX1ZZABZ-078"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "*"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "*"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "*"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "*"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "*"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "*"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "*"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "*"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "*"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "D24V22F12"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D24V22F12"
+			(at 5.08 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:D24V22F12"
+			(at -1.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2855"
+			(at 24.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DCDC Regulator Module 24-36V IN 12VDC OUT"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "12.95 "
+			(at 6.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 8.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 11.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 13.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 16.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Pololu Robotics & Electronics"
+			(at 19.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "D24V22F12"
+			(at 21.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Pololu Robotics & Electronics"
+			(at 24.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "D24V22F12"
+			(at 26.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6mm"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "9/26/2023"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "9/26/2023"
+			(at 34.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "5"
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "N/A"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Module"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "36V IN 12V OUT"
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "D24V22F12"
+			(at 5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D24V22F12_1_1"
+			(rectangle
+				(start 0 13.97)
+				(end 11.43 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 8.89 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 11.43 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 1.27 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 11.43 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D24V22F3"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D24V22F3"
+			(at 5.08 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:D24V22F12"
+			(at -1.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2857"
+			(at 24.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DCDC Regulator Module 24-36V IN 3.3VDC OUT"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "11.95 "
+			(at 6.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 8.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 11.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 13.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 16.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Pololu Robotics & Electronics"
+			(at 19.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "D24V22F3"
+			(at 21.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Pololu Robotics & Electronics"
+			(at 24.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "D24V22F5"
+			(at 26.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6mm"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "9/26/2023"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "9/26/2023"
+			(at 34.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "5"
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "N/A"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Module"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "36V IN 3.3V OUT"
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "D24V22F3"
+			(at 5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D24V22F3_1_1"
+			(rectangle
+				(start 0 13.97)
+				(end 11.43 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 8.89 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 11.43 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 1.27 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 11.43 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D24V22F5"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D24V22F5"
+			(at 5.08 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:D24V22F12"
+			(at -1.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2858"
+			(at 24.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DCDC Regulator Module 24-36V IN 5VDC OUT"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "11.95 "
+			(at 6.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 8.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 11.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 13.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 16.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Pololu Robotics & Electronics"
+			(at 19.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "D24V22F5"
+			(at 21.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Pololu Robotics & Electronics"
+			(at 24.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "D24V22F5"
+			(at 26.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6mm"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "9/26/2023"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "9/26/2023"
+			(at 34.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "5"
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "N/A"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Module"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "36V IN 5V OUT"
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "D24V22F5"
+			(at 5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D24V22F5_1_1"
+			(rectangle
+				(start 0 13.97)
+				(end 11.43 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 8.89 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 11.43 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 1.27 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 11.43 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "D24V5F12"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D24V5F12"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:D24V5F12"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/file/0J792/d24v5x-schematic.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "D24V5F12 synchronous buck voltage regulator takes an input voltage of up to 36 V "
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "4.95 "
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Pololu"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "D24V5F12"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Pololu"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "D24V5F12"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.02mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "1/1/2022"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "1/1/2022"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "4"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "DCDC Regulator Module"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "36VDC IN, 12VDC OUT"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "D24V5F12"
+			(at 3.81 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D24V5F12_0_1"
+			(rectangle
+				(start 0 0)
+				(end 15.24 -12.7)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "D24V5F12_1_1"
+			(pin power_out line
+				(at 17.78 -2.54 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -6.35 0)
+				(length 2.54)
+				(name "SHDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Raspberry_Pi_5_B"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Raspberry_Pi_5_B"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "*"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "*"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "*"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "*"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "*"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "*"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "*"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "*"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "*"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "*"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "*"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "Raspberry_Pi_5_B"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Raspberry_Pi_5_B_1_1"
+			(rectangle
+				(start 0 0)
+				(end 13.97 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "SCD30"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCD30"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:MODULE_SCD30"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/CD_DS_SCD30_Datasheet_D1.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Carbon Dioxide (CO2) Sensor I²C, Modbus, PWM"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "54.00000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sensirion AG"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "SCD30"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "1649-1098-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "2/25/2021"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "2/25/2021"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "7"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "CO2 Sensor"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3V-5.5V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "SCD30"
+			(at 2.54 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SCD30_0_1"
+			(rectangle
+				(start 0 0)
+				(end 17.78 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SCD30_1_1"
+			(pin power_in line
+				(at 22.86 -2.54 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -17.78 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -5.08 0)
+				(length 5.08)
+				(name "TX/SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -2.54 0)
+				(length 5.08)
+				(name "RX/SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -12.7 0)
+				(length 5.08)
+				(name "RDY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -5.08 -15.24 0)
+				(length 5.08)
+				(name "PWM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -17.78 0)
+				(length 5.08)
+				(name "SEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SPSGRF-915"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPSGRF-915"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:XCVR_SPSGRF-915"
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/f9/a3/aa/67/de/86/4b/62/DM00171035.pdf/files/DM00171035.pdf/jcr:content/translations/en.DM00171035.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General ISM < 1GHz  Transceiver Module 915MHz Integrated, Chip Surface Mount"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "15.79000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "10.00160"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "9.32480"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "9.02400"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "STMicroelectronics"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "SPSGRF-915"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "497-15956-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "6/4/2020"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "6/4/2020"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "11"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SoM"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1.8V ~{} 3.6V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary Module"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "SPSGRF-915"
+			(at 6.35 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SPSGRF-915_0_1"
+			(rectangle
+				(start 0 0)
+				(end 22.86 -29.21)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SPSGRF-915_1_1"
+			(polyline
+				(pts
+					(xy 2.54 -10.16) (xy 2.54 -1.27) (xy 5.08 -1.27) (xy 5.08 -7.62) (xy 7.62 -7.62) (xy 7.62 -1.27)
+					(xy 10.16 -1.27) (xy 10.16 -7.62) (xy 12.7 -7.62) (xy 12.7 -1.27) (xy 15.24 -1.27) (xy 15.24 -7.62)
+					(xy 17.78 -7.62) (xy 17.78 -1.27) (xy 20.32 -1.27)
+				)
+				(stroke
+					(width 0.762)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -12.7 0)
+				(length 5.08)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 -15.24 180)
+				(length 5.08)
+				(name "SPI_CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -12.7 180)
+				(length 5.08)
+				(name "SDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -15.24 0)
+				(length 5.08)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -17.78 0)
+				(length 5.08)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -20.32 0)
+				(length 5.08)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -22.86 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -26.67 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 -22.86 180)
+				(length 5.08)
+				(name "SPI_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -20.32 180)
+				(length 5.08)
+				(name "SPI_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 -17.78 180)
+				(length 5.08)
+				(name "SPI_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SPSGRFC-915"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPSGRFC-915"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:XCVR_SPSGRF-915"
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/21/ae/a6/78/64/3b/46/5d/DM00347814/files/DM00347814.pdf/jcr:content/translations/en.DM00347814.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General ISM < 1GHz  Transceiver Module 433MHz, 868MHz, 915MHz Antenna Not Included, U.FL Surface Mount"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "12.35000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "7.82040"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "7.29120"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "7.05600"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "STMicroelectronics"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "SPSGRFC-915"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "497-17226-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "6/4/2020"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "6/4/2020"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "11"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SoM"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1.8V ~{} 3.6V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary Module"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "SPSGRFC-915"
+			(at 6.35 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SPSGRFC-915_0_1"
+			(rectangle
+				(start 0 0)
+				(end 22.86 -29.21)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SPSGRFC-915_1_1"
+			(polyline
+				(pts
+					(xy 2.54 -10.16) (xy 2.54 -1.27) (xy 5.08 -1.27) (xy 5.08 -7.62) (xy 7.62 -7.62) (xy 7.62 -1.27)
+					(xy 10.16 -1.27) (xy 10.16 -7.62) (xy 12.7 -7.62) (xy 12.7 -1.27) (xy 15.24 -1.27) (xy 15.24 -7.62)
+					(xy 17.78 -7.62) (xy 17.78 -1.27) (xy 20.32 -1.27)
+				)
+				(stroke
+					(width 0.762)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -12.7 0)
+				(length 5.08)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 -15.24 180)
+				(length 5.08)
+				(name "SPI_CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -12.7 180)
+				(length 5.08)
+				(name "SDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -15.24 0)
+				(length 5.08)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -17.78 0)
+				(length 5.08)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -20.32 0)
+				(length 5.08)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -22.86 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -26.67 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 -22.86 180)
+				(length 5.08)
+				(name "SPI_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -20.32 180)
+				(length 5.08)
+				(name "SPI_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 -17.78 180)
+				(length 5.08)
+				(name "SPI_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "STM32WB5MMGH6TR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32WB5MMGH6TR"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:STM32WB5MMGH6TR"
+			(at 58.42 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wb5mmg.pdf"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® Transceiver Module 2.4GHz Integrated, Chip Surface Mount"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "12.98000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "9.01250"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "STMicroelectronics"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "STM32WB5MMGH6TR"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "497-STM32WB5MMGH6TR-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.382mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "2/8/2021"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "2/8/2021"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "86"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "RF and MCU Integrated Module"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1.71-3.6V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "STM32WB5MMGH6TR"
+			(at 7.62 -129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "STM32WB5MMGH6TR_1_1"
+			(rectangle
+				(start 0 0)
+				(end 25.4 -127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -7.62 0)
+				(length 5.08)
+				(name "PA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -99.06 0)
+				(length 5.08)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -68.58 0)
+				(length 5.08)
+				(name "PB9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "PC0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -96.52 0)
+				(length 5.08)
+				(name "PH3-BOOT0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -66.04 0)
+				(length 5.08)
+				(name "PB8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -63.5 0)
+				(length 5.08)
+				(name "PB7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -58.42 0)
+				(length 5.08)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -5.08 0)
+				(length 5.08)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -55.88 0)
+				(length 5.08)
+				(name "PB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -53.34 0)
+				(length 5.08)
+				(name "PB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -33.02 180)
+				(length 5.08)
+				(name "PC10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -35.56 180)
+				(length 5.08)
+				(name "PC11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -38.1 180)
+				(length 5.08)
+				(name "PC12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -40.64 0)
+				(length 5.08)
+				(name "PA13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -43.18 0)
+				(length 5.08)
+				(name "PA14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -45.72 0)
+				(length 5.08)
+				(name "PA15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -33.02 0)
+				(length 5.08)
+				(name "PA10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -38.1 0)
+				(length 5.08)
+				(name "PA12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -2.54 0)
+				(length 5.08)
+				(name "PA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -35.56 0)
+				(length 5.08)
+				(name "PA11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -45.72 180)
+				(length 5.08)
+				(name "PD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -48.26 180)
+				(length 5.08)
+				(name "PD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -81.28 0)
+				(length 5.08)
+				(name "PB13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -20.32 180)
+				(length 5.08)
+				(name "PC6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -83.82 0)
+				(length 5.08)
+				(name "PB14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -86.36 0)
+				(length 5.08)
+				(name "PB15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -60.96 0)
+				(length 5.08)
+				(name "PB6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -40.64 180)
+				(length 5.08)
+				(name "PC13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -78.74 0)
+				(length 5.08)
+				(name "PB12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -109.22 180)
+				(length 5.08)
+				(name "PE4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -17.78 180)
+				(length 5.08)
+				(name "PC5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -76.2 0)
+				(length 5.08)
+				(name "PB11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -73.66 0)
+				(length 5.08)
+				(name "PB10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -50.8 0)
+				(length 5.08)
+				(name "PB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -15.24 180)
+				(length 5.08)
+				(name "PC4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -27.94 0)
+				(length 5.08)
+				(name "PA8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -25.4 0)
+				(length 5.08)
+				(name "PA9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -22.86 0)
+				(length 5.08)
+				(name "PA7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -20.32 0)
+				(length 5.08)
+				(name "PA6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -17.78 0)
+				(length 5.08)
+				(name "PA5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -15.24 0)
+				(length 5.08)
+				(name "PA4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -12.7 0)
+				(length 5.08)
+				(name "PA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 30.48 -121.92 180)
+				(length 5.08)
+				(name "ANT_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30.48 -124.46 180)
+				(length 5.08)
+				(name "RF_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -104.14 0)
+				(length 5.08)
+				(name "PH0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -106.68 0)
+				(length 5.08)
+				(name "PH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -83.82 180)
+				(length 5.08)
+				(name "PD14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -101.6 180)
+				(length 5.08)
+				(name "PE1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -81.28 180)
+				(length 5.08)
+				(name "PD13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -78.74 180)
+				(length 5.08)
+				(name "PD12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -66.04 180)
+				(length 5.08)
+				(name "PD7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -53.34 180)
+				(length 5.08)
+				(name "PD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -30.48 180)
+				(length 5.08)
+				(name "PC9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -10.16 180)
+				(length 5.08)
+				(name "PC3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -55.88 180)
+				(length 5.08)
+				(name "PD3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -22.86 180)
+				(length 5.08)
+				(name "PC7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -106.68 180)
+				(length 5.08)
+				(name "PE3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -58.42 180)
+				(length 5.08)
+				(name "PD4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -71.12 180)
+				(length 5.08)
+				(name "PD9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -68.58 180)
+				(length 5.08)
+				(name "PD8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -86.36 180)
+				(length 5.08)
+				(name "PD15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -73.66 180)
+				(length 5.08)
+				(name "PD10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -104.14 180)
+				(length 5.08)
+				(name "PE2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -99.06 180)
+				(length 5.08)
+				(name "PE0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -7.62 180)
+				(length 5.08)
+				(name "PC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -60.96 180)
+				(length 5.08)
+				(name "PD5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -63.5 180)
+				(length 5.08)
+				(name "PD6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -76.2 180)
+				(length 5.08)
+				(name "PD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -25.4 180)
+				(length 5.08)
+				(name "PC8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 -116.84 180)
+				(length 5.08)
+				(name "ANT_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "PC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32WB5MMGH6TR_2_1"
+			(rectangle
+				(start 0 0)
+				(end 25.4 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 25.4 -25.4)
+				(end 25.4 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -15.24 0)
+				(length 5.08)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -17.78 0)
+				(length 5.08)
+				(name "VSSSPMPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -20.32 0)
+				(length 5.08)
+				(name "VDDSMPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -22.86 0)
+				(length 5.08)
+				(name "VDDUSB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -2.54 0)
+				(length 5.08)
+				(name "VREF+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -15.24 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -12.7 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 5.08)
+				(name "VDDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -10.16 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -7.62 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "84"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TEMPLATE"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEMPLATE"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "*"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "*"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "*"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "*"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "*"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "*"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "*"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "*"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "*"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "*"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "*"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "*"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "WeeWay_DCDC_Module"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at -1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WeeWay_DCDC_Module"
+			(at 2.54 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Modules:Weeway_DCDC_Module"
+			(at -3.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DCDC Module 12VDC IN and 5VDC OUT"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "*"
+			(at 3.81 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 6.35 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 8.89 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 11.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 13.97 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "WeeWay"
+			(at 16.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "*"
+			(at 19.05 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "*"
+			(at 21.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "*"
+			(at 24.13 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.5mm"
+			(at 29.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "8/16/2023"
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "8/16/2023"
+			(at 31.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 34.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 39.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "4"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Module"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "12V IN 5V OUT"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "5V_DCDC"
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WeeWay_DCDC_Module_1_1"
+			(rectangle
+				(start 0 0)
+				(end 11.43 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -2.54 -1.27 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -3.81 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -2.54 -8.89 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 13.97 -1.27 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )

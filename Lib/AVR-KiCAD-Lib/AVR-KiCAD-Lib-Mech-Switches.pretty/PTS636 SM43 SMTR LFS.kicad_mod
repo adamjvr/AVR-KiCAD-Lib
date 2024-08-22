@@ -1,0 +1,169 @@
+(footprint "PTS636 SM43 SMTR LFS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b109e78-8f8f-44ce-ab59-c8cea19403a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTS636 SM43 SMTR LFS"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d5e07baa-9868-46ad-b579-27452e5e1f7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -10.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb1047aa-c095-4e5c-977a-e08c5151293a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -10.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "989f5374-eba3-4aaa-b98a-4f3b47fd9d7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -10.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ffdcee0-7380-4583-8406-75d10228d836")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -1.8)
+		(end -3.1 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ace90e02-2c1e-448c-969a-84039308ff5d")
+	)
+	(fp_line
+		(start -3.1 0.8)
+		(end -3.1 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44ce6db3-d3cb-4e96-97b8-810f995fe247")
+	)
+	(fp_line
+		(start -3.1 1.9)
+		(end 3.1 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a4b45524-4af2-4d90-8f7c-abbc8c7698ab")
+	)
+	(fp_line
+		(start 3.1 -1.8)
+		(end -3.1 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a97e9c5-7e20-4ea6-b365-2c18589a333e")
+	)
+	(fp_line
+		(start 3.1 -0.7)
+		(end 3.1 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21f482db-e33e-43af-a62a-5cbcc566c2d2")
+	)
+	(fp_line
+		(start 3.1 1.9)
+		(end 3.1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c64d4a3-a92a-4841-8852-15bf9bda3d96")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7737c32b-2bb0-4f8b-93ad-f29b69a55101")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.85 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "b3704ff9-8d85-4e87-b0b6-26dd9784de32")
+	)
+	(pad "2" smd roundrect
+		(at 3.85 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "08d8cea0-e928-42fc-bd94-6f4ad095f5a1")
+	)
+	(model "${KICAD_AVR_3D}/STEP/PTS636SM43SMTRLFS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

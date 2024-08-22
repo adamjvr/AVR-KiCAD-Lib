@@ -1,0 +1,133 @@
+(footprint "Raspberry_Pi_5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -32 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1507b5c2-8b5d-474b-ba6b-a1b7942b6577")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Raspberry_Pi_5"
+		(at 0 -30.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "beec2cdb-d1e2-4539-93f7-d4e0517e57af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.1 -24.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "836bde73-29d9-4d71-b503-aa418071aa61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -24.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1433532d-e847-4eb6-9850-b7577cef371f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -24.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c56513ac-b17d-4686-9e8c-c73885756503")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -42.5 -28)
+		(end 42.5 -28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6a69e027-bc87-4e31-9530-eba1d5729cd9")
+	)
+	(fp_line
+		(start -42.5 28)
+		(end -42.5 -28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d41241a4-63de-4713-969f-7d136c3b7df2")
+	)
+	(fp_line
+		(start -42.5 28)
+		(end 42.5 28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b8a47f9e-d04e-4d54-8c5a-8997d98e031a")
+	)
+	(fp_line
+		(start 42.5 -28)
+		(end 42.5 28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ab508bf4-58f0-44b0-be89-bbb3804d0849")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -29 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0708465b-00fc-4482-8779-52767c97c2dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KICAD_AVR_3D}/STEP/RASPBERRY_PI_5.STEP"
+		(offset
+			(xyz 0 0 -15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
