@@ -1,1924 +1,5457 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "+18V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+18V" (id 1) (at 0 3.556 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Power symbol creates a global label with name \"+18V\"" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "+18V_0_1"
-      (polyline
-        (pts
-          (xy -0.762 1.27)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0.762 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "+18V_1_1"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+18V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "-18V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-18V" (id 1) (at 0 3.556 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Power symbol creates a global label with name \"+18V\"" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "-18V_0_1"
-      (polyline
-        (pts
-          (xy -0.762 1.27)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0.762 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "-18V_1_1"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "-18V" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "3555-2-Fuse-Holder" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at -6.35 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "3555-2-Fuse-Holder" (id 1) (at 62.23 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Special:3555-2" (id 2) (at -5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1372" (id 3) (at 60.96 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "1.53000" (id 4) (at 5.08 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "0.93200" (id 5) (at 7.62 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "0.78000" (id 6) (at 10.16 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "0.70850" (id 7) (at 12.7 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 15.24 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Keystone" (id 9) (at 17.78 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "3555*2" (id 10) (at 20.32 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 22.86 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "36-3555-2-ND" (id 12) (at 25.4 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 27.94 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "11.42" (id 14) (at 30.48 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "12/1/2018" (id 15) (at 58.42 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "12/1/2018" (id 16) (at 33.02 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "*" (id 17) (at 35.56 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "*" (id 18) (at 38.1 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (id 19) (at 40.64 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "4" (id 20) (at 43.18 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (id 21) (at 45.72 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 48.26 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Fuse-Holder" (id 23) (at 50.8 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "500V 15A" (id 24) (at 53.34 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (id 25) (at 55.88 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "FUSE BLOCK BLADE 500V 50A PCB" (id 26) (at 63.5 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "3555-2" (id 27) (at -3.81 3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (id 28) (at 63.5 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "3555-2-Fuse-Holder_0_1"
-      (arc (start -5.08 0) (mid -2.54 -2.54) (end 0 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc (start 5.08 0) (mid 2.54 2.54) (end 0 0)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "3555-2-Fuse-Holder_1_1"
-      (pin passive line (at -10.16 0 0) (length 5.08)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 10.16 0 180) (length 5.08)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "36103166S" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "36103166S" (id 1) (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "growbox-KiCAD-Special:36103166S" (id 2) (at -11.43 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.we-online.de/katalog/datasheet/36103166S.pdf" (id 3) (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "1.11000" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "0.74200" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Würth Elektronik" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "36103166S" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "732-11652-1-ND" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "3.60" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "4/27/2020" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "4/27/2020" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "SMT" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "1" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "RF Shield" (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "RF Shield Frame  X 0.634\" (16.10mm)  Surface Mount" (id 26) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "36103166S" (id 27) (at 5.08 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "36103166S_0_1"
-      (rectangle (start 0 0) (end 16.51 -5.08)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-    (symbol "36103166S_1_1"
-      (pin input line (at -5.08 -2.54 0) (length 5.08)
-        (name "RF_Shield_GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "3PDT-StompSwitch" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at 1.27 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "3PDT-StompSwitch" (id 1) (at 8.89 -22.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "*" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "*" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "*" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "*" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "*" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "*" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "*" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "4/28/2019" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "4/28/2019" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "*" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "*" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "*" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "*" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "*" (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "*" (id 26) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "3PDT" (id 27) (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "3PDT-StompSwitch_0_1"
-      (polyline
-        (pts
-          (xy 1.27 -17.78)
-          (xy 0 -17.78)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -17.78)
-          (xy 6.35 -16.51)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -10.16)
-          (xy 0 -10.16)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -10.16)
-          (xy 6.35 -8.89)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -2.54)
-          (xy 0 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -2.54)
-          (xy 6.35 -1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.35 -20.32)
-          (xy 6.35 -20.32)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -20.32)
-          (xy 6.35 -20.32)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -16.51)
-          (xy 6.35 -16.51)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -12.7)
-          (xy 6.35 -12.7)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -8.89)
-          (xy 6.35 -8.89)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -5.08)
-          (xy 6.35 -5.08)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -1.27)
-          (xy 6.35 -1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (rectangle (start 0 0) (end 7.62 -21.59)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle (center 1.27 -2.54) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 6.35 -5.08) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 6.35 -1.27) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "3PDT-StompSwitch_1_1"
-      (circle (center 1.27 -17.78) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 1.27 -10.16) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 6.35 -20.32) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 6.35 -16.51) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 6.35 -12.7) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 6.35 -8.89) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 10.16 -1.27 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -2.54 0) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 10.16 -5.08 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 10.16 -8.89 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -10.16 0) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 10.16 -12.7 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 10.16 -16.51 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -17.78 0) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 10.16 -20.32 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "3PDT-StompSwitch_Alt" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at -8.89 3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "3PDT-StompSwitch_Alt" (id 1) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Special:Switches_Stomp_Switch_3PDT" (id 2) (at -3.81 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at -3.81 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "*" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "*" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "*" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "*" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "*" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "*" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "*" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "4/28/2019" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "4/28/2019" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "*" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "*" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "*" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "*" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "*" (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "*" (id 26) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "3PDT" (id 27) (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 29) (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "3PDT-StompSwitch_Alt_1_1"
-      (rectangle (start -3.81 2.54) (end 3.81 -3.81)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle (center -2.54 0) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy -3.81 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 -2.54)
-          (xy 2.54 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 1.27)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 2.54 -2.54) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 2.54 1.27) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 6.35 1.27 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 0 0) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 6.35 -2.54 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "3PDT-StompSwitch_Alt_2_1"
-      (rectangle (start -3.81 2.54) (end 3.81 2.54)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center -2.54 0) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 0)
-          (xy -2.54 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -2.54)
-          (xy 3.81 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 1.27)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 2.54 -2.54) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 2.54 1.27) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (rectangle (start 3.81 2.54) (end -3.81 -3.81)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin passive line (at 6.35 1.27 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 0 0) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 6.35 -2.54 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "3PDT-StompSwitch_Alt_3_1"
-      (rectangle (start -3.81 2.54) (end 3.81 -3.81)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle (center -2.54 0) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy -3.81 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -2.54)
-          (xy 3.81 -2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 1.27)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 2.54 -2.54) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (circle (center 2.54 1.27) (radius 0.635)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 6.35 1.27 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 0 0) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 6.35 -2.54 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "5033981892" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "T" (id 0) (at -12.7 3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "5033981892" (id 1) (at -6.35 -21.59 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Special:MOLEX_503398-1892" (id 2) (at 58.42 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.molex.com/pdm_docs/sd/5033981892_sd.pdf" (id 3) (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "2.65000" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "1.47345" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "1.25020" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "1.18769" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Molex" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "5033981892" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "WM11190TR-ND" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "1.28mm" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "6/2/2020" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "6/2/2020" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "SMT" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "10" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "MicroSD Slot" (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "3.3V" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "9 (8 + 1) Position Card Connector microSD™ Surface Mount, Right Angle Gold" (id 26) (at 63.5 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "5033981892" (id 27) (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "5033981892_0_1"
-      (rectangle (start -12.7 2.54) (end 0 -20.32)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-    (symbol "5033981892_1_1"
-      (pin bidirectional line (at 5.08 0 180) (length 5.08)
-        (name "DAT2" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 -2.54 180) (length 5.08)
-        (name "CD/DAT3" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 -5.08 180) (length 5.08)
-        (name "CMD" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 5.08 -7.62 180) (length 5.08)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 5.08 -10.16 180) (length 5.08)
-        (name "CLK" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 5.08 -12.7 180) (length 5.08)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 -15.24 180) (length 5.08)
-        (name "DAT0" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 5.08 -17.78 180) (length 5.08)
-        (name "DAT1" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Arduino_Micro" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at 1.27 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Arduino_Micro" (id 1) (at 26.67 -69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Special:ARDUINO_A000053" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.arduino.cc/en/uploads/Main/arduino-micro-schematic.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "19.80000" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "17.87500" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Arduino" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "A000053" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "1050-1066-ND" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "*" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "8/1/2020" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "8/1/2020" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "MCU Module" (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "3.3V/5V" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "ATmega32U4 Arduino Micro AVR® ATmega AVR MCU 8-Bit Embedded Evaluation Board" (id 26) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "Arduino Micro" (id 27) (at 6.35 -64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Arduino_Micro_1_1"
-      (rectangle (start 0 0) (end 30.48 -63.5)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin bidirectional line (at 35.56 -43.18 180) (length 5.08)
-        (name "MOSI" (effects (font (size 1.016 1.016))))
-        (number "1" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -35.56 0) (length 5.08)
-        (name "5(PWM)" (effects (font (size 1.016 1.016))))
-        (number "10" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -38.1 0) (length 5.08)
-        (name "6(PWM)/A7" (effects (font (size 1.016 1.016))))
-        (number "11" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -40.64 0) (length 5.08)
-        (name "7" (effects (font (size 1.016 1.016))))
-        (number "12" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -43.18 0) (length 5.08)
-        (name "8/A8" (effects (font (size 1.016 1.016))))
-        (number "13" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -45.72 0) (length 5.08)
-        (name "9(PWM)/A9" (effects (font (size 1.016 1.016))))
-        (number "14" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -48.26 0) (length 5.08)
-        (name "10(PWM)/A10" (effects (font (size 1.016 1.016))))
-        (number "15" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -50.8 0) (length 5.08)
-        (name "11(PWM)" (effects (font (size 1.016 1.016))))
-        (number "16" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -53.34 0) (length 5.08)
-        (name "12/A11" (effects (font (size 1.016 1.016))))
-        (number "17" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -55.88 0) (length 5.08)
-        (name "13(PWM)" (effects (font (size 1.016 1.016))))
-        (number "18" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 35.56 -5.08 180) (length 5.08)
-        (name "3.3V" (effects (font (size 1.016 1.016))))
-        (number "19" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -20.32 0) (length 5.08)
-        (name "RX_LED/SS" (effects (font (size 1.016 1.016))))
-        (number "2" (effects (font (size 1.016 1.016))))
-      )
-      (pin input line (at -5.08 -15.24 0) (length 5.08)
-        (name "AREF" (effects (font (size 1.016 1.016))))
-        (number "20" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 35.56 -20.32 180) (length 5.08)
-        (name "A0" (effects (font (size 1.016 1.016))))
-        (number "21" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 35.56 -22.86 180) (length 5.08)
-        (name "A1" (effects (font (size 1.016 1.016))))
-        (number "22" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 35.56 -25.4 180) (length 5.08)
-        (name "A2" (effects (font (size 1.016 1.016))))
-        (number "23" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 35.56 -27.94 180) (length 5.08)
-        (name "A3" (effects (font (size 1.016 1.016))))
-        (number "24" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 35.56 -30.48 180) (length 5.08)
-        (name "A4" (effects (font (size 1.016 1.016))))
-        (number "25" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 35.56 -33.02 180) (length 5.08)
-        (name "A5" (effects (font (size 1.016 1.016))))
-        (number "26" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 35.56 -2.54 180) (length 5.08)
-        (name "+5V" (effects (font (size 1.016 1.016))))
-        (number "29" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -25.4 0) (length 5.08)
-        (name "1/TX" (effects (font (size 1.016 1.016))))
-        (number "3" (effects (font (size 1.016 1.016))))
-      )
-      (pin input line (at -5.08 -12.7 0) (length 5.08)
-        (name "RESET" (effects (font (size 1.016 1.016))))
-        (number "30" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 35.56 -60.96 180) (length 5.08)
-        (name "GND" (effects (font (size 1.016 1.016))))
-        (number "31" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 35.56 -7.62 180) (length 5.08)
-        (name "VIN" (effects (font (size 1.016 1.016))))
-        (number "32" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 35.56 -40.64 180) (length 5.08)
-        (name "MISO" (effects (font (size 1.016 1.016))))
-        (number "33" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 35.56 -38.1 180) (length 5.08)
-        (name "SCK" (effects (font (size 1.016 1.016))))
-        (number "34" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -22.86 0) (length 5.08)
-        (name "0/RX" (effects (font (size 1.016 1.016))))
-        (number "4" (effects (font (size 1.016 1.016))))
-      )
-      (pin input line (at -5.08 -12.7 0) (length 5.08)
-        (name "RESET" (effects (font (size 1.016 1.016))))
-        (number "5" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 35.56 -58.42 180) (length 5.08)
-        (name "GND" (effects (font (size 1.016 1.016))))
-        (number "6" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -27.94 0) (length 5.08)
-        (name "2/SDA" (effects (font (size 1.016 1.016))))
-        (number "7" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -30.48 0) (length 5.08)
-        (name "3(PWM)/SCL" (effects (font (size 1.016 1.016))))
-        (number "8" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -5.08 -33.02 0) (length 5.08)
-        (name "4/A6" (effects (font (size 1.016 1.016))))
-        (number "9" (effects (font (size 1.016 1.016))))
-      )
-    )
-  )
-  (symbol "DCM3623T75H26C2T00" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at 12.7 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "DCM3623T75H26C2T00" (id 1) (at 17.78 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Special:Vicor-DCM" (id 2) (at 11.43 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vicorpower.com/documents/datasheets/DCM3623x75H26C2yzz_ds.pdf" (id 3) (at 13.97 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "168.57000" (id 4) (at 19.05 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (id 5) (at 21.59 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 24.13 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 26.67 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 29.21 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Vicor" (id 9) (at 31.75 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "DCM3623T75H26C2T00" (id 10) (at 34.29 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 36.83 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "1102-5649-ND" (id 12) (at 39.37 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 41.91 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "7.2mm" (id 14) (at 44.45 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "12/2/2018" (id 15) (at 72.39 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "12/2/2018" (id 16) (at 46.99 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (id 17) (at 49.53 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "RoHS 1" (id 18) (at 52.07 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (id 19) (at 54.61 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "9" (id 20) (at 57.15 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (id 21) (at 59.69 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 62.23 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Integrated DCDC Converter" (id 23) (at 64.77 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "24VDC" (id 24) (at 67.31 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (id 25) (at 69.85 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Isolated Module DC DC Converter 1 Output 24V 13.34A 36V - 75V Input" (id 26) (at 77.47 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "DCM3623T75H26C2T00" (id 27) (at 74.93 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (id 28) (at 77.47 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "DCM3623T75H26C2T00_0_0"
-      (text "Vicor DCDC Converer" (at 15.24 10.16 0)
-        (effects (font (size 1.27 1.27) bold))
-      )
-    )
-    (symbol "DCM3623T75H26C2T00_0_1"
-      (rectangle (start 0 0) (end 30.48 20.32)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-    (symbol "DCM3623T75H26C2T00_1_1"
-      (pin input line (at -5.08 17.78 0) (length 5.08)
-        (name "+IN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 12.7 0) (length 5.08)
-        (name "TR" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 10.16 0) (length 5.08)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 7.62 0) (length 5.08)
-        (name "FT" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 2.54 0) (length 5.08)
-        (name "-IN" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 35.56 2.54 180) (length 5.08)
-        (name "-OUT" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 35.56 6.35 180) (length 5.08)
-        (name "+OUT" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 35.56 13.97 180) (length 5.08)
-        (name "-OUT" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 35.56 17.78 180) (length 5.08)
-        (name "+OUT" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "DCM3623TA5N26B4T70" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at 12.7 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "DCM3623TA5N26B4T70" (id 1) (at 17.78 62.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Special:Vicor-DCM" (id 2) (at 11.43 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vicorpower.com/documents/datasheets/DCM3623xA5N26B4y7z_ds.pdf" (id 3) (at 13.97 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "147.87000" (id 4) (at 19.05 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (id 5) (at 21.59 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 24.13 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 26.67 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 29.21 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Vicor" (id 9) (at 31.75 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "DCM3623TA5N26B4T70" (id 10) (at 34.29 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 36.83 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "1102-5761-ND" (id 12) (at 39.37 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 41.91 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "7.2mm" (id 14) (at 44.45 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "12/2/2018" (id 15) (at 72.39 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "12/2/2018" (id 16) (at 46.99 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (id 17) (at 49.53 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "RoHS 1" (id 18) (at 52.07 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (id 19) (at 54.61 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "9" (id 20) (at 57.15 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (id 21) (at 59.69 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 62.23 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Integrated DCDC Converter" (id 23) (at 64.77 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "24VDC" (id 24) (at 67.31 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (id 25) (at 69.85 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Isolated Module DC DC Converter 1 Output 24V 10A 43V - 154V Input" (id 26) (at 77.47 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "DCM3623TA5N26B4T70" (id 27) (at 74.93 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (id 28) (at 77.47 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "DCM3623TA5N26B4T70_0_0"
-      (text "Vicor DCDC Converer" (at 15.24 10.16 0)
-        (effects (font (size 1.27 1.27) bold))
-      )
-    )
-    (symbol "DCM3623TA5N26B4T70_0_1"
-      (rectangle (start 0 0) (end 30.48 20.32)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-    (symbol "DCM3623TA5N26B4T70_1_1"
-      (pin input line (at -5.08 17.78 0) (length 5.08)
-        (name "+IN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 12.7 0) (length 5.08)
-        (name "TR" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 10.16 0) (length 5.08)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 7.62 0) (length 5.08)
-        (name "FT" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 2.54 0) (length 5.08)
-        (name "-IN" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 35.56 2.54 180) (length 5.08)
-        (name "-OUT" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 35.56 6.35 180) (length 5.08)
-        (name "+OUT" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 35.56 13.97 180) (length 5.08)
-        (name "-OUT" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 35.56 17.78 180) (length 5.08)
-        (name "+OUT" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "HLMP-4700-C0002" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HLMP-4700-C0002" (id 1) (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Diodesl:LED_D5.0mm" (id 2) (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "0.61000" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Broadcom" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "HLMP-4700-C0002" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "516-2483-1-ND" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "9.19mm" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "4/29/2019" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "4/29/2019" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "ThroughHole" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "2" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "LED ThroughHole" (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "1.7V" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "5mm" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "LED RED DIFFUSED T-1 3/4 T/H" (id 26) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "HLMP-4700-C0002" (id 27) (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "HLMP-4700-C0002_0_1"
-      (polyline
-        (pts
-          (xy 1.651 3.175)
-          (xy 1.143 3.175)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "HLMP-4700-C0002_1_1"
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy -1.27 -1.27)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.127 1.651)
-          (xy 1.651 3.175)
-          (xy 1.651 2.667)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 1.27)
-          (xy -1.27 0)
-          (xy 1.27 -1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -1.143 1.651)
-          (xy 0.381 3.175)
-          (xy 0.381 2.667)
-          (xy 0.381 3.175)
-          (xy -0.127 3.175)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Hammond_1590B" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at 1.27 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Hammond_1590B" (id 1) (at 7.62 -13.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Special:1590B" (id 2) (at 1.27 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "8.34000" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "5.54610" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Hammond Manufacturing" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "1590B" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "HM151-ND" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "30.99mm" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "5/9/2019" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "5/9/2019" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "*" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "*" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Enclosure, Cast Aluminum" (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "BOX ALUM UNPAINTED 4.41\"LX2.38\"W" (id 26) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "1590B" (id 27) (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Hammond_1590B_0_1"
-      (rectangle (start 0 0) (end 12.7 -12.7)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-  )
-  (symbol "Hammond_1590BB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at 1.27 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Hammond_1590BB" (id 1) (at 8.89 -13.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Special:1590BB" (id 2) (at 8.89 3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "10.01000" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "7.22800" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Hammond Manufacturing" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "1590BB" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "HM152-ND" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "34mm" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "5/9/2019" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "5/9/2019" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "*" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "*" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Enclosure, Cast Aluminum " (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "BOX ALUM UNPAINTED 4.71\"LX3.7\"W" (id 26) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "1590BB" (id 27) (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Hammond_1590BB_0_1"
-      (rectangle (start 0 0) (end 12.7 -12.7)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-  )
-  (symbol "TEMPLATE" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "SP" (id 0) (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TEMPLATE" (id 1) (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "*" (id 4) (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (id 5) (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (id 6) (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (id 7) (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (id 8) (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "*" (id 9) (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "*" (id 10) (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "*" (id 11) (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "*" (id 12) (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "*" (id 13) (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "*" (id 14) (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "*" (id 15) (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "*" (id 16) (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "*" (id 17) (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "*" (id 18) (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "*" (id 19) (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (id 20) (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "*" (id 21) (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (id 22) (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "*" (id 23) (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (id 24) (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (id 25) (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "*" (id 26) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "*" (id 27) (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (id 28) (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "+18V"
+		(power)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+18V"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+18V\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "+18V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+18V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "+18V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "-18V"
+		(power)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-18V"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+18V\""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-flag"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "-18V_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "-18V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0) hide
+				(name "-18V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "36103166S"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "36103166S"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "growbox-KiCAD-Special:36103166S"
+			(at -11.43 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.de/katalog/datasheet/36103166S.pdf"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "1.11000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "0.74200"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Würth Elektronik"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "36103166S"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "732-11652-1-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.60"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/27/2020"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/27/2020"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "1"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "RF Shield"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "RF Shield Frame  X 0.634\" (16.10mm)  Surface Mount"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "36103166S"
+			(at 5.08 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "36103166S_0_1"
+			(rectangle
+				(start 0 0)
+				(end 16.51 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "36103166S_1_1"
+			(pin input line
+				(at -5.08 -2.54 0)
+				(length 5.08)
+				(name "RF_Shield_GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "3PDT-StompSwitch"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3PDT-StompSwitch"
+			(at 8.89 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "*"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "*"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "*"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "*"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "*"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "*"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/28/2019"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/28/2019"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "*"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "*"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "*"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "3PDT"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "3PDT-StompSwitch_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -17.78) (xy 0 -17.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -17.78) (xy 6.35 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -10.16) (xy 0 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -10.16) (xy 6.35 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -20.32) (xy 6.35 -20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -20.32) (xy 6.35 -20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -16.51) (xy 6.35 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -12.7) (xy 6.35 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -8.89) (xy 6.35 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -1.27) (xy 6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 0)
+				(end 7.62 -21.59)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 1.27 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -5.08)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -1.27)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "3PDT-StompSwitch_1_1"
+			(circle
+				(center 1.27 -17.78)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 -10.16)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -20.32)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -16.51)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -12.7)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -8.89)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -8.89 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -12.7 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -16.51 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -20.32 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "3PDT-StompSwitch_Alt"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at -8.89 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3PDT-StompSwitch_Alt"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Special:Switches_Stomp_Switch_3PDT"
+			(at -3.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "*"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "*"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "*"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "*"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "*"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "*"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/28/2019"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/28/2019"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "*"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "*"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "*"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "3PDT"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "3PDT-StompSwitch_Alt_1_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -2.54 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.27)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "3PDT-StompSwitch_Alt_2_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.54 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.27)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 2.54)
+				(end -3.81 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "3PDT-StompSwitch_Alt_3_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -2.54 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.27)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "5033981892"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at -12.7 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5033981892"
+			(at -6.35 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Special:MOLEX_503398-1892"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5033981892_sd.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "2.65000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "1.47345"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "1.25020"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "1.18769"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "5033981892"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "WM11190TR-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.28mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "6/2/2020"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "6/2/2020"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "10"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "MicroSD Slot"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "9 (8 + 1) Position Card Connector microSD™ Surface Mount, Right Angle Gold"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "5033981892"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "5033981892_0_1"
+			(rectangle
+				(start -12.7 2.54)
+				(end 0 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "5033981892_1_1"
+			(pin bidirectional line
+				(at 5.08 0 180)
+				(length 5.08)
+				(name "DAT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 -2.54 180)
+				(length 5.08)
+				(name "CD/DAT3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 -5.08 180)
+				(length 5.08)
+				(name "CMD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -7.62 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -10.16 180)
+				(length 5.08)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -12.7 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 -15.24 180)
+				(length 5.08)
+				(name "DAT0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 5.08 -17.78 180)
+				(length 5.08)
+				(name "DAT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Arduino_Micro"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Arduino_Micro"
+			(at 26.67 -69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Special:ARDUINO_A000053"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arduino.cc/en/uploads/Main/arduino-micro-schematic.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "19.80000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "17.87500"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Arduino"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "A000053"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "1050-1066-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "8/1/2020"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "8/1/2020"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "MCU Module"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3V/5V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "ATmega32U4 Arduino Micro AVR® ATmega AVR MCU 8-Bit Embedded Evaluation Board"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "Arduino Micro"
+			(at 6.35 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Arduino_Micro_1_1"
+			(rectangle
+				(start 0 0)
+				(end 30.48 -63.5)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -43.18 180)
+				(length 5.08)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -35.56 0)
+				(length 5.08)
+				(name "5(PWM)"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -38.1 0)
+				(length 5.08)
+				(name "6(PWM)/A7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -40.64 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -43.18 0)
+				(length 5.08)
+				(name "8/A8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -45.72 0)
+				(length 5.08)
+				(name "9(PWM)/A9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -48.26 0)
+				(length 5.08)
+				(name "10(PWM)/A10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -50.8 0)
+				(length 5.08)
+				(name "11(PWM)"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -53.34 0)
+				(length 5.08)
+				(name "12/A11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -55.88 0)
+				(length 5.08)
+				(name "13(PWM)"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -5.08 180)
+				(length 5.08)
+				(name "3.3V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -20.32 0)
+				(length 5.08)
+				(name "RX_LED/SS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -15.24 0)
+				(length 5.08)
+				(name "AREF"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -20.32 180)
+				(length 5.08)
+				(name "A0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -22.86 180)
+				(length 5.08)
+				(name "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -25.4 180)
+				(length 5.08)
+				(name "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -27.94 180)
+				(length 5.08)
+				(name "A3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -30.48 180)
+				(length 5.08)
+				(name "A4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -33.02 180)
+				(length 5.08)
+				(name "A5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -2.54 180)
+				(length 5.08)
+				(name "+5V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -25.4 0)
+				(length 5.08)
+				(name "1/TX"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -12.7 0)
+				(length 5.08)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -60.96 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -7.62 180)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -40.64 180)
+				(length 5.08)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -38.1 180)
+				(length 5.08)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -22.86 0)
+				(length 5.08)
+				(name "0/RX"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -12.7 0)
+				(length 5.08)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 -58.42 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -27.94 0)
+				(length 5.08)
+				(name "2/SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -30.48 0)
+				(length 5.08)
+				(name "3(PWM)/SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -33.02 0)
+				(length 5.08)
+				(name "4/A6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "DCM3623T75H26C2T00"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at 12.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DCM3623T75H26C2T00"
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Special:Vicor-DCM"
+			(at 11.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vicorpower.com/documents/datasheets/DCM3623x75H26C2yzz_ds.pdf"
+			(at 13.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "168.57000"
+			(at 19.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 21.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 24.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 26.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 29.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vicor"
+			(at 31.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "DCM3623T75H26C2T00"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 36.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "1102-5649-ND"
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.2mm"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "12/2/2018"
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "12/2/2018"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "RoHS 1"
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 54.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "9"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Integrated DCDC Converter"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "24VDC"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Isolated Module DC DC Converter 1 Output 24V 13.34A 36V - 75V Input"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "DCM3623T75H26C2T00"
+			(at 74.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DCM3623T75H26C2T00_0_0"
+			(text "Vicor DCDC Converer"
+				(at 15.24 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "DCM3623T75H26C2T00_0_1"
+			(rectangle
+				(start 0 0)
+				(end 30.48 20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DCM3623T75H26C2T00_1_1"
+			(pin input line
+				(at -5.08 17.78 0)
+				(length 5.08)
+				(name "+IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 12.7 0)
+				(length 5.08)
+				(name "TR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 10.16 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 7.62 0)
+				(length 5.08)
+				(name "FT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 2.54 0)
+				(length 5.08)
+				(name "-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 2.54 180)
+				(length 5.08)
+				(name "-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 6.35 180)
+				(length 5.08)
+				(name "+OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 13.97 180)
+				(length 5.08)
+				(name "-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 17.78 180)
+				(length 5.08)
+				(name "+OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "DCM3623TA5N26B4T70"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at 12.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DCM3623TA5N26B4T70"
+			(at 17.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Special:Vicor-DCM"
+			(at 11.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vicorpower.com/documents/datasheets/DCM3623xA5N26B4y7z_ds.pdf"
+			(at 13.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "147.87000"
+			(at 19.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 21.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 24.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 26.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 29.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vicor"
+			(at 31.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "DCM3623TA5N26B4T70"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 36.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "1102-5761-ND"
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.2mm"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "12/2/2018"
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "12/2/2018"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "RoHS 1"
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 54.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "9"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Integrated DCDC Converter"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "24VDC"
+			(at 67.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Isolated Module DC DC Converter 1 Output 24V 10A 43V - 154V Input"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "DCM3623TA5N26B4T70"
+			(at 74.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DCM3623TA5N26B4T70_0_0"
+			(text "Vicor DCDC Converer"
+				(at 15.24 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+		)
+		(symbol "DCM3623TA5N26B4T70_0_1"
+			(rectangle
+				(start 0 0)
+				(end 30.48 20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DCM3623TA5N26B4T70_1_1"
+			(pin input line
+				(at -5.08 17.78 0)
+				(length 5.08)
+				(name "+IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 12.7 0)
+				(length 5.08)
+				(name "TR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 10.16 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 7.62 0)
+				(length 5.08)
+				(name "FT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 2.54 0)
+				(length 5.08)
+				(name "-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 2.54 180)
+				(length 5.08)
+				(name "-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 6.35 180)
+				(length 5.08)
+				(name "+OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 13.97 180)
+				(length 5.08)
+				(name "-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 35.56 17.78 180)
+				(length 5.08)
+				(name "+OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "HLMP-4700-C0002"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HLMP-4700-C0002"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Diodesl:LED_D5.0mm"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "0.61000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Broadcom"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "HLMP-4700-C0002"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "516-2483-1-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.19mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/29/2019"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/29/2019"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "ThroughHole"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "LED ThroughHole"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "1.7V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "5mm"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "LED RED DIFFUSED T-1 3/4 T/H"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "HLMP-4700-C0002"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HLMP-4700-C0002_0_1"
+			(polyline
+				(pts
+					(xy 1.651 3.175) (xy 1.143 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "HLMP-4700-C0002_1_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.127 1.651) (xy 1.651 3.175) (xy 1.651 2.667)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667) (xy 0.381 3.175) (xy -0.127 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Hammond_1590B"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hammond_1590B"
+			(at 7.62 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Special:1590B"
+			(at 1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "8.34000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "5.54610"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Hammond Manufacturing"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "1590B"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "HM151-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "30.99mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "5/9/2019"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "5/9/2019"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Enclosure, Cast Aluminum"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "BOX ALUM UNPAINTED 4.41\"LX2.38\"W"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "1590B"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Hammond_1590B_0_1"
+			(rectangle
+				(start 0 0)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "Hammond_1590BB"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Hammond_1590BB"
+			(at 8.89 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Special:1590BB"
+			(at 8.89 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "10.01000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "7.22800"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Hammond Manufacturing"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "1590BB"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "HM152-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "34mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "5/9/2019"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "5/9/2019"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Enclosure, Cast Aluminum "
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "BOX ALUM UNPAINTED 4.71\"LX3.7\"W"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "1590BB"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Hammond_1590BB_0_1"
+			(rectangle
+				(start 0 0)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "TEMPLATE"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SP"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEMPLATE"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "*"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "*"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "*"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "*"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "*"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "*"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "*"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "*"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "*"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "*"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "*"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "*"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 )
