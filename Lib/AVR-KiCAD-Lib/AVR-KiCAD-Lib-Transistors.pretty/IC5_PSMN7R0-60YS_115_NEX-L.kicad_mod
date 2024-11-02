@@ -493,4 +493,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "df7f2b8e-2b35-43c6-a1dc-c52f01e367fb")
 	)
+	(model "${KICAD_AVR_3D}/STEP/PSMN7R0-60YS_115.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

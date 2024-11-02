@@ -1,0 +1,141 @@
+(footprint "SMAJ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4d915e4b-9305-480a-9424-9cdd14cad454")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMAJ"
+		(at 0 -3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b376e4d6-68b0-4417-a5e8-c2886d09a591")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a251b361-e204-4aa1-89d4-fc845565d7c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "155efaf2-82d3-4af4-9df4-69e24cedea0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "024f3493-4bdc-4d99-915a-172d40594dcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.9 -0.8)
+		(end -2.9 0.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e6dd8d0-c262-46ac-9999-6c3aadec903e")
+	)
+	(fp_line
+		(start -1.4 -1.3)
+		(end 1.3 -1.3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d88ab1b-70bd-4b9c-a83c-0d6e73bb9d92")
+	)
+	(fp_line
+		(start -1.35 1.2)
+		(end 1.35 1.2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9a3e26d-c3d2-4565-bae4-8de343d424b7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7382caab-4969-4387-843b-081ffe32c0b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.985 0)
+		(size 1.27 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(thermal_bridge_angle 45)
+		(uuid "d2fa5e09-82f0-450a-8e1a-3971fa26044c")
+	)
+	(pad "2" smd roundrect
+		(at 1.985 0)
+		(size 1.27 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(thermal_bridge_angle 45)
+		(uuid "f2e1c5e3-e98c-494a-a43b-abbe81858304")
+	)
+	(model "${KICAD_AVR_3D}/STEP/SMAJ24A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

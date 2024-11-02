@@ -1,20 +1,144 @@
-(module LED0603 (layer F.Cu) (tedit 5E5C7B14)
-  (fp_text reference REF** (at 2.546782 -1.273388) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value 0603 (at 1.908314 1.272215) (layer F.Fab)
-    (effects (font (size 1 1.00174) (thickness 0.15)))
-  )
-  (fp_line (start -0.356 -0.432) (end 0.356 -0.432) (layer F.Fab) (width 0.1016))
-  (fp_line (start -0.356 0.419) (end 0.356 0.419) (layer F.Fab) (width 0.1016))
-  (fp_poly (pts (xy -0.840923 -0.4801) (xy -0.3381 -0.4801) (xy -0.3381 0.471427) (xy -0.840923 0.471427)) (layer F.Fab) (width 0.01))
-  (fp_poly (pts (xy 0.331257 -0.4801) (xy 0.8303 -0.4801) (xy 0.8303 0.471405) (xy 0.331257 0.471405)) (layer F.Fab) (width 0.01))
-  (fp_line (start 1.3 -0.5) (end 1.3 0.5) (layer F.SilkS) (width 0.2))
-  (pad 1 smd roundrect (at -0.75 0) (size 0.75 1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (pad 2 smd roundrect (at 0.75 0) (size 0.75 1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model C:/Users/adam/Documents/GitHub/growbx-KiCAD-Lib/Lib/3D-Models/LTST-C190KRKT--3DModel-STEP-56544.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
-  )
+(footprint "LED0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.546782 -1.273388 0)
+		(layer "F.SilkS")
+		(uuid "40e23cd4-613a-4863-b65b-57190615c05f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0603"
+		(at 1.908314 1.272215 0)
+		(layer "F.Fab")
+		(uuid "b2b93ad5-7c08-48ab-9492-33050fe13ebf")
+		(effects
+			(font
+				(size 1 1.00174)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36b5c913-b883-49d9-a127-6b7a49b556e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e315142-9153-456c-a1e5-f07d8488d4f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e9fadad-8bab-4485-a6b2-db529f4dba7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.3 -0.5)
+		(end 1.3 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6b237a7-004a-478c-9f56-499a0830e3ff")
+	)
+	(fp_line
+		(start -0.356 -0.432)
+		(end 0.356 -0.432)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01838d80-e4c8-4ceb-84d0-845dc394a234")
+	)
+	(fp_line
+		(start -0.356 0.419)
+		(end 0.356 0.419)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6fd5245b-b6af-4c38-8d2c-9d843ab944c7")
+	)
+	(fp_poly
+		(pts
+			(xy -0.840923 -0.4801) (xy -0.3381 -0.4801) (xy -0.3381 0.471427) (xy -0.840923 0.471427)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "c50262f6-7c23-46be-bb0b-1b3456aa6a8d")
+	)
+	(fp_poly
+		(pts
+			(xy 0.331257 -0.4801) (xy 0.8303 -0.4801) (xy 0.8303 0.471405) (xy 0.331257 0.471405)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "3465b1d2-4b6c-48ca-b6d7-6e0590ba1d0a")
+	)
+	(pad "1" smd roundrect
+		(at -0.75 0)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "13ac6145-f2e7-4d1e-8fda-a790537d044e")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 0)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e44d592f-0aa6-4b82-aa01-0df24c340a5d")
+	)
+	(model "${KICAD_AVR_3D}/STEP/LTST-C190KRKT--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

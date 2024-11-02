@@ -1,20 +1,172 @@
-(module MI0603K300R-10 (layer F.Cu) (tedit 5EE84DFE)
-  (fp_text reference REF** (at -3.556 0) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value MI0603K300R-10 (at 0 -1.651) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -0.254 -0.381) (end 0.254 -0.381) (layer F.SilkS) (width 0.1))
-  (fp_line (start 0.254 0.381) (end -0.254 0.381) (layer F.SilkS) (width 0.1))
-  (fp_line (start 0 -0.254) (end 0 0.254) (layer Dwgs.User) (width 0.05))
-  (fp_line (start 0.254 0) (end -0.254 0) (layer Dwgs.User) (width 0.05))
-  (fp_line (start 1.35 0.75) (end -1.35 0.75) (layer Dwgs.User) (width 0.05))
-  (fp_line (start 1.35 -0.75) (end 1.35 0.75) (layer Dwgs.User) (width 0.05))
-  (fp_line (start -1.35 -0.75) (end -1.35 0.75) (layer Dwgs.User) (width 0.05))
-  (fp_line (start -1.35 -0.75) (end 1.35 -0.75) (layer Dwgs.User) (width 0.05))
-  (pad 2 smd roundrect (at 0.7 0) (size 0.8 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-    (solder_mask_margin 0.102))
-  (pad 1 smd roundrect (at -0.7 0) (size 0.8 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-    (solder_mask_margin 0.102))
+(footprint "MI0603K300R-10"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.556 0 0)
+		(layer "F.SilkS")
+		(uuid "6a454bd4-b305-465f-a892-26525ec15fa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MI0603K300R-10"
+		(at 0 -1.651 0)
+		(layer "F.Fab")
+		(uuid "bfb46161-6b10-470e-85fd-0fd0e61db27d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "085978a9-4631-4581-96d7-1c2745a90a76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a968780-ca80-4f78-8565-8ce57268ebcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "347a90b7-d1b5-4f22-b249-db17b9a544f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.254 -0.381)
+		(end 0.254 -0.381)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c971880c-4da7-4424-a431-91e272c4622c")
+	)
+	(fp_line
+		(start 0.254 0.381)
+		(end -0.254 0.381)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff4655f4-2e17-4647-a2ad-f098fe6de012")
+	)
+	(fp_line
+		(start -1.35 -0.75)
+		(end -1.35 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "467947b7-5bb1-4cbe-98dd-fed4cec53c32")
+	)
+	(fp_line
+		(start -1.35 -0.75)
+		(end 1.35 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "819d7282-601d-4e2e-8245-23946fc2206c")
+	)
+	(fp_line
+		(start 0 -0.254)
+		(end 0 0.254)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3ba3c427-e9a8-4e9e-85fd-650e5e0d275e")
+	)
+	(fp_line
+		(start 0.254 0)
+		(end -0.254 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2598f872-634e-45da-9342-1907d3e1d170")
+	)
+	(fp_line
+		(start 1.35 -0.75)
+		(end 1.35 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f2f89252-573c-4a1b-92ea-6fba47d195b8")
+	)
+	(fp_line
+		(start 1.35 0.75)
+		(end -1.35 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "acb7ea47-78df-44b5-9d80-153e411077d2")
+	)
+	(pad "1" smd roundrect
+		(at -0.7 0)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "78cec8e1-52ff-42b1-b935-4e490d6d97e6")
+	)
+	(pad "2" smd roundrect
+		(at 0.7 0)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "f3e0d1e5-e4ff-4bc4-8c80-d8bf76e415db")
+	)
+	(model "${KICAD_AVR_3D}/STEP/CAPC-0603-T0.9-BN.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

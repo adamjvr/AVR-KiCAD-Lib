@@ -1,34 +1,213 @@
-(footprint "C1206" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 57D73A6E)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 4.699) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c5b2efab-1b5b-4f47-909a-2e9728238197)
-  )
-  (fp_text value "C1206" (at 0 -3.429) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6191582b-2cf5-407f-ba9c-6c5528940086)
-  )
-  (fp_line (start -0.635 -0.635) (end 0.635 -0.635) (layer "F.SilkS") (width 0.2) (tstamp a8b2b7f9-4941-479e-84bb-3d3e45d31a7a))
-  (fp_line (start 0.635 0.635) (end -0.635 0.635) (layer "F.SilkS") (width 0.2) (tstamp b9472d98-b533-4088-b05d-43504b0ddc18))
-  (fp_line (start 0 -0.381) (end 0 0.381) (layer "Dwgs.User") (width 0.05) (tstamp 439426bf-4551-466e-b0f9-63219e55c4be))
-  (fp_line (start -2 -1) (end 2 -1) (layer "Dwgs.User") (width 0.05) (tstamp 53f8daf9-4a2f-4fdb-8f96-6dd7fdaf04c6))
-  (fp_line (start -2 1) (end -2 -1) (layer "Dwgs.User") (width 0.05) (tstamp 6ba5aaa1-2360-4c10-892e-6a1e14030d6b))
-  (fp_line (start 0.381 0) (end -0.381 0) (layer "Dwgs.User") (width 0.05) (tstamp 8e0aaa05-1aff-4281-8a6b-5235624ff0b6))
-  (fp_line (start 2 -1) (end 2 1) (layer "Dwgs.User") (width 0.05) (tstamp bb0ba50c-72bc-4a81-8630-b93bc8261735))
-  (fp_line (start 2 1) (end -2 1) (layer "Dwgs.User") (width 0.05) (tstamp d6a5165b-6353-4d07-b38e-5d51c53698be))
-  (fp_line (start -1.675 0.875) (end -1.675 -0.875) (layer "Eco1.User") (width 0.05) (tstamp 12b49cb8-540c-4ca5-bf98-a834bfaf7027))
-  (fp_line (start 1.675 -0.875) (end 1.675 0.875) (layer "Eco1.User") (width 0.05) (tstamp 3605c414-bc2e-4519-a15e-2c357c06fbbc))
-  (fp_line (start -1.675 -0.875) (end 1.675 -0.875) (layer "Eco1.User") (width 0.05) (tstamp 5e7d2a36-d829-4d23-bc2c-a84460f12ecb))
-  (fp_line (start 1.675 0.875) (end -1.675 0.875) (layer "Eco1.User") (width 0.05) (tstamp a607296c-43aa-4898-b6c1-9de9a537b3f0))
-  (pad "1" smd roundrect (at -1.325 0) (size 1.1 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-    (solder_mask_margin 0.102) (tstamp af8b668b-be34-44ee-bcf6-b4c3e067e011))
-  (pad "2" smd roundrect (at 1.325 0) (size 1.1 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-    (solder_mask_margin 0.102) (tstamp 3b9e326a-c52a-4c54-acfb-69267d08d39e))
-  (model "C:/Users/adamv/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/CAPC-1206-T0.95-BN.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C1206"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.699 0)
+		(layer "F.SilkS")
+		(uuid "c5b2efab-1b5b-4f47-909a-2e9728238197")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C1206"
+		(at 0 -3.429 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6191582b-2cf5-407f-ba9c-6c5528940086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d11bcd0-375b-4de5-af56-04f5fe01c95b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a8823d7-73b9-4ab4-8827-8b5b055ce7bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b40973d-3aeb-4c7d-9ce7-e341b5017d16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.635 -0.635)
+		(end 0.635 -0.635)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8b2b7f9-4941-479e-84bb-3d3e45d31a7a")
+	)
+	(fp_line
+		(start 0.635 0.635)
+		(end -0.635 0.635)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9472d98-b533-4088-b05d-43504b0ddc18")
+	)
+	(fp_line
+		(start -2 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "53f8daf9-4a2f-4fdb-8f96-6dd7fdaf04c6")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6ba5aaa1-2360-4c10-892e-6a1e14030d6b")
+	)
+	(fp_line
+		(start 0 -0.381)
+		(end 0 0.381)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "439426bf-4551-466e-b0f9-63219e55c4be")
+	)
+	(fp_line
+		(start 0.381 0)
+		(end -0.381 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8e0aaa05-1aff-4281-8a6b-5235624ff0b6")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bb0ba50c-72bc-4a81-8630-b93bc8261735")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d6a5165b-6353-4d07-b38e-5d51c53698be")
+	)
+	(fp_line
+		(start -1.675 -0.875)
+		(end 1.675 -0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "5e7d2a36-d829-4d23-bc2c-a84460f12ecb")
+	)
+	(fp_line
+		(start -1.675 0.875)
+		(end -1.675 -0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "12b49cb8-540c-4ca5-bf98-a834bfaf7027")
+	)
+	(fp_line
+		(start 1.675 -0.875)
+		(end 1.675 0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "3605c414-bc2e-4519-a15e-2c357c06fbbc")
+	)
+	(fp_line
+		(start 1.675 0.875)
+		(end -1.675 0.875)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "a607296c-43aa-4898-b6c1-9de9a537b3f0")
+	)
+	(pad "1" smd roundrect
+		(at -1.325 0)
+		(size 1.1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "af8b668b-be34-44ee-bcf6-b4c3e067e011")
+	)
+	(pad "2" smd roundrect
+		(at 1.325 0)
+		(size 1.1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "3b9e326a-c52a-4c54-acfb-69267d08d39e")
+	)
+	(model "${KICAD_AVR_3D}/STEP/CAPC-1206-T0.95-BN.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

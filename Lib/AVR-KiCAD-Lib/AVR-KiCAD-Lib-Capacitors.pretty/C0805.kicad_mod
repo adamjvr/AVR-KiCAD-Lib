@@ -1,34 +1,213 @@
-(footprint "C0805" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 57D73A5A)
-  (attr through_hole)
-  (fp_text reference "REF**" (at -4.572 0.127) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 24e93be5-d8ae-4b72-982e-878d2b2ea42c)
-  )
-  (fp_text value "C0805" (at 0 -1.905) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0ec53be6-daa9-4fcc-85a6-66df0329f4da)
-  )
-  (fp_line (start -0.254 -0.635) (end 0.254 -0.635) (layer "F.SilkS") (width 0.1) (tstamp 1144552a-e246-4a75-918f-5a7d39c061a1))
-  (fp_line (start -0.254 0.635) (end 0.254 0.635) (layer "F.SilkS") (width 0.1) (tstamp 34dd214c-2a66-4f6a-bfa8-34d1588bad71))
-  (fp_line (start 1.973 -0.983) (end 1.973 0.991) (layer "Dwgs.User") (width 0.05) (tstamp 235c6f83-365c-4bb8-8194-1ce062225eb1))
-  (fp_line (start 0 -0.254) (end 0 0.254) (layer "Dwgs.User") (width 0.05) (tstamp 23c78a31-3ed1-49e3-9925-c415e30dd5b3))
-  (fp_line (start 1.973 0.991) (end -1.973 0.991) (layer "Dwgs.User") (width 0.05) (tstamp 947ddf9f-207e-4227-b8f1-71c3a4e9f23d))
-  (fp_line (start -1.973 -0.983) (end 1.973 -0.983) (layer "Dwgs.User") (width 0.05) (tstamp aa92ee73-81ff-4179-9632-d6a2e8a410f6))
-  (fp_line (start 0.254 0) (end -0.254 0) (layer "Dwgs.User") (width 0.05) (tstamp b6a84595-c051-4c0e-9883-8bed8beb5096))
-  (fp_line (start -1.973 -0.983) (end -1.973 0.991) (layer "Dwgs.User") (width 0.05) (tstamp e507cd79-aa40-4e26-9a2c-72ed2c3608e1))
-  (fp_line (start -1 -0.635) (end 1 -0.635) (layer "Eco1.User") (width 0.05) (tstamp 653f75a6-0751-4d3b-9141-b1010d338cf0))
-  (fp_line (start 1 -0.635) (end 1 0.635) (layer "Eco1.User") (width 0.05) (tstamp abb63d21-3588-47d0-b8db-8630799e2919))
-  (fp_line (start -1 0.635) (end -1 -0.635) (layer "Eco1.User") (width 0.05) (tstamp acc9a547-c4f2-43a0-a128-fe57bbb601b0))
-  (fp_line (start 1 0.635) (end -1 0.635) (layer "Eco1.User") (width 0.05) (tstamp c45157b2-5b5e-433d-9b6e-3cea98fe40d3))
-  (pad "1" smd roundrect (at -0.95 0) (size 1.321 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-    (solder_mask_margin 0.102) (tstamp ad465b68-3734-42b7-b4fd-3f1fa68e4503))
-  (pad "2" smd roundrect (at 0.95 0) (size 1.321 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-    (solder_mask_margin 0.102) (tstamp 1a4c282a-60f6-4654-b490-5cf65cf518f8))
-  (model "C:/Users/adamv/Documents/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/CAPC-0805-T0.7-BN.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.572 0.127 0)
+		(layer "F.SilkS")
+		(uuid "24e93be5-d8ae-4b72-982e-878d2b2ea42c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C0805"
+		(at 0 -1.905 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ec53be6-daa9-4fcc-85a6-66df0329f4da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93b00fd6-9a87-4434-89e8-30cb2bcd4db1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0115d076-e728-4d1e-af21-5721dc969c0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbbbe94c-23f2-4b0b-a9b7-f81f795b7120")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.254 -0.635)
+		(end 0.254 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1144552a-e246-4a75-918f-5a7d39c061a1")
+	)
+	(fp_line
+		(start -0.254 0.635)
+		(end 0.254 0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34dd214c-2a66-4f6a-bfa8-34d1588bad71")
+	)
+	(fp_line
+		(start -1.973 -0.983)
+		(end -1.973 0.991)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e507cd79-aa40-4e26-9a2c-72ed2c3608e1")
+	)
+	(fp_line
+		(start -1.973 -0.983)
+		(end 1.973 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "aa92ee73-81ff-4179-9632-d6a2e8a410f6")
+	)
+	(fp_line
+		(start 0 -0.254)
+		(end 0 0.254)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "23c78a31-3ed1-49e3-9925-c415e30dd5b3")
+	)
+	(fp_line
+		(start 0.254 0)
+		(end -0.254 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b6a84595-c051-4c0e-9883-8bed8beb5096")
+	)
+	(fp_line
+		(start 1.973 -0.983)
+		(end 1.973 0.991)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "235c6f83-365c-4bb8-8194-1ce062225eb1")
+	)
+	(fp_line
+		(start 1.973 0.991)
+		(end -1.973 0.991)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "947ddf9f-207e-4227-b8f1-71c3a4e9f23d")
+	)
+	(fp_line
+		(start -1 -0.635)
+		(end 1 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "653f75a6-0751-4d3b-9141-b1010d338cf0")
+	)
+	(fp_line
+		(start -1 0.635)
+		(end -1 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "acc9a547-c4f2-43a0-a128-fe57bbb601b0")
+	)
+	(fp_line
+		(start 1 -0.635)
+		(end 1 0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "abb63d21-3588-47d0-b8db-8630799e2919")
+	)
+	(fp_line
+		(start 1 0.635)
+		(end -1 0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "c45157b2-5b5e-433d-9b6e-3cea98fe40d3")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 1.321 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "ad465b68-3734-42b7-b4fd-3f1fa68e4503")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 1.321 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "1a4c282a-60f6-4654-b490-5cf65cf518f8")
+	)
+	(model "${KICAD_AVR_3D}/STEP/CAPC-0805-T0.7-BN.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
