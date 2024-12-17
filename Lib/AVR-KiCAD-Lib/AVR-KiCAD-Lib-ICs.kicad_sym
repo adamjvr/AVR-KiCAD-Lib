@@ -24537,6 +24537,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -2.54 7.62 0)
+				(length 2.54)
+				(name "GND_PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 27.94 10.16 180)
 				(length 2.54)
@@ -24609,10 +24627,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin input line
 				(at -2.54 22.86 0)
 				(length 2.54)
-				(name "NC"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
