@@ -11,4 +11,5 @@
   (lib (name "AVR-KiCAD-Lib-Transistors")(type "Legacy")(uri "${AVR_KICAD_LIB}/AVR-KiCAD-Lib-Transistors.lib")(options "")(descr ""))
   (lib (name "AVR-KiCAD-Lib-Transformers")(type "KiCad")(uri "${KIPRJMOD}/AVR-KiCAD-Lib-Transformers.kicad_sym")(options "")(descr ""))
   (lib (name "AVR-KiCAD-Lib-Fuse-Holders")(type "KiCad")(uri "${KIPRJMOD}/AVR-KiCAD-Lib-Fuse-Holders.kicad_sym")(options "")(descr ""))
+  (lib (name "AVR-KiCAD-Lib-Audio-Capacitors")(type "KiCad")(uri "${KIPRJMOD}/AVR-KiCAD-Lib-Audio-Capacitors.kicad_sym")(options "")(descr ""))
 )
