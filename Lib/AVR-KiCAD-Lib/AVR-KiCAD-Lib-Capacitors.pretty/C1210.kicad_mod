@@ -1,7 +1,7 @@
 (footprint "C1210"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.1 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "05f4879d-df3b-44d6-9f1d-88922b4650fc")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -145,17 +133,18 @@
 	(pad "1" smd roundrect
 		(at -1.6 0 180)
 		(size 1.2 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "720cf93b-a6d8-48c3-942d-2b3e5b780583")
 	)
 	(pad "2" smd roundrect
 		(at 1.6 0 180)
 		(size 1.2 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e42967ae-c38a-42e6-82a9-14624ce74520")
 	)
+	(embedded_fonts no)
 	(model "C:/Users/adam/Documents/GitHub/footprints/3D/STEP/C1210.step"
 		(offset
 			(xyz -1.749999974 -0.799999988 0)

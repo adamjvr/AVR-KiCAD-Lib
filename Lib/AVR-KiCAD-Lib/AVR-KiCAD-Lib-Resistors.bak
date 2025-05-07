@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "AC0402FR-07120RL"
 		(pin_names
 			(offset 1.016)
@@ -43,8 +43,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,25 +267,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "AC0402FR-07120RL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "AC0402FR-07120RL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -297,7 +306,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -309,7 +318,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -321,7 +330,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -366,6 +375,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AC0402FR-07220KL"
 		(pin_names
@@ -408,8 +418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -632,25 +642,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "AC0402FR-07220KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "220 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "AC0402FR-07220KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -662,7 +681,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -674,7 +693,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -686,7 +705,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -731,6 +750,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AC0402FR-07470KL"
 		(pin_names
@@ -773,8 +793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "470 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,25 +1017,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "AC0402FR-07470KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "470 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "AC0402FR-07470KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1027,7 +1056,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1039,7 +1068,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1051,7 +1080,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1096,6 +1125,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AT0603FRE0710KL"
 		(pin_names
@@ -1138,8 +1168,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,6 +1393,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 10K OHM 1% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "AT0603FRE0710KL_1_1"
 			(polyline
 				(pts
@@ -1371,7 +1410,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1414,6 +1453,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CRCW0402294KFKED"
 		(pin_names
@@ -1456,8 +1496,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "294 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,6 +1711,15 @@
 				)
 			)
 		)
+		(property "Description_1" "294 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -1681,24 +1730,24 @@
 			)
 		)
 		(symbol "CRCW0402294KFKED_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1710,7 +1759,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1722,7 +1771,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1734,7 +1783,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1779,6 +1828,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ERA-3AEB3741V"
 		(pin_names
@@ -1821,8 +1871,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,25 +2095,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "ERA-3AEB3741V_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "3.74 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "ERA-3AEB3741V_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2075,7 +2134,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2087,7 +2146,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2099,7 +2158,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2144,371 +2203,7 @@
 				)
 			)
 		)
-	)
-	(symbol "ERA-6AEB1782V"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ERA-6AEB1782V"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "17.8 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "*"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "*"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Panasonic Electronic Components"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "ERA-6AEB1782V"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "10-ERA-6AEB1782VTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "10/12/2022"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "10/12/2022"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "0.1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Metal Film Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "17.8K"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "ERA-6AEB1782V_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "ERA-6AEB1782V_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "ERJ-3GEYK226V"
 		(pin_names
@@ -2551,8 +2246,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 22M OHM 10% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,6 +2471,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 22M OHM 10% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ERJ-3GEYK226V_1_1"
 			(polyline
 				(pts
@@ -2784,7 +2488,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2827,6 +2531,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07100KL"
 		(pin_names
@@ -2869,8 +2574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,25 +2798,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-07100KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-07100KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3123,7 +2837,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3135,7 +2849,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3147,7 +2861,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3192,6 +2906,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0710KL"
 		(pin_names
@@ -3234,8 +2949,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,25 +3173,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-0710KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-0710KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3488,7 +3212,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3500,7 +3224,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3512,7 +3236,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3557,6 +3281,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0710ML"
 		(pin_names
@@ -3599,8 +3324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 MOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,25 +3548,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-0710ML_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "10 MOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-0710ML_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3853,7 +3587,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3865,7 +3599,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3877,7 +3611,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3922,6 +3656,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07120KL"
 		(pin_names
@@ -3964,8 +3699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "120 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,25 +3923,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-07120KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "120 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-07120KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4218,7 +3962,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4230,7 +3974,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4242,7 +3986,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4287,6 +4031,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0717K4L"
 		(pin_names
@@ -4329,8 +4074,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "17.4 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,25 +4298,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-0717K4L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "17.4 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-0717K4L_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4583,7 +4337,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4595,7 +4349,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4607,7 +4361,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4652,6 +4406,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-071KL"
 		(pin_names
@@ -4694,8 +4449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,25 +4673,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-071KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-071KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4948,7 +4712,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4960,7 +4724,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4972,7 +4736,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5017,6 +4781,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-071ML"
 		(pin_names
@@ -5059,8 +4824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 MOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,25 +5048,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-071ML_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "1 MOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-071ML_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5313,7 +5087,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5325,7 +5099,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5337,7 +5111,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5382,6 +5156,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07200KL"
 		(pin_names
@@ -5424,8 +5199,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 200K OHM 1% 1/16W 0402"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,6 +5414,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 200K OHM 1% 1/16W 0402"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -5649,24 +5433,24 @@
 			)
 		)
 		(symbol "RC0402FR-07200KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5678,7 +5462,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5690,7 +5474,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5702,7 +5486,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5747,6 +5531,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07220RL"
 		(pin_names
@@ -5789,8 +5574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,25 +5798,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-07220RL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "220 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-07220RL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6043,7 +5837,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6055,7 +5849,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6067,7 +5861,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6112,6 +5906,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0722K1L"
 		(pin_names
@@ -6154,8 +5949,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 22.1K OHM 1% 1/16W 0402"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,6 +6164,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 22.1K OHM 1% 1/16W 0402"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -6379,24 +6183,24 @@
 			)
 		)
 		(symbol "RC0402FR-0722K1L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6408,7 +6212,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6420,7 +6224,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6432,7 +6236,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6477,6 +6281,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0722RL"
 		(pin_names
@@ -6519,8 +6324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,6 +6539,15 @@
 				)
 			)
 		)
+		(property "Description_1" "22 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -6744,24 +6558,24 @@
 			)
 		)
 		(symbol "RC0402FR-0722RL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6773,7 +6587,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6785,7 +6599,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6797,7 +6611,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6842,6 +6656,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07240RL"
 		(pin_names
@@ -6884,8 +6699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "240 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,25 +6923,34 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "240 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC0402FR-07240RL_1_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7138,7 +6962,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7150,7 +6974,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7162,7 +6986,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7205,371 +7029,7 @@
 				)
 			)
 		)
-	)
-	(symbol "RC0402FR-072K2L"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0402FR-072K2L"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0402"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00417"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00297"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00261"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0402FR-072K2L"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-2.20KLRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "3/8/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "3/8/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "N/A"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "2.2K"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0402FR-072K2L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0402FR-072K2L_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-072KL"
 		(pin_names
@@ -7612,8 +7072,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,6 +7287,15 @@
 				)
 			)
 		)
+		(property "Description_1" "2 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -7837,24 +7306,24 @@
 			)
 		)
 		(symbol "RC0402FR-072KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7866,7 +7335,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7878,7 +7347,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7890,7 +7359,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7935,6 +7404,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0733RL"
 		(pin_names
@@ -7977,8 +7447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,25 +7671,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-0733RL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-0733RL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8231,7 +7710,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8243,7 +7722,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8255,7 +7734,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8300,6 +7779,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07412KL"
 		(pin_names
@@ -8342,8 +7822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "412 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,6 +8037,15 @@
 				)
 			)
 		)
+		(property "Description_1" "412 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -8567,24 +8056,24 @@
 			)
 		)
 		(symbol "RC0402FR-07412KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8596,7 +8085,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8608,7 +8097,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8620,7 +8109,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8665,6 +8154,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07487RL"
 		(pin_names
@@ -8707,8 +8197,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "487 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,25 +8421,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-07487RL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "487 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-07487RL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8961,7 +8460,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8973,7 +8472,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8985,7 +8484,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9030,6 +8529,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-074K7L"
 		(pin_names
@@ -9072,8 +8572,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,25 +8796,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0402FR-074K7L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0402FR-074K7L_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9326,7 +8835,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9338,7 +8847,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9350,7 +8859,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9395,6 +8904,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0751KL"
 		(pin_names
@@ -9437,8 +8947,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "51 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,6 +9162,15 @@
 				)
 			)
 		)
+		(property "Description_1" "51 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -9662,24 +9181,24 @@
 			)
 		)
 		(symbol "RC0402FR-0751KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9691,7 +9210,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9703,7 +9222,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9715,7 +9234,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9760,371 +9279,7 @@
 				)
 			)
 		)
-	)
-	(symbol "RC0402FR-075K1L"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0402FR-075K1L"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0402"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00417"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00297"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0402FR-075K1L"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-5.10KLRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "10/2/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "10/2/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "N/A"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "5.1k"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0402FR-075K1L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0402FR-075K1L_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-07750KL"
 		(pin_names
@@ -10167,8 +9322,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "750 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,6 +9537,15 @@
 				)
 			)
 		)
+		(property "Description_1" "750 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -10392,24 +9556,24 @@
 			)
 		)
 		(symbol "RC0402FR-07750KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10421,7 +9585,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10433,7 +9597,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10445,7 +9609,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10490,6 +9654,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0402FR-0788K7L"
 		(pin_names
@@ -10532,8 +9697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "88.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,6 +9912,15 @@
 				)
 			)
 		)
+		(property "Description_1" "88.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -10757,24 +9931,24 @@
 			)
 		)
 		(symbol "RC0402FR-0788K7L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10786,7 +9960,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10798,7 +9972,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10810,7 +9984,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10855,6 +10029,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-07100KL"
 		(pin_names
@@ -10897,8 +10072,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100K OHM 1% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,6 +10297,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 100K OHM 1% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC0603FR-07100KL_1_1"
 			(polyline
 				(pts
@@ -11130,7 +10314,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11173,6 +10357,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-0715KL"
 		(pin_names
@@ -11215,8 +10400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "15 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,6 +10615,15 @@
 				)
 			)
 		)
+		(property "Description_1" "15 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -11440,24 +10634,24 @@
 			)
 		)
 		(symbol "RC0603FR-0715KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11469,7 +10663,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11481,7 +10675,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11493,7 +10687,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11538,6 +10732,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-0718KL"
 		(pin_names
@@ -11580,8 +10775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "18 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11804,25 +10999,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0603FR-0718KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "18 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0603FR-0718KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11834,7 +11038,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11846,7 +11050,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11858,7 +11062,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11903,6 +11107,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-071KL"
 		(pin_names
@@ -11945,8 +11150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 1% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,6 +11375,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 1K OHM 1% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC0603FR-071KL_1_1"
 			(polyline
 				(pts
@@ -12178,7 +11392,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -12221,371 +11435,7 @@
 				)
 			)
 		)
-	)
-	(symbol "RC0603FR-072K2L"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0603FR-072K2L"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0603"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00532"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00382"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00335"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0603FR-072K2L"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-2.20KHRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "3/8/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "3/8/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor "
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "N/A"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "2.2K"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0603FR-072K2L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0603FR-072K2L_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-072K7L"
 		(pin_names
@@ -12628,8 +11478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2.7K OHM 1% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12853,6 +11703,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 2.7K OHM 1% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC0603FR-072K7L_1_1"
 			(polyline
 				(pts
@@ -12861,7 +11720,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -12904,6 +11763,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-07470RL"
 		(pin_names
@@ -12946,8 +11806,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 470 OHM 1% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,6 +12031,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 470 OHM 1% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC0603FR-07470RL_1_1"
 			(polyline
 				(pts
@@ -13179,7 +12048,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13222,6 +12091,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-0747KL"
 		(pin_names
@@ -13264,8 +12134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,6 +12349,15 @@
 				)
 			)
 		)
+		(property "Description_1" "47 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -13489,24 +12368,24 @@
 			)
 		)
 		(symbol "RC0603FR-0747KL_1_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13518,7 +12397,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13530,7 +12409,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13542,7 +12421,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13585,6 +12464,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-074K7P"
 		(pin_names
@@ -13627,8 +12507,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13851,25 +12731,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0603FR-074K7P_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RC0603FR-074K7P_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13881,7 +12770,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13893,7 +12782,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13905,7 +12794,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13950,6 +12839,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-0751KL"
 		(pin_names
@@ -13992,8 +12882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "51 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14207,6 +13097,15 @@
 				)
 			)
 		)
+		(property "Description_1" "51 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -14217,24 +13116,24 @@
 			)
 		)
 		(symbol "RC0603FR-0751KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14246,7 +13145,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14258,7 +13157,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14270,7 +13169,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14315,6 +13214,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603FR-0756KL"
 		(pin_names
@@ -14357,8 +13257,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 56K OHM 1% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14582,6 +13482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 56K OHM 1% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC0603FR-0756KL_1_1"
 			(polyline
 				(pts
@@ -14590,7 +13499,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14633,6 +13542,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC0603JR-0710ML"
 		(pin_names
@@ -14675,8 +13585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10M OHM 5% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14899,6 +13809,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 10M OHM 5% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC0603JR-0710ML_1_1"
 			(polyline
 				(pts
@@ -14907,7 +13826,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14950,8 +13869,9 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "RC0603JR-07270RL"
+	(symbol "RC0805FR-7W100KL"
 		(pin_names
 			(offset 1.016)
 		)
@@ -14966,372 +13886,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0603JR-07270RL"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0603"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 270 OHM 5% 1/10W 0603"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00415"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00298"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00262"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0603JR-07270RL"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-270GRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "9/26/2023"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "9/26/2023"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "N/A"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "270"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0603JR-07270RL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0603JR-07270RL_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "RC0805FR-07100KL"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-07100KL"
+		(property "Value" "RC0805FR-7W100KL"
 			(at 1.27 5.08 0)
 			(effects
 				(font
@@ -15357,8 +13912,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15366,7 +13921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1" "0.10000"
+		(property "Cost QTY: 1" "0.11000"
 			(at 2.54 6.35 0)
 			(effects
 				(font
@@ -15375,7 +13930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1000" "0.00787"
+		(property "Cost QTY: 1000" "0.03162"
 			(at 5.08 8.89 0)
 			(effects
 				(font
@@ -15393,7 +13948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 5000" "0.00577"
+		(property "Cost QTY: 5000" "0.02346"
 			(at 10.16 13.97 0)
 			(effects
 				(font
@@ -15402,7 +13957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 10000" "0.00511"
+		(property "Cost QTY: 10000" "0.01632"
 			(at 12.7 16.51 0)
 			(effects
 				(font
@@ -15411,7 +13966,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "YAGEO"
+		(property "MFR" "Yageo"
 			(at 15.24 19.05 0)
 			(effects
 				(font
@@ -15420,7 +13975,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR#" "RC0805FR-07100KL"
+		(property "MFR#" "RC0805FR-7W100KL"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -15438,7 +13993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor #" "311-100KCRTR-ND"
+		(property "Vendor #" "13-RC0805FR-7W100KLDKR-ND"
 			(at 22.86 26.67 0)
 			(effects
 				(font
@@ -15447,7 +14002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Designer" "AVR"
+		(property "Designer" "Adam Vadala-Roth"
 			(at 25.4 29.21 0)
 			(effects
 				(font
@@ -15465,7 +14020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Date Created" "2/27/2024"
+		(property "Date Created" "4/27/2025"
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -15474,7 +14029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Date Modified" "2/27/2024"
+		(property "Date Modified" "4/27/2025"
 			(at 30.48 34.29 0)
 			(effects
 				(font
@@ -15581,25 +14136,25 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0805FR-07100KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
+		(symbol "RC0805FR-7W100KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15611,7 +14166,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15623,7 +14178,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15635,14 +14190,14 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
 				)
 			)
 		)
-		(symbol "RC0805FR-07100KL_1_1"
+		(symbol "RC0805FR-7W100KL_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.5146)
@@ -15680,8 +14235,9 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "RC0805FR-0710KL"
+	(symbol "RC0805FR-7W10KL"
 		(pin_names
 			(offset 1.016)
 		)
@@ -15696,7 +14252,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0805FR-0710KL"
+		(property "Value" "RC0805FR-7W10KL"
 			(at 1.27 5.08 0)
 			(effects
 				(font
@@ -15722,8 +14278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,7 +14287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1" "0.10000"
+		(property "Cost QTY: 1" "0.16000"
 			(at 2.54 6.35 0)
 			(effects
 				(font
@@ -15740,7 +14296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1000" "0.00844"
+		(property "Cost QTY: 1000" "0.02908"
 			(at 5.08 8.89 0)
 			(effects
 				(font
@@ -15749,7 +14305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 2500" "*"
+		(property "Cost QTY: 2500" "0.02554"
 			(at 7.62 11.43 0)
 			(effects
 				(font
@@ -15758,7 +14314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 5000" "0.00621"
+		(property "Cost QTY: 5000" "0.02349"
 			(at 10.16 13.97 0)
 			(effects
 				(font
@@ -15767,7 +14323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 10000" "0.00551"
+		(property "Cost QTY: 10000" "0.02187"
 			(at 12.7 16.51 0)
 			(effects
 				(font
@@ -15785,7 +14341,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR#" "RC0805FR-0710KL"
+		(property "MFR#" "RC0805FR-7W10KL"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -15803,7 +14359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor #" "311-10.0KCRTR-ND"
+		(property "Vendor #" "13-RC0805FR-7W10KLDKR-ND"
 			(at 22.86 26.67 0)
 			(effects
 				(font
@@ -15812,7 +14368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Designer" "AVR"
+		(property "Designer" "Adam Vadala-Roth"
 			(at 25.4 29.21 0)
 			(effects
 				(font
@@ -15830,7 +14386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Date Created" "2/27/2024"
+		(property "Date Created" "4/27/2025"
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -15839,7 +14395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Date Modified" "2/27/2024"
+		(property "Date Modified" "4/27/2025"
 			(at 30.48 34.29 0)
 			(effects
 				(font
@@ -15946,25 +14502,25 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0805FR-0710KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
+		(symbol "RC0805FR-7W10KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15976,7 +14532,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15988,7 +14544,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16000,14 +14556,14 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
 				)
 			)
 		)
-		(symbol "RC0805FR-0710KL_1_1"
+		(symbol "RC0805FR-7W10KL_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.5146)
@@ -16045,2926 +14601,7 @@
 				)
 			)
 		)
-	)
-	(symbol "RC0805FR-0710RL"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-0710RL"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.01462"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.01099"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00983"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0805FR-0710RL"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-10.0CRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "7/14/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "7/14/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "10r"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0805FR-0710RL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0805FR-0710RL_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "RC0805FR-07180KL"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-07180KL"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "180 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00787"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00577"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00511"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0805FR-07180KL"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-180KCRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "2/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "2/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "180k"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0805FR-07180KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0805FR-07180KL_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "RC0805FR-071K96L"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-071K96L"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.96 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00787"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00577"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00511"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0805FR-071K96L"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-1.96KCRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "3/12/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "3/12/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "N/A"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "1.96K"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0805FR-071K96L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0805FR-071K96L_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "RC0805FR-072K2L"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-072K2L"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00787"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00577"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00511"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0805FR-072K2L"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-2.20KCRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "2/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "2/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "2.2k"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0805FR-072K2L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0805FR-072K2L_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "RC0805FR-072K7L"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-072K7L"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.7 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00844"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00621"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00551"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0805FR-072K7L"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-2.70KCRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "2/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "2/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "2.7k"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0805FR-072K7L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0805FR-072K7L_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "RC0805FR-0747KL"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-0747KL"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "47 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00787"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00577"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00511"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0805FR-0747KL"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-47.0KCRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "2/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "2/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "47k"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0805FR-0747KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0805FR-0747KL_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "RC0805FR-074K7L"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-074K7L"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00787"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00577"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00511"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0805FR-074K7L"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-2.70KCRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "2/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "2/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "4.7k"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0805FR-074K7L_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0805FR-074K7L_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "RC0805FR-07750RL"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0805FR-07750RL"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00787"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.00577"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.00511"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RC0805FR-07750RL"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-750CRTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "2/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "2/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "750r"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RC0805FR-07750RL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RC0805FR-07750RL_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07100KL"
 		(pin_names
@@ -19007,8 +14644,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19231,6 +14868,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 100K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-07100KL_1_1"
 			(polyline
 				(pts
@@ -19239,7 +14885,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19282,6 +14928,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07100RL"
 		(pin_names
@@ -19324,8 +14971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 100 OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19548,6 +15195,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 100 OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-07100RL_1_1"
 			(polyline
 				(pts
@@ -19556,7 +15212,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19599,6 +15255,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0710KL"
 		(pin_names
@@ -19641,8 +15298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19865,6 +15522,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 10K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0710KL_1_1"
 			(polyline
 				(pts
@@ -19873,7 +15539,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19916,6 +15582,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0710ML"
 		(pin_names
@@ -19958,8 +15625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10M OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20182,6 +15849,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 10M OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0710ML_1_1"
 			(polyline
 				(pts
@@ -20190,7 +15866,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20233,6 +15909,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0715KL"
 		(pin_names
@@ -20275,8 +15952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 15K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20500,6 +16177,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 15K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0715KL_1_1"
 			(polyline
 				(pts
@@ -20508,7 +16194,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20551,6 +16237,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07180KL"
 		(pin_names
@@ -20593,8 +16280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 180K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20808,6 +16495,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 180K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -20825,7 +16521,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20868,6 +16564,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-071K6L"
 		(pin_names
@@ -20910,8 +16607,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1.6K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21134,6 +16831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 1.6K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-071K6L_1_1"
 			(polyline
 				(pts
@@ -21142,7 +16848,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21185,6 +16891,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-071K8L"
 		(pin_names
@@ -21227,8 +16934,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1.8K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21451,6 +17158,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 1.8K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-071K8L_1_1"
 			(polyline
 				(pts
@@ -21459,7 +17175,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21502,6 +17218,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-071KL"
 		(pin_names
@@ -21544,8 +17261,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21768,6 +17485,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 1K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-071KL_1_1"
 			(polyline
 				(pts
@@ -21776,7 +17502,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21819,6 +17545,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-071ML"
 		(pin_names
@@ -21861,8 +17588,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1M OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22085,6 +17812,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 1M OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-071ML_1_1"
 			(polyline
 				(pts
@@ -22093,7 +17829,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22136,6 +17872,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0720KL"
 		(pin_names
@@ -22178,8 +17915,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 20K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22402,6 +18139,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 20K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0720KL_1_1"
 			(polyline
 				(pts
@@ -22410,7 +18156,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22453,6 +18199,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07220KL"
 		(pin_names
@@ -22495,8 +18242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 220K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22719,6 +18466,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 220K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-07220KL_1_1"
 			(polyline
 				(pts
@@ -22727,7 +18483,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22770,6 +18526,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07220RL"
 		(pin_names
@@ -22812,8 +18569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 220 OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23036,6 +18793,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 220 OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-07220RL_1_1"
 			(polyline
 				(pts
@@ -23044,7 +18810,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -23087,6 +18853,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0722KL"
 		(pin_names
@@ -23129,8 +18896,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 22K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23353,6 +19120,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 22K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0722KL_1_1"
 			(polyline
 				(pts
@@ -23361,7 +19137,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -23404,6 +19180,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-072K2L"
 		(pin_names
@@ -23446,8 +19223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "	RES SMD 2.2K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23670,6 +19447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "	RES SMD 2.2K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-072K2L_1_1"
 			(polyline
 				(pts
@@ -23678,7 +19464,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -23721,6 +19507,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-072K7L"
 		(pin_names
@@ -23763,8 +19550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2.7K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23987,6 +19774,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 2.7K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-072K7L_1_1"
 			(polyline
 				(pts
@@ -23995,7 +19791,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24038,6 +19834,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-072KL"
 		(pin_names
@@ -24080,8 +19877,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24304,6 +20101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 2K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-072KL_1_1"
 			(polyline
 				(pts
@@ -24312,7 +20118,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24355,6 +20161,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-072M7L"
 		(pin_names
@@ -24397,8 +20204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2.7M OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24612,6 +20419,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 2.7M OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -24629,7 +20445,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24672,6 +20488,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07330KL"
 		(pin_names
@@ -24714,8 +20531,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 330K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24929,6 +20746,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 330K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -24946,7 +20772,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24989,6 +20815,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0733KL"
 		(pin_names
@@ -25031,8 +20858,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 33K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25255,6 +21082,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 33K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0733KL_1_1"
 			(polyline
 				(pts
@@ -25263,7 +21099,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25306,6 +21142,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07390RL"
 		(pin_names
@@ -25348,8 +21185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 390 OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25572,6 +21409,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 390 OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-07390RL_1_1"
 			(polyline
 				(pts
@@ -25580,7 +21426,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25623,6 +21469,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0739KL"
 		(pin_names
@@ -25665,8 +21512,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 39K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25889,6 +21736,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 39K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0739KL_1_1"
 			(polyline
 				(pts
@@ -25897,7 +21753,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25940,6 +21796,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-073K3L"
 		(pin_names
@@ -25982,8 +21839,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 3.3K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26197,6 +22054,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 3.3K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -26214,7 +22080,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26257,6 +22123,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-073K9L"
 		(pin_names
@@ -26299,8 +22166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 3.9K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26514,6 +22381,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 3.9K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -26531,7 +22407,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26574,6 +22450,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-073M3L"
 		(pin_names
@@ -26616,8 +22493,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 3.3M OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26840,6 +22717,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 3.3M OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-073M3L_1_1"
 			(polyline
 				(pts
@@ -26848,7 +22734,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26891,6 +22777,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07470KL"
 		(pin_names
@@ -26933,8 +22820,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 470K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27157,6 +23044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 470K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-07470KL_1_1"
 			(polyline
 				(pts
@@ -27165,7 +23061,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27208,6 +23104,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07470RL"
 		(pin_names
@@ -27250,8 +23147,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 470 OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27474,6 +23371,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 470 OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-07470RL_1_1"
 			(polyline
 				(pts
@@ -27482,7 +23388,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27525,6 +23431,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0747KL"
 		(pin_names
@@ -27567,8 +23474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27791,6 +23698,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 47K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0747KL_1_1"
 			(polyline
 				(pts
@@ -27799,7 +23715,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27842,6 +23758,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0747RL"
 		(pin_names
@@ -27884,8 +23801,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 47 OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28108,6 +24025,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 47 OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0747RL_1_1"
 			(polyline
 				(pts
@@ -28116,7 +24042,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28159,6 +24085,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-074K7L"
 		(pin_names
@@ -28201,8 +24128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28425,6 +24352,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-074K7L_1_1"
 			(polyline
 				(pts
@@ -28433,7 +24369,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28476,6 +24412,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-07510KL"
 		(pin_names
@@ -28518,8 +24455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 510K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28742,6 +24679,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 510K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-07510KL_1_1"
 			(polyline
 				(pts
@@ -28750,7 +24696,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28793,6 +24739,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0756KL"
 		(pin_names
@@ -28835,8 +24782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 56K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29059,6 +25006,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 56K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0756KL_1_1"
 			(polyline
 				(pts
@@ -29067,7 +25023,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29110,6 +25066,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-075K1L"
 		(pin_names
@@ -29152,8 +25109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 5.1K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29376,6 +25333,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 5.1K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-075K1L_1_1"
 			(polyline
 				(pts
@@ -29384,7 +25350,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29427,6 +25393,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-075K6L"
 		(pin_names
@@ -29469,8 +25436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 5.6K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29684,6 +25651,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 5.6K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -29701,7 +25677,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29744,6 +25720,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-0768KL"
 		(pin_names
@@ -29786,8 +25763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 68K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30010,6 +25987,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 68K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-0768KL_1_1"
 			(polyline
 				(pts
@@ -30018,7 +26004,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30061,6 +26047,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-076K2L"
 		(pin_names
@@ -30103,8 +26090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 6.2K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30327,6 +26314,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 6.2K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-076K2L_1_1"
 			(polyline
 				(pts
@@ -30335,7 +26331,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30378,6 +26374,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-076K8L"
 		(pin_names
@@ -30420,8 +26417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 6.8K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30644,6 +26641,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 6.8K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-076K8L_1_1"
 			(polyline
 				(pts
@@ -30652,7 +26658,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30695,6 +26701,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206FR-078K2L"
 		(pin_names
@@ -30737,8 +26744,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 8.2K OHM 1% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30961,6 +26968,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 8.2K OHM 1% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206FR-078K2L_1_1"
 			(polyline
 				(pts
@@ -30969,7 +26985,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31012,6 +27028,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206JR-072K2L"
 		(pin_names
@@ -31054,8 +27071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2.2K OHM 5% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31269,6 +27286,15 @@
 				)
 			)
 		)
+		(property "Description_1" "RES SMD 2.2K OHM 5% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -31286,7 +27312,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31329,6 +27355,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RC1206JR-072M2L"
 		(pin_names
@@ -31371,8 +27398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 2.2M OHM 5% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31595,6 +27622,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 2.2M OHM 5% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RC1206JR-072M2L_1_1"
 			(polyline
 				(pts
@@ -31603,7 +27639,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31646,8 +27682,9 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "RMCF0603FT2K61"
+	(symbol "RNCP0805FTD1K00"
 		(pin_names
 			(offset 1.016)
 		)
@@ -31662,7 +27699,7 @@
 				)
 			)
 		)
-		(property "Value" "RMCF0603FT2K61"
+		(property "Value" "RNCP0805FTD1K00"
 			(at 1.27 5.08 0)
 			(effects
 				(font
@@ -31670,7 +27707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0603"
+		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31679,8 +27716,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 57.15 69.85 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31688,8 +27725,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.61 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 60.96 66.04 0)
+		(property "Description" "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31706,7 +27743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 1000" "0.00404"
+		(property "Cost QTY: 1000" "0.01006"
 			(at 5.08 8.89 0)
 			(effects
 				(font
@@ -31724,7 +27761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 5000" "0.00288"
+		(property "Cost QTY: 5000" "0.00916"
 			(at 10.16 13.97 0)
 			(effects
 				(font
@@ -31733,7 +27770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Cost QTY: 10000" "0.00253"
+		(property "Cost QTY: 10000" "0.00844"
 			(at 12.7 16.51 0)
 			(effects
 				(font
@@ -31751,7 +27788,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR#" "RMCF0603FT2K61"
+		(property "MFR#" "RNCP0805FTD1K00"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -31769,7 +27806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor #" "RMCF0603FT2K61TR-ND"
+		(property "Vendor #" "RNCP0805FTD1K00DKR-ND"
 			(at 22.86 26.67 0)
 			(effects
 				(font
@@ -31787,7 +27824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55mm"
+		(property "Height" "0.65mm"
 			(at 27.94 31.75 0)
 			(effects
 				(font
@@ -31796,7 +27833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Date Created" "10/3/2023"
+		(property "Date Created" "4/22/2025"
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -31805,7 +27842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Date Modified" "10/3/2023"
+		(property "Date Modified" "4/22/2025"
 			(at 30.48 34.29 0)
 			(effects
 				(font
@@ -31877,7 +27914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "N/A"
+		(property "Voltage" "*"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -31886,7 +27923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0805"
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -31895,7 +27932,7 @@
 				(hide yes)
 			)
 		)
-		(property "_Value_" "2.61K"
+		(property "_Value_" "1K"
 			(at 58.42 63.5 0)
 			(effects
 				(font
@@ -31912,25 +27949,25 @@
 				(hide yes)
 			)
 		)
-		(symbol "RMCF0603FT2K61_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
+		(symbol "RNCP0805FTD1K00_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31942,7 +27979,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31954,7 +27991,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31966,14 +28003,14 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
 				)
 			)
 		)
-		(symbol "RMCF0603FT2K61_1_1"
+		(symbol "RNCP0805FTD1K00_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.5146)
@@ -32011,6 +28048,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RT0402FRE0722KL"
 		(pin_names
@@ -32053,8 +28091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)  Thin Film"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32277,25 +28315,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "RT0402FRE0722KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "22 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric)  Thin Film"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "RT0402FRE0722KL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32307,7 +28354,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32319,7 +28366,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32331,7 +28378,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32376,371 +28423,7 @@
 				)
 			)
 		)
-	)
-	(symbol "RT0603BRD071ML"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RT0603BRD071ML"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0603"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 1M OHM 0.1% 1/10W 0603"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.13000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.04943"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.03679"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.03224"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "RT0603BRD071ML"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "YAG4498TR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "3/8/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "3/8/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "N/A"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "1M"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "RT0603BRD071ML_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "RT0603BRD071ML_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "RT0603DRD071KL"
 		(pin_names
@@ -32783,8 +28466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 1K OHM 0.5% 1/10W 0603"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33008,6 +28691,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 1K OHM 0.5% 1/10W 0603"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RT0603DRD071KL_1_1"
 			(polyline
 				(pts
@@ -33016,7 +28708,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33059,6 +28751,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RV1206JR-0722ML"
 		(pin_names
@@ -33101,8 +28794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 22M OHM 5% 1/4W 1206"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33325,6 +29018,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "RES SMD 22M OHM 5% 1/4W 1206"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RV1206JR-0722ML_1_1"
 			(polyline
 				(pts
@@ -33333,7 +29035,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33376,371 +29078,7 @@
 				)
 			)
 		)
-	)
-	(symbol "SR0805JR-0710KL"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SR0805JR-0710KL"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "*"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "*"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "SR0805JR-0710KL"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "13-SR0805JR-0710KLTR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "10/13/2022"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "10/13/2022"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Metal Film Resistor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "*"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "10K"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "SR0805JR-0710KL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.905 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "SR0805JR-0710KL_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.5146)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE"
 		(pin_names
@@ -33783,8 +29121,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "*"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34007,6 +29345,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TEMPLATE_1_1"
 			(polyline
 				(pts
@@ -34015,7 +29362,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34058,6 +29405,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_ALT_SYMBOL"
 		(pin_names
@@ -34100,8 +29448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "*"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34324,25 +29672,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "TEMPLATE_ALT_SYMBOL_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "TEMPLATE_ALT_SYMBOL_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34354,7 +29711,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34366,7 +29723,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34378,7 +29735,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34423,6 +29780,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "WSLT2512R5000FEA"
 		(pin_names
@@ -34466,8 +29824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "500 mOhms ±1% 1W Chip Resistor 2512 (6432 Metric) Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34690,25 +30048,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "WSLT2512R5000FEA_0_1"
-			(rectangle
-				(start -1.905 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
+		(property "Description_1" "500 mOhms ±1% 1W Chip Resistor 2512 (6432 Metric) Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type none)
-				)
+				(hide yes)
 			)
+		)
+		(symbol "WSLT2512R5000FEA_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -1.905 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34720,7 +30087,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34732,7 +30099,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34744,7 +30111,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34789,6 +30156,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "YC124-JR-0751RL"
 		(pin_names
@@ -34832,8 +30200,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "51 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35056,46 +30424,34 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "51 Ohm ±5% 62.5mW Power Per Element Isolated Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "YC124-JR-0751RL_0_1"
 			(rectangle
 				(start -2.54 5.08)
 				(end 2.54 -5.08)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(rectangle
-				(start -1.905 -3.175)
-				(end 1.905 -4.445)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -1.905 1.27)
+				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.905 -0.635)
-				(end 1.905 -1.905)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.905 1.905)
-				(end 1.905 0.635)
-				(stroke
-					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35106,43 +30462,7 @@
 				(end 1.905 3.175)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy -1.905 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 -3.81) (xy -2.54 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 -1.27) (xy -2.54 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35154,7 +30474,29 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 1.905)
+				(end 1.905 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 -0.635)
+				(end 1.905 -1.905)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35162,11 +30504,34 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -3.81) (xy 2.54 -3.81)
+					(xy -1.905 -1.27) (xy -2.54 -1.27)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 -3.175)
+				(end 1.905 -4.445)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -3.81) (xy -2.54 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35178,7 +30543,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35186,11 +30551,11 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 1.905 -1.27)
+					(xy 1.905 -3.81) (xy 2.54 -3.81)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35202,7 +30567,19 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 1.905 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35283,7 +30660,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -3.81 180)
+				(at 7.62 3.81 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -35292,25 +30669,7 @@
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -1.27 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35337,7 +30696,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 3.81 180)
+				(at 7.62 -1.27 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -35346,7 +30705,25 @@
 						)
 					)
 				)
-				(number "8"
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -3.81 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35355,5 +30732,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

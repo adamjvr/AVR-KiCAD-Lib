@@ -1,25 +1,153 @@
-(module 6N138S (layer F.Cu) (tedit 5DF331E1)
-  (fp_text reference REF** (at -1.55 -6.85) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value 6N138S (at 0 6.6) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -3.5 -5.5) (end 3.5 -5.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 3.5 -5.5) (end 3.5 5.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 3.5 5.5) (end -3.5 5.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.5 5.5) (end -3.5 -5.5) (layer F.SilkS) (width 0.2))
-  (pad 1 smd oval (at -5.08 -3.81) (size 2.5 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 8 smd oval (at 5.08 -3.81) (size 2.5 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd oval (at -5.08 -1.27) (size 2.5 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd oval (at -5.08 1.27) (size 2.5 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd oval (at -5.08 3.81) (size 2.5 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd oval (at 5.08 1.27) (size 2.5 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd oval (at 5.08 3.81) (size 2.5 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd oval (at 5.08 -1.27) (size 2.5 1.2) (layers F.Cu F.Paste F.Mask))
-  (model "${AVR_KICAD_LIB}/3D/STEP/SMD DIP 8 (op7) VO2030 vishay.STEP"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
-  )
+(footprint "6N138S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.55 -6.85 0)
+		(layer "F.SilkS")
+		(uuid "33ed88a7-faa6-477d-aa4c-e413bf13b9d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "6N138S"
+		(at 0 6.6 0)
+		(layer "F.Fab")
+		(uuid "bc1db395-97be-48cb-a6f2-3ee669c17ffa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc95b17c-8043-4530-85eb-dbf357aa0d01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "125521dc-c685-4f5f-b8e3-d6bf90a473dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 -5.5)
+		(end 3.5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ad68300-3283-4722-a590-d9c05e15bcb6")
+	)
+	(fp_line
+		(start -3.5 5.5)
+		(end -3.5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2db6c9e-df06-4010-af32-dedbd567fc56")
+	)
+	(fp_line
+		(start 3.5 -5.5)
+		(end 3.5 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb0689a1-2e63-4470-ae8e-90615845f730")
+	)
+	(fp_line
+		(start 3.5 5.5)
+		(end -3.5 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd384bd0-b553-42f9-8399-9036e8fe1086")
+	)
+	(pad "1" smd oval
+		(at -5.08 -3.81)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eaf3c44a-3aef-4a4e-8111-868c4eb4d751")
+	)
+	(pad "2" smd oval
+		(at -5.08 -1.27)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b4b2dc53-38d0-4475-bab1-2de6281e0226")
+	)
+	(pad "3" smd oval
+		(at -5.08 1.27)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aabe725b-66c1-470c-a09f-fdcdc8f24aa8")
+	)
+	(pad "4" smd oval
+		(at -5.08 3.81)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b59fb171-ea71-4d53-989a-b5e471de5f8d")
+	)
+	(pad "5" smd oval
+		(at 5.08 3.81)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d33874ee-d014-4ce5-9896-c45a011ca04d")
+	)
+	(pad "6" smd oval
+		(at 5.08 1.27)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "58c375a6-0a57-4368-a9fb-99316bfb9659")
+	)
+	(pad "7" smd oval
+		(at 5.08 -1.27)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "398df357-8e06-4f05-b1f7-0e6f5c54d2d6")
+	)
+	(pad "8" smd oval
+		(at 5.08 -3.81)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42022a72-6de2-4c3e-9987-2ac3caccdbf4")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/SMD DIP 8 (op7) VO2030 vishay.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

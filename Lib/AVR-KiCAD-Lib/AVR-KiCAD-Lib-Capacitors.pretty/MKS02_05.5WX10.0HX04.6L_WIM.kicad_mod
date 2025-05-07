@@ -1,0 +1,227 @@
+(footprint "MKS02_05.5WX10.0HX04.6L_WIM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "MKS0B041000F00KSC9 ")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f538797c-c670-40a5-ad7d-56a6665c9153")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MKS02_05.5WX10.0HX04.6L_WIM"
+		(at 1 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05cff1c2-148d-4841-9b8c-1beb6e70852c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37883bed-3a00-454f-aed8-9908b47183c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ba0862c-f976-4fb7-8e2a-e46312354b9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.1757 -2.8829)
+		(end -1.1757 2.8829)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9cd0668-b4e1-4b0c-9f01-4e95198d8f9c")
+	)
+	(fp_line
+		(start 3.6757 -2.8829)
+		(end -1.1757 -2.8829)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "517f56ca-68e7-4ecf-8560-47ec47cf1921")
+	)
+	(fp_line
+		(start 3.6757 -2.8829)
+		(end 3.6757 2.8829)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5172bcc-8768-46ed-9885-112eb68b5d66")
+	)
+	(fp_line
+		(start 3.6757 2.8829)
+		(end -1.1757 2.8829)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d84dd801-778a-4295-b16e-55e99a5701ef")
+	)
+	(fp_line
+		(start -1.3027 -3.0099)
+		(end 3.8027 -3.0099)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "303d4fb6-078b-43e6-884d-72a25a0dc83d")
+	)
+	(fp_line
+		(start -1.3027 3.0099)
+		(end -1.3027 -3.0099)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b033b974-404d-4a41-8af3-868bad9055f5")
+	)
+	(fp_line
+		(start 3.8027 -3.0099)
+		(end 3.8027 3.0099)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6688937-61af-43b3-8e82-7b5de3e2e22a")
+	)
+	(fp_line
+		(start 3.8027 3.0099)
+		(end -1.3027 3.0099)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec0b0221-1ae2-4887-a5c3-3a27ab4b3781")
+	)
+	(fp_line
+		(start -1.0487 -2.7559)
+		(end -1.0487 2.7559)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b952827e-1a53-4f21-b011-a2829a964839")
+	)
+	(fp_line
+		(start 3.5487 -2.7559)
+		(end -1.0487 -2.7559)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7b3b345-951d-424e-8fe4-73f4101b60d1")
+	)
+	(fp_line
+		(start 3.5487 -2.7559)
+		(end 3.5487 2.7559)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28daab89-158d-4c0e-90f5-a0c87a6270a5")
+	)
+	(fp_line
+		(start 3.5487 2.7559)
+		(end -1.0487 2.7559)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f3389be-a8bf-4e50-83da-d9e81c15afaa")
+	)
+	(fp_circle
+		(center -0.5407 0)
+		(end -0.5407 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6b5a9bad-c3b9-415b-97d0-45fee1b0a82c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7239bea5-9d10-4a79-82e7-cb4b0f96d807")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.1684 1.1684)
+		(drill 0.6604)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de93d1a1-d7e1-484d-918c-58621f3136a4")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.1684 1.1684)
+		(drill 0.6604)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2e92ce2-8d40-4aa6-8f1f-123332760b86")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/MKS02_05_5WX10_0HX04_6L_WIM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

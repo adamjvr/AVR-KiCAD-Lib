@@ -1,7 +1,7 @@
 (footprint "NMJ6HCD2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -10.3 -9.7 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8207810d-b813-4e7d-aec0-0e97f0ba85f6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -202,18 +192,8 @@
 		(remove_unused_layers no)
 		(uuid "2c54f684-892f-4543-93c1-d57f9dc775a2")
 	)
-	(model "${AVR_KICAD_LIB}/3D/STEP/3-d-nmj6hcd3.stp"
-		(offset
-			(xyz 8.9 0 1.9)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 -90)
-		)
-	)
-	(model ":KICAD_AVR_3D:STEP/NMJ6HCD2.step"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/NMJ6HCD2.step"
 		(offset
 			(xyz 0 0 0)
 		)

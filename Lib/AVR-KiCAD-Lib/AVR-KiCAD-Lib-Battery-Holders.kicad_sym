@@ -1,365 +1,1034 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "BU2032SM-JJ-GTR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at -3.81 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BU2032SM-JJ-GTR" (at 5.08 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Connectors:BU2032SM-JJ-GTR" (at -2.54 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.memoryprotectiondevices.com/datasheets/BU2032SM-JJ-GTR-datasheet.pdf" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "0.96000" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "MPD (Memory Protection Devices)" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "BU2032SM-JJ-GTR" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "BU2032SM-JJ-GCT-ND" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "5.3mm" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "12/7/2019" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "12/7/2019" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "SMT" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "2" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Battery Clip" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "3.3V" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Battery Holder (Open) Coin, 20.0mm 1 Cell SMD (SMT) Tab" (at 63.5 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "Battery Clip" (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "BU2032SM-JJ-GTR_0_1"
-      (rectangle (start -3.81 3.81) (end 3.81 -3.81)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -0.635 1.27)
-          (xy -0.635 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 2.54)
-          (xy 0.635 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -2.54)
-          (xy 1.27 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "BU2032SM-JJ-GTR_1_1"
-      (pin power_out line (at 8.89 0 180) (length 5.08)
-        (name "+" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -8.89 0 0) (length 5.08)
-        (name "-" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "BU2450SM-JJ-GTR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at -2.54 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BU2450SM-JJ-GTR" (at 2.54 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "AVR-KiCAD-Lib-Battery-Holders:BU2450SM-JJ-GTR" (at -5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.memoryprotectiondevices.com/datasheets/BU2450SM-JJ-GTR-datasheet.pdf" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "1.50000" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "0.82580" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "0.70013" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "MPD (Memory Protection Devices)" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "BU2450SM-JJ-GTR" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "Digikey" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "BU2450SM-JJ-GCT-ND" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "AVR" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "6.5mm" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "3/6/2020" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "3/6/2020" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "Yes" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "1" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "SMT" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "2" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "Active" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "Battery Retainer" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "3V" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "Proprietary" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab" (at 63.5 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "BU2450SM-JJ-GTR" (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "BU2450SM-JJ-GTR_0_1"
-      (rectangle (start -3.81 5.08) (end 3.81 -7.62)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.81)
-          (xy -1.27 -6.35)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 1.27)
-          (xy 1.27 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "BU2450SM-JJ-GTR_1_1"
-      (pin power_out line (at -8.89 -1.27 0) (length 5.08)
-        (name "+" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 8.89 -1.27 180) (length 5.08)
-        (name "-" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TEMPLATE" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TEMPLATE" (at 1.27 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -5.08 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at -2.54 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1" "*" (at 2.54 6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 1000" "*" (at 5.08 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 2500" "*" (at 7.62 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 5000" "*" (at 10.16 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Cost QTY: 10000" "*" (at 12.7 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "*" (at 15.24 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR#" "*" (at 17.78 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "*" (at 20.32 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor #" "*" (at 22.86 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Designer" "*" (at 25.4 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Height" "*" (at 27.94 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Created" "*" (at 55.88 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Date Modified" "*" (at 30.48 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Lead-Free ?" "*" (at 33.02 36.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RoHS Levels" "*" (at 35.56 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mounting" "*" (at 38.1 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Pin Count #" "*" (at 40.64 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "*" (at 43.18 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tolerance" "*" (at 45.72 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Type" "*" (at 48.26 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "*" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "*" (at 53.34 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "*" (at 63.5 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "_Value_" "*" (at 58.42 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Management_ID" "*" (at 60.96 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "BU2032SM-JJ-GTR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at -3.81 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BU2032SM-JJ-GTR"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Connectors:BU2032SM-JJ-GTR"
+			(at -2.54 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.memoryprotectiondevices.com/datasheets/BU2032SM-JJ-GTR-datasheet.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "0.96000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MPD (Memory Protection Devices)"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "BU2032SM-JJ-GTR"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "BU2032SM-JJ-GCT-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.3mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "12/7/2019"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "12/7/2019"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Battery Clip"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3.3V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Battery Holder (Open) Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "Battery Clip"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BU2032SM-JJ-GTR_0_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy -0.635 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 2.54) (xy 0.635 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BU2032SM-JJ-GTR_1_1"
+			(pin power_in line
+				(at -8.89 0 0)
+				(length 5.08)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 0 180)
+				(length 5.08)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BU2450SM-JJ-GTR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BH"
+			(at -2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BU2450SM-JJ-GTR"
+			(at 2.54 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "growbox-KiCAD-Battery-Holders:BU2450SM-JJ-GTR"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.memoryprotectiondevices.com/datasheets/BU2450SM-JJ-GTR-datasheet.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "1.50000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "0.82580"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "0.70013"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MPD (Memory Protection Devices)"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "BU2450SM-JJ-GTR"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "BU2450SM-JJ-GCT-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "AVR"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.5mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "3/6/2020"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "3/6/2020"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Battery Retainer"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "3V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "BU2450SM-JJ-GTR"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BU2450SM-JJ-GTR_0_1"
+			(rectangle
+				(start -3.81 5.08)
+				(end 3.81 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.81) (xy -1.27 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BU2450SM-JJ-GTR_1_1"
+			(pin power_out line
+				(at -8.89 -1.27 0)
+				(length 5.08)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -1.27 180)
+				(length 5.08)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TEMPLATE"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BH"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEMPLATE"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "*"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "*"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "*"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "*"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "*"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "*"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "*"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "*"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "*"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "*"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "*"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "*"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "*"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "*"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "*"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "*"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "*"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "*"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "*"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

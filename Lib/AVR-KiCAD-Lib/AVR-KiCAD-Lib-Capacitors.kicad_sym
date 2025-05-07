@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "08055A471FAT2A"
 		(pin_names
 			(offset 1.016)
@@ -44,8 +44,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 470PF 50V C0G/NP0 0805"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,6 +251,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 470PF 50V C0G/NP0 0805"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "470pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -275,7 +284,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -287,7 +296,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -330,6 +339,337 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "35MU104KZ22012"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "35MU104KZ22012"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Resistors:R0805"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-pmlcap/MU.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF Film Capacitor 35V Acrylic, Metallized 0805 (2012 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "3.03000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "1.32571"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "1.05000"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Rubycon"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "35MU104KZ22012"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "1189-4333-6-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/27/2025"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/27/2025"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Capacitor"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "0.1uF"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "35MU104KZ22012_1_1"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "B32529C0223K189"
 		(pin_names
@@ -373,8 +713,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 0.022UF 10% 63VDC RAD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,6 +920,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 0.022UF 10% 63VDC RAD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.022uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -604,7 +953,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -616,7 +965,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -659,6 +1008,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "B32529C0224J000"
 		(pin_names
@@ -702,8 +1052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 0.22UF 5% 63VDC RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,6 +1259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 0.22UF 5% 63VDC RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.22uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -933,7 +1292,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -945,7 +1304,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -988,6 +1347,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "B32529C0332J289"
 		(pin_names
@@ -1031,8 +1391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 3300PF 5% 63VDC RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,6 +1598,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 3300PF 5% 63VDC RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "3300pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -1262,7 +1631,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1274,7 +1643,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1317,6 +1686,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "B32529C0333J189"
 		(pin_names
@@ -1360,8 +1730,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 0.033UF 5% 63VDC RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,6 +1937,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 0.033UF 5% 63VDC RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.033uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -1591,7 +1970,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1603,7 +1982,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1646,6 +2025,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "B32529C0392J000"
 		(pin_names
@@ -1689,8 +2069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3900pF Film Capacitor 40V 63V Polyester, Polyethylene Terephthalate (PET), Metallized - Stacked Radial"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,6 +2276,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "3900pF Film Capacitor 40V 63V Polyester, Polyethylene Terephthalate (PET), Metallized - Stacked Radial"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "3900pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -1920,7 +2309,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1932,7 +2321,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1975,335 +2364,7 @@
 				)
 			)
 		)
-	)
-	(symbol "BFC241671005"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BFC241671005"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:BFC241671005"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28128/mkp416to420.pdf"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 µF Film Capacitor 25V 63V Polypropylene (PP), Metallized Radial"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "4.17000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "2.16918"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Vishay Beyschlag/Draloric/BC Components"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "BFC241671005"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "BC2076-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "16.5mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "4/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "4/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "ThroughHole"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "2%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Capacitor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "63V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Radial"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "1uF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "BFC241671005_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "C0402C104K9PACTU"
 		(pin_names
@@ -2347,8 +2408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,6 +2615,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -2578,7 +2648,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2590,7 +2660,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2633,6 +2703,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C0402C221J5GACTU"
 		(pin_names
@@ -2676,8 +2747,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,6 +2954,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "220pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "220pF C0G"
 			(at 58.42 63.5 0)
 			(effects
@@ -2907,7 +2987,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2919,7 +2999,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2962,335 +3042,7 @@
 				)
 			)
 		)
-	)
-	(symbol "C0402C333K4REC7867"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C0402C333K4REC7867"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0402"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0402C333K4REC7867"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.033 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.11000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.02066"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "0.01922"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "0.01759"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "0.01636"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "KEMET"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "C0402C333K4REC7867"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "399-C0402C333K4REC7867TR-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "7/14/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "7/14/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Capacitor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "33nF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "C0402C333K4REC7867_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "C0603C475K9PACTU"
 		(pin_names
@@ -3334,8 +3086,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,6 +3293,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "4.7µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "4.7uF X5R"
 			(at 1.27 -3.81 0)
 			(effects
@@ -3565,7 +3326,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3577,7 +3338,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3620,6 +3381,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C0603X103K1RAC3316"
 		(pin_names
@@ -3662,8 +3424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 60.96 66.04 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,6 +3648,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "10000pF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "C0603X103K1RAC3316_1_1"
 			(polyline
 				(pts
@@ -3893,7 +3664,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3905,7 +3676,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3948,6 +3719,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C0805C103KCRACAUTO"
 		(pin_names
@@ -3991,8 +3763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0805 10NF 500V X7R 10%"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,6 +3970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 0805 10NF 500V X7R 10%"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10nF"
 			(at 58.42 63.5 0)
 			(effects
@@ -4222,7 +4003,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4234,7 +4015,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4277,6 +4058,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C0805C104M5RACTU"
 		(pin_names
@@ -4320,8 +4102,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1µF ±20% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,6 +4309,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "0.1µF ±20% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -4551,7 +4342,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4563,7 +4354,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4606,6 +4397,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C0805C222KDRACAUTO"
 		(pin_names
@@ -4649,8 +4441,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0805 2.2NF 1000V X7R 10%"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,6 +4648,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 0805 2.2NF 1000V X7R 10%"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "2.2nF"
 			(at 58.42 63.5 0)
 			(effects
@@ -4880,7 +4681,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4892,7 +4693,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -4935,335 +4736,7 @@
 				)
 			)
 		)
-	)
-	(symbol "C1005X7R1C223K"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C1005X7R1C223K"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0402"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.022 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "*"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "*"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "TDK Corporation"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "C1005X7R1C223K"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "445-1263-2-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "10/13/2022"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "10/13/2022"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Ceramic Cap"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "0.022uF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "C1005X7R1C223K_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "C1206C101J5GACTU"
 		(pin_names
@@ -5307,8 +4780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V C0G/NP0 1206"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,6 +4987,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 100PF 50V C0G/NP0 1206"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "100pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -5538,7 +5020,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5550,7 +5032,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5593,6 +5075,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C1206C102KARECAUTO"
 		(pin_names
@@ -5636,8 +5119,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1206 1NF 250V X7R 10%"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,6 +5326,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 1206 1NF 250V X7R 10%"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1nF"
 			(at 58.42 63.5 0)
 			(effects
@@ -5867,7 +5359,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5879,7 +5371,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -5922,6 +5414,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C1206C103J2GACAUTO"
 		(pin_names
@@ -5965,8 +5458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000pF ±5% 200V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,6 +5665,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "10000pF ±5% 200V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10000pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -6196,7 +5698,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6208,7 +5710,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6251,6 +5753,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C1206C105K3RACAUTO"
 		(pin_names
@@ -6294,8 +5797,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,6 +6004,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "1µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -6525,7 +6037,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6537,7 +6049,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6580,6 +6092,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C1206C562KDRACAUTO"
 		(pin_names
@@ -6623,8 +6136,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1206 5.6NF 1000V X7R 10%"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,6 +6343,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 1206 5.6NF 1000V X7R 10%"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "5.6nF"
 			(at 58.42 63.5 0)
 			(effects
@@ -6854,7 +6376,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6866,7 +6388,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6909,6 +6431,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C1210C333JAGAC7800"
 		(pin_names
@@ -6952,8 +6475,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.033UF 250V NP0 1210"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,6 +6682,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 0.033UF 250V NP0 1210"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.033uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -7183,7 +6715,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7195,7 +6727,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7238,335 +6770,7 @@
 				)
 			)
 		)
-	)
-	(symbol "C2012X5R1A226K125AB"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C2012X5R1A226K125AB"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0805"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x5r1a226k125ab.pdf"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22 µF ±10% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "*"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "*"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "TDK Corporation"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "C2012X5R1A226K125AB"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "445-7664-2-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "10/13/2022"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "10/13/2022"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Ceramic Cap"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "22uF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "C2012X5R1A226K125AB_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "C2012X7R2A104K125AA"
 		(pin_names
@@ -7610,8 +6814,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,6 +7021,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "0.1µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -7841,7 +7054,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7853,7 +7066,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7896,6 +7109,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C3216X5R1V156M160AC"
 		(pin_names
@@ -7939,8 +7153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "15µF ±20% 35V Ceramic Capacitor X5R 1206 (3216 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,6 +7360,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "15µF ±20% 35V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "15uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -8170,7 +7393,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8182,7 +7405,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8225,6 +7448,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CC0603FRNPO9BN471"
 		(pin_names
@@ -8268,8 +7492,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 470PF 50V NPO 0603"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,6 +7699,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 470PF 50V NPO 0603"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "470pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -8499,7 +7732,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8511,7 +7744,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -8554,335 +7787,7 @@
 				)
 			)
 		)
-	)
-	(symbol "CC0603JRX7R9BB104"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC0603JRX7R9BB104"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0603"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_23.pdf"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.01833"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "CC0603JRX7R9BB104"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "311-1779-2-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.90mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "10/3/2023"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "10/3/2023"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Capacitor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "0.1uF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CC0603JRX7R9BB104_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "CC0603KRX5R6BB225"
 		(pin_names
@@ -8926,8 +7831,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9133,6 +8038,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "2.2µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "2.2uF X5R"
 			(at 58.42 63.5 0)
 			(effects
@@ -9157,7 +8071,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9169,7 +8083,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9212,6 +8126,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CC0603KRX5R7BB105"
 		(pin_names
@@ -9255,8 +8170,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,6 +8377,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "1µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF X5R"
 			(at 58.42 63.5 0)
 			(effects
@@ -9486,7 +8410,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9498,7 +8422,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9541,6 +8465,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CC0603KRX7R9BB471"
 		(pin_names
@@ -9584,8 +8509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "470pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9791,6 +8716,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "470pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "470pF X7R"
 			(at 58.42 63.5 0)
 			(effects
@@ -9815,7 +8749,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9827,7 +8761,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -9870,6 +8804,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CC0603KRX7R9BB473"
 		(pin_names
@@ -9913,8 +8848,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.047UF 50V X7R 0603"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,6 +9055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 0.047UF 50V X7R 0603"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.047uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -10144,7 +9088,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10156,7 +9100,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10199,6 +9143,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CGA3E2X7R1H104K080AA"
 		(pin_names
@@ -10242,8 +9187,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,6 +9394,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -10473,7 +9427,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10485,7 +9439,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -10528,335 +9482,7 @@
 				)
 			)
 		)
-	)
-	(symbol "CGA5L3X5R1V106K160AB"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CGA5L3X5R1V106K160AB"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C1206"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 35V Ceramic Capacitor X5R 1206 (3216 Metric)"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "*"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "*"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "TDK Corporation"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "CGA5L3X5R1V106K160AB"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "445-7887-2-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.9mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "10/13/2022"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "10/13/2022"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Ceramic Cap"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "35V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "10uF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CGA5L3X5R1V106K160AB_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "CL05B104KO5NNNC"
 		(pin_names
@@ -10900,8 +9526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 64.77 83.82 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,6 +9733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "0.1µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.1uF"
 			(at -2.54 2.54 0)
 			(effects
@@ -11131,7 +9766,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11143,7 +9778,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11186,6 +9821,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CL05C090CB5NNNC"
 		(pin_names
@@ -11229,8 +9865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "9pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,6 +10072,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "9pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "9pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -11460,7 +10105,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11472,7 +10117,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -11515,335 +10160,7 @@
 				)
 			)
 		)
-	)
-	(symbol "CL10B104JB8NNNC"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CL10B104JB8NNNC"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0603"
-			(at 59.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.00975"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Samsung Electro-Mechanics"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "CL10B104JB8NNNC"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "1276-1033-2-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.90"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "10/3/2023"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "10/3/2023"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Capacitor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "0.1uF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CL10B104JB8NNNC_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "CL10C151JB8NFNC"
 		(pin_names
@@ -11887,8 +10204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 150PF 50V C0G/NP0 0603"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,6 +10411,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 150PF 50V C0G/NP0 0603"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "150pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -12118,7 +10444,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -12130,7 +10456,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -12173,6 +10499,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CL21A475KACLRNC"
 		(pin_names
@@ -12216,8 +10543,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 25V X5R 0805"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,6 +10750,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 4.7UF 25V X5R 0805"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "4.7uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -12447,7 +10783,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -12459,7 +10795,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -12502,335 +10838,7 @@
 				)
 			)
 		)
-	)
-	(symbol "CL21B104KBFNNNE"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CL21B104KBFNNNE"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0805"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104KBFNNNE.jsp"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "0.10000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.01086"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "*"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "CL21B104KBFNNNE"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "Samsung Electro-Mechanics"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "1276-1180-2-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "Adam Vadala-Roth"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.35mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "9/8/2023"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "9/8/2023"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "SMT"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Ceramic Capacitor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "0.1uF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CL21B104KBFNNNE_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "CL21B104KCFNNNE"
 		(pin_names
@@ -12874,8 +10882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13081,6 +11089,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 0.1UF 100V X7R 0805"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -13105,7 +11122,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13117,7 +11134,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13160,6 +11177,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CL21B224KBFNNNE"
 		(pin_names
@@ -13203,8 +11221,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.22UF 50V X7R 0805"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13410,6 +11428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 0.22UF 50V X7R 0805"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.22uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -13434,7 +11461,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13446,7 +11473,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13489,6 +11516,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CL21B474KBFVPNE"
 		(pin_names
@@ -13532,8 +11560,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.47µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13739,6 +11767,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "0.47µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.47uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -13763,7 +11800,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13775,7 +11812,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -13818,6 +11855,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CL21C470JC61PNC"
 		(pin_names
@@ -13861,8 +11899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47PF 100V C0G/NP0 0805"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14068,6 +12106,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 47PF 100V C0G/NP0 0805"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "47pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -14092,7 +12139,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14104,7 +12151,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14147,6 +12194,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECA-2CHG010"
 		(pin_names
@@ -14190,8 +12238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 1UF 20% 160V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,6 +12445,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 1UF 20% 160V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -14421,7 +12478,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14433,7 +12490,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14445,7 +12502,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14459,7 +12516,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14471,7 +12528,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14514,6 +12571,337 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "ECH-U1H121GX5"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECH-U1H121GX5"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0805"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1H121GX5"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 pF Film Capacitor 30V 50V Polyphenylene Sulfide (PPS), Metallized - Stacked 0805 (2012 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "0.52000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "0.18391"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "ECH-U1H121GX5"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "PCF1285DKR-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.10mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/23/2025"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/23/2025"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "2%"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Capacitor"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "120pF"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ECH-U1H121GX5_1_1"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "ECH-U1H392JX5"
 		(pin_names
@@ -14557,8 +12945,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 3900PF 5% 50VDC 1206"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14764,6 +13152,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 3900PF 5% 50VDC 1206"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "3900pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -14788,7 +13185,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14800,7 +13197,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -14843,6 +13240,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECH-U1H473GX9"
 		(pin_names
@@ -14886,8 +13284,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 0.047UF 2% 50VDC 1913"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15093,6 +13491,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 0.047UF 2% 50VDC 1913"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.047uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -15117,7 +13524,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15129,7 +13536,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15141,7 +13548,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15155,7 +13562,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15167,7 +13574,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15210,6 +13617,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECP-U1C105MA5"
 		(pin_names
@@ -15253,8 +13661,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 1UF 20% 16VDC 1210"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15460,6 +13868,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 1UF 20% 16VDC 1210"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -15484,7 +13901,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15496,7 +13913,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15539,6 +13956,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECQ-E1105KF"
 		(pin_names
@@ -15582,8 +14000,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 1UF 10% 100VDC RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15789,6 +14207,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 1UF 10% 100VDC RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -15813,7 +14240,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15825,7 +14252,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -15868,6 +14295,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ECW-U1104JC9"
 		(pin_names
@@ -15911,8 +14339,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 0.1UF 5% 100VDC 2416"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16118,6 +14546,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 0.1UF 5% 100VDC 2416"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -16142,7 +14579,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16154,7 +14591,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16197,6 +14634,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "EEE-1HA010NR"
 		(pin_names
@@ -16240,8 +14678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 1UF 20% 50V SMD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16447,6 +14885,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 1UF 20% 50V SMD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -16471,7 +14918,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16483,7 +14930,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16495,7 +14942,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16507,7 +14954,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16519,7 +14966,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16562,6 +15009,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "EEV-EB2C100Q"
 		(pin_names
@@ -16605,8 +15053,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 10UF 20% 160V SMD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16812,6 +15260,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 10UF 20% 160V SMD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -16836,7 +15293,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16848,7 +15305,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16860,7 +15317,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16874,7 +15331,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16886,7 +15343,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -16929,6 +15386,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "F861KG103M310A"
 		(pin_names
@@ -16972,8 +15430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 0.01UF 20% 630VDC RAD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17179,6 +15637,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 0.01UF 20% 630VDC RAD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.01uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -17203,7 +15670,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -17215,7 +15682,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -17258,6 +15725,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "FKP2O100471D00KSSD"
 		(pin_names
@@ -17301,8 +15769,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47pF Film Capacitor 250V 1000V (1kV) Polypropylene (PP) Radial"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17508,6 +15976,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "47pF Film Capacitor 250V 1000V (1kV) Polypropylene (PP) Radial"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "47pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -17532,7 +16009,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -17544,7 +16021,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -17587,6 +16064,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GCM1555C1H180GA16D"
 		(pin_names
@@ -17630,8 +16108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "18pF ±2% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17837,6 +16315,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "18pF ±2% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "18pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -17861,7 +16348,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -17873,7 +16360,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -17916,6 +16403,337 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "GJM1555C1H150FB01D"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GJM1555C1H150FB01D"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:C0402"
+			(at -5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H150FB01-01.pdf"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "0.13000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "0.02973"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "0.02606"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "0.02385"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "0.02247"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "GJM1555C1H150FB01D"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "490-11191-6-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "4/23/2025"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "4/23/2025"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Capacitor "
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "15pF"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GJM1555C1H150FB01D_1_1"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM155R60J475ME47D"
 		(pin_names
@@ -17959,8 +16777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18166,6 +16984,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "4.7uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -18190,7 +17017,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -18202,7 +17029,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -18245,6 +17072,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM155R61A225KE95D"
 		(pin_names
@@ -18288,8 +17116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18495,6 +17323,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "2.2µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "2.2uF X5R"
 			(at 1.27 -3.81 0)
 			(effects
@@ -18519,7 +17356,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -18531,7 +17368,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -18574,6 +17411,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM188R60J226MEA0D"
 		(pin_names
@@ -18617,8 +17455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18824,6 +17662,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "22µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "22uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -18848,7 +17695,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -18860,7 +17707,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -18903,6 +17750,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM188R61A106KE69D"
 		(pin_names
@@ -18946,8 +17794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19144,6 +17992,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "10µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF X5R"
 			(at 58.42 63.5 0)
 			(effects
@@ -19168,7 +18025,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19180,7 +18037,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19223,6 +18080,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM188R61A106KE69J"
 		(pin_names
@@ -19266,8 +18124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19473,6 +18331,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "10µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -19497,7 +18364,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19509,7 +18376,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19552,6 +18419,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM21B5C1H223FA01L"
 		(pin_names
@@ -19595,8 +18463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.022UF 50V C0G/NP0 0805"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19802,6 +18670,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP CER 0.022UF 50V C0G/NP0 0805"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.022uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -19826,7 +18703,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19838,7 +18715,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -19881,6 +18758,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM21BD70J226ME44L"
 		(pin_names
@@ -19924,8 +18802,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22µF ±20% 6.3V Ceramic Capacitor X7T 0805 (2012 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20131,6 +19009,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "22µF ±20% 6.3V Ceramic Capacitor X7T 0805 (2012 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "22uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -20155,7 +19042,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20167,7 +19054,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20210,6 +19097,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM21BR61A226ME51L"
 		(pin_names
@@ -20253,8 +19141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20460,6 +19348,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "22µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "22uF X5R"
 			(at 58.42 63.5 0)
 			(effects
@@ -20484,7 +19381,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20496,7 +19393,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20539,6 +19436,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM21BR61C106KE15K"
 		(pin_names
@@ -20582,8 +19480,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20789,6 +19687,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "10µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -20813,7 +19720,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20825,7 +19732,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -20868,6 +19775,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM31CR71H475KA12L"
 		(pin_names
@@ -20911,8 +19819,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21118,6 +20026,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "4.7µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "4.7uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -21142,7 +20059,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21154,7 +20071,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21197,6 +20114,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRM32EC72A106KE05L"
 		(pin_names
@@ -21240,8 +20158,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10µF ±10% 100V Ceramic Capacitor X7S 1210 (3225 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21447,6 +20365,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "10µF ±10% 100V Ceramic Capacitor X7S 1210 (3225 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -21471,7 +20398,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21483,7 +20410,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21526,6 +20453,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRT31CC81C226KE01L"
 		(pin_names
@@ -21569,8 +20497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22µF ±10% 16V Ceramic Capacitor X6S 1206 (3216 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21784,6 +20712,15 @@
 				)
 			)
 		)
+		(property "Description_1" "22µF ±10% 16V Ceramic Capacitor X6S 1206 (3216 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -21800,7 +20737,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21812,7 +20749,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -21855,6 +20792,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GRT31CR61H106KE01L"
 		(pin_names
@@ -21898,8 +20836,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22113,6 +21051,15 @@
 				)
 			)
 		)
+		(property "Description_1" "10µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Management_ID" "*"
 			(at 60.96 66.04 0)
 			(effects
@@ -22129,7 +21076,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22141,7 +21088,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22184,6 +21131,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LDECD3470KA5N00"
 		(pin_names
@@ -22227,8 +21175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.47µF Film Capacitor 40V 50V Polyester, Polyethylene Naphthalate (PEN), Metallized - Stacked 2220 (5750 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22434,6 +21382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "0.47µF Film Capacitor 40V 50V Polyester, Polyethylene Naphthalate (PEN), Metallized - Stacked 2220 (5750 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.47uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -22458,7 +21415,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22470,7 +21427,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22513,6 +21470,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LDECE4100KA5N00"
 		(pin_names
@@ -22556,8 +21514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "	1µF Film Capacitor 40V 50V Polyester, Polyethylene Naphthalate (PEN), Metallized - Stacked 2824 (7260 Metric)"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22763,6 +21721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "	1µF Film Capacitor 40V 50V Polyester, Polyethylene Naphthalate (PEN), Metallized - Stacked 2824 (7260 Metric)"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -22780,44 +21747,6 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDECE4100KA5N00_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -1.905) (xy -1.905 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -1.905) (xy 3.175 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "LDECE4100KA5N00_1_1"
 			(polyline
 				(pts
@@ -22825,7 +21754,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22837,7 +21766,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -22880,6 +21809,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LDEQD1220KA5N00"
 		(pin_names
@@ -22923,8 +21853,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LDEQD1220KA5N00"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23130,6 +22060,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "LDEQD1220KA5N00"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "2n2"
 			(at 58.42 63.5 0)
 			(effects
@@ -23154,7 +22093,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -23166,7 +22105,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -23209,664 +22148,7 @@
 				)
 			)
 		)
-	)
-	(symbol "MKP1837322161G"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MKP1837322161G"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:MKP1837322161G"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/26017/mkp1837.pdf"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.022 µF Film Capacitor 100V 160V Polypropylene (PP), Metallized Radial"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "1.73000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.73044"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "0.68478"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Vishay Roederstein"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "MKP1837322161G"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "2870-MKP1837322161G-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "4/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "4/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "ThroughHole"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Capacitor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "160V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Radial"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "MKP1837322161G"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MKP1837322161G_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "MKP1837410011"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MKP1837410011"
-			(at 1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:MKP1837322161G"
-			(at -5.08 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/26017/mkp1837.pdf"
-			(at -2.54 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF Film Capacitor 100V 160V Polypropylene (PP), Metallized Radial"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1" "1.73000"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 1000" "0.73044"
-			(at 5.08 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 2500" "0.68478"
-			(at 7.62 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 5000" "*"
-			(at 10.16 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost QTY: 10000" "*"
-			(at 12.7 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Vishay Beyschlag/Draloric/BC Components"
-			(at 15.24 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR#" "MKP1837410011"
-			(at 17.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Digikey"
-			(at 20.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor #" "2870-MKP1837410011-ND"
-			(at 22.86 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Designer" "AVR"
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "11mm"
-			(at 27.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Created" "4/27/2024"
-			(at 55.88 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Date Modified" "4/27/2024"
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead-Free ?" "Yes"
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RoHS Levels" "1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting" "ThroughHole"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count #" "2"
-			(at 40.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 43.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 45.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Capacitor"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "160V"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Radial"
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "_Value_" "100nF"
-			(at 58.42 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Management_ID" "*"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MKP1837410011_1_1"
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 0 180)
-				(length 5.08)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "PFR5471J630J11L4BULK"
 		(pin_names
@@ -23910,8 +22192,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 470PF 5% 630VDC RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24117,6 +22399,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 470PF 5% 630VDC RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "470pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -24141,7 +22432,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24153,7 +22444,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24196,6 +22487,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PHE850EA4220MA01R17"
 		(pin_names
@@ -24239,8 +22531,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 2200PF 20% 1.25KVDC RAD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24446,6 +22738,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 2200PF 20% 1.25KVDC RAD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "22nF"
 			(at 58.42 63.5 0)
 			(effects
@@ -24470,7 +22771,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24482,7 +22783,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24525,6 +22826,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PHE850EA4330MA02R17"
 		(pin_names
@@ -24568,8 +22870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 3300PF 20% 1.25KVDC RAD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24775,6 +23077,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 3300PF 20% 1.25KVDC RAD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "3300pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -24799,7 +23110,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24811,7 +23122,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -24854,6 +23165,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PHE850EA4470MA03R17"
 		(pin_names
@@ -24897,8 +23209,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP FILM 4700PF 20% 1.25KVDC RAD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25104,6 +23416,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP FILM 4700PF 20% 1.25KVDC RAD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "4700pF"
 			(at 58.42 63.5 0)
 			(effects
@@ -25128,7 +23449,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25140,7 +23461,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25183,6 +23504,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "T491A106K010AT"
 		(pin_names
@@ -25226,8 +23548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10µF Molded Tantalum Capacitors 10V 1206 (3216 Metric) 3.8Ohm"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25433,6 +23755,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "10µF Molded Tantalum Capacitors 10V 1206 (3216 Metric) 3.8Ohm"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -25457,7 +23788,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25469,7 +23800,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25481,7 +23812,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25495,7 +23826,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25507,7 +23838,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25550,6 +23881,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE"
 		(pin_names
@@ -25566,7 +23898,7 @@
 				)
 			)
 		)
-		(property "Value" "TEMPLATE_POLAR"
+		(property "Value" "TEMPLATE"
 			(at 1.27 5.08 0)
 			(effects
 				(font
@@ -25575,7 +23907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "*"
+		(property "Footprint" ""
 			(at -5.08 0 0)
 			(effects
 				(font
@@ -25584,7 +23916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "*"
+		(property "Datasheet" ""
 			(at -2.54 2.54 0)
 			(effects
 				(font
@@ -25593,8 +23925,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "*"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25800,6 +24132,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "*"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "*"
 			(at 58.42 63.5 0)
 			(effects
@@ -25824,7 +24165,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25836,7 +24177,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -25879,6 +24220,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_POLAR"
 		(pin_names
@@ -25922,8 +24264,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "*"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26129,6 +24471,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "*"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "*"
 			(at 58.42 63.5 0)
 			(effects
@@ -26153,7 +24504,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26165,7 +24516,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26177,7 +24528,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26191,7 +24542,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26203,7 +24554,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26246,6 +24597,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UCM1C470MCL1GS"
 		(pin_names
@@ -26289,8 +24641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD  2000 Hrs @ 105°C"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26496,6 +24848,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "47µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD  2000 Hrs @ 105°C"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "47uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -26520,7 +24881,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26532,7 +24893,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26544,7 +24905,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26558,7 +24919,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26570,7 +24931,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26613,6 +24974,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UCS2C221MHD1TN"
 		(pin_names
@@ -26656,8 +25018,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 220UF 20% 160V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26863,6 +25225,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 220UF 20% 160V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "220uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -26887,7 +25258,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26899,7 +25270,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26911,7 +25282,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26925,7 +25296,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26937,7 +25308,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -26980,6 +25351,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UES1E100MDM1TD"
 		(pin_names
@@ -27023,8 +25395,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 10UF 20% 25V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27230,6 +25602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 10UF 20% 25V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -27254,7 +25635,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27266,7 +25647,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27278,7 +25659,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27292,7 +25673,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27304,7 +25685,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27347,6 +25728,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UES1H010MDM"
 		(pin_names
@@ -27390,8 +25772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 1UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27597,6 +25979,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 1UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -27621,7 +26012,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27633,7 +26024,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27645,7 +26036,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27659,7 +26050,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27671,7 +26062,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -27714,6 +26105,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UES1H100MPM1TD"
 		(pin_names
@@ -27757,8 +26149,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 10UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27964,6 +26356,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 10UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -27988,7 +26389,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28000,7 +26401,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28012,7 +26413,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28026,7 +26427,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28038,7 +26439,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28081,6 +26482,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UES1H2R2MDM1TD"
 		(pin_names
@@ -28124,8 +26526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 2.2UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28331,6 +26733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 2.2UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "2.2uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -28355,7 +26766,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28367,7 +26778,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28379,7 +26790,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28393,7 +26804,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28405,7 +26816,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28448,6 +26859,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UFG1H010MDM"
 		(pin_names
@@ -28491,8 +26903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 1UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28698,6 +27110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 1UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -28722,7 +27143,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28734,7 +27155,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28746,7 +27167,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28760,7 +27181,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28772,7 +27193,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -28815,6 +27236,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UFW1H100MDD1TD"
 		(pin_names
@@ -28858,8 +27280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 10UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29065,6 +27487,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 10UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -29089,7 +27520,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29101,7 +27532,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29113,7 +27544,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29127,7 +27558,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29139,7 +27570,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29182,6 +27613,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UFW1H101MPD"
 		(pin_names
@@ -29225,8 +27657,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 100UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29432,6 +27864,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 100UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "100uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -29456,7 +27897,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29468,7 +27909,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29480,7 +27921,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29494,7 +27935,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29506,7 +27947,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29549,6 +27990,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UFW1H2R2MDD1TD"
 		(pin_names
@@ -29592,8 +28034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 2.2UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29799,6 +28241,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 2.2UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "2.2uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -29823,7 +28274,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29835,7 +28286,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29847,7 +28298,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29861,7 +28312,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29873,7 +28324,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -29916,6 +28367,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UFW1H3R3MDD1TD"
 		(pin_names
@@ -29959,8 +28411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 3.3UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30166,6 +28618,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 3.3UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "3.3uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -30190,7 +28651,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30202,7 +28663,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30214,7 +28675,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30228,7 +28689,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30240,7 +28701,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30283,6 +28744,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UFW1H470MED1TD"
 		(pin_names
@@ -30326,8 +28788,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 47UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30533,6 +28995,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 47UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "47uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -30557,7 +29028,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30569,7 +29040,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30581,7 +29052,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30595,7 +29066,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30607,7 +29078,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30650,6 +29121,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UFW1H4R7MDD1TD"
 		(pin_names
@@ -30693,8 +29165,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 4.7UF 20% 50V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30900,6 +29372,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 4.7UF 20% 50V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "4.7uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -30924,7 +29405,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30936,7 +29417,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30948,7 +29429,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30962,7 +29443,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -30974,7 +29455,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31017,6 +29498,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UKA1V221MPD1TD"
 		(pin_names
@@ -31060,8 +29542,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 220UF 20% 35V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31267,6 +29749,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 220UF 20% 35V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "220uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -31291,7 +29782,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31303,7 +29794,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31315,7 +29806,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31329,7 +29820,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31341,7 +29832,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31384,6 +29875,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUD1H150MCL1GS"
 		(pin_names
@@ -31427,8 +29919,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 15UF 20% 50V SMD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31634,6 +30126,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 15UF 20% 50V SMD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "15uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -31658,7 +30159,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31670,7 +30171,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31682,7 +30183,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31696,7 +30197,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31708,7 +30209,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -31751,6 +30252,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUQ1H010MCL1GB"
 		(pin_names
@@ -31776,7 +30278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CAP_UUQ_4X5P4_NCH"
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CP_Elec_4x5.3"
 			(at -5.08 0 0)
 			(effects
 				(font
@@ -31794,8 +30296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32001,6 +30503,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "1µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -32025,7 +30536,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32037,7 +30548,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32049,7 +30560,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32063,7 +30574,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32075,7 +30586,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32118,6 +30629,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUQ1H100MCL1GB"
 		(pin_names
@@ -32143,7 +30655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CAP_UUQ_6P3X5P4_NCH"
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CP_Elec_4x5.3"
 			(at -5.08 0 0)
 			(effects
 				(font
@@ -32161,8 +30673,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32368,6 +30880,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "10µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "10uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -32392,7 +30913,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32404,7 +30925,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32416,7 +30937,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32430,7 +30951,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32442,7 +30963,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32485,6 +31006,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUQ1H220MCL1GS"
 		(pin_names
@@ -32510,7 +31032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CAP_UCD_8X6P2_NCH-M"
+		(property "Footprint" "AVR-KiCAD-Lib-Capacitors:CP_Elec_8x6.5"
 			(at -5.08 0 0)
 			(effects
 				(font
@@ -32528,8 +31050,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32735,6 +31257,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "22µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "22uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -32759,7 +31290,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32771,7 +31302,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32783,7 +31314,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32797,7 +31328,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32809,7 +31340,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -32852,6 +31383,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUQ1H2R2MCL1GB"
 		(pin_names
@@ -32895,8 +31427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33102,6 +31634,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "2.2µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "2.2uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -33126,7 +31667,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33138,7 +31679,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33150,7 +31691,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33164,7 +31705,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33176,7 +31717,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33219,6 +31760,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUQ1H3R3MCL1GB"
 		(pin_names
@@ -33262,8 +31804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33469,6 +32011,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "3.3µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "3.3uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -33493,7 +32044,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33505,7 +32056,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33517,7 +32068,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33531,7 +32082,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33543,7 +32094,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33586,6 +32137,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUQ1H470MCL1GS"
 		(pin_names
@@ -33629,8 +32181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33836,6 +32388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "47µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "47uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -33860,7 +32421,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33872,7 +32433,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33884,7 +32445,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33898,7 +32459,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33910,7 +32471,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -33953,6 +32514,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUQ1V4R7MCL1GB"
 		(pin_names
@@ -33996,8 +32558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF 35V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34203,6 +32765,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "4.7µF 35V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "4.7uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -34227,7 +32798,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34239,7 +32810,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34251,7 +32822,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34265,7 +32836,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34277,7 +32848,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34320,6 +32891,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UUX1J101MNL1GS"
 		(pin_names
@@ -34363,8 +32935,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 100UF 20% 63V SMD"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34570,6 +33142,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 100UF 20% 63V SMD"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "100uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -34594,7 +33175,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34606,7 +33187,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34618,7 +33199,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34632,7 +33213,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34644,7 +33225,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34687,6 +33268,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UVR2A0R1MDD1TD"
 		(pin_names
@@ -34730,8 +33312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 0.1UF 20% 100V RADIAL"
-			(at 63.5 68.58 0)
+		(property "Description" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34937,6 +33519,15 @@
 				(hide yes)
 			)
 		)
+		(property "Description_1" "CAP ALUM 0.1UF 20% 100V RADIAL"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "_Value_" "0.1uF"
 			(at 58.42 63.5 0)
 			(effects
@@ -34961,7 +33552,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34973,7 +33564,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34985,7 +33576,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -34999,7 +33590,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35011,7 +33602,7 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -35054,5 +33645,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
