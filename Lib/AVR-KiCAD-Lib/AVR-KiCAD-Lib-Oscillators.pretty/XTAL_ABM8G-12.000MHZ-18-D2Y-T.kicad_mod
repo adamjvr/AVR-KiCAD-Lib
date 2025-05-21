@@ -1,7 +1,7 @@
 (footprint "XTAL_ABM8G-12.000MHZ-18-D2Y-T"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 1.475 -2.885 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8b0b843d-dc9b-43ca-8bd4-834689b9f6ae")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -89,7 +79,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8ec8aea7-bd5f-4e32-a662-ed80b53bc2b4")
 	)
@@ -180,39 +170,40 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "43bcd049-7a4f-4686-92fd-f359efccf159")
 	)
 	(pad "1" smd rect
 		(at -0.85 -1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "3bc5d0fa-a3d5-4dcb-ab07-817cc79a1217")
 	)
 	(pad "2" smd rect
 		(at -0.85 1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "033d0516-62d5-4f86-b660-7ef4c7e71ce8")
 	)
 	(pad "3" smd rect
 		(at 0.85 1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "613630ec-824c-4f11-b53f-9be2632afa4c")
 	)
 	(pad "4" smd rect
 		(at 0.85 -1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "05a420b8-86b0-493d-8766-c80d37b5db15")
 	)
-	(model "${KICAD_AVR_3D}/STEP/ABM8G-12.000MHZ-18-D2Y-T.step"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/ABM8G-12.000MHZ-18-D2Y-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

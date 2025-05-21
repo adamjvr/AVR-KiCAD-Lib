@@ -1,31 +1,192 @@
-(module C_2220 (layer F.Cu) (tedit 5E9FEB2E)
-  (descr "Capacitor SMD 2220, hand soldering")
-  (tags "capacitor 2220")
-  (attr smd)
-  (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value C_2220 (at 0 3.75) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 4.95 2.75) (end -4.95 2.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 4.95 2.75) (end 4.95 -2.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -4.95 -2.75) (end -4.95 2.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -4.95 -2.75) (end 4.95 -2.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.3 2.73) (end 2.3 2.73) (layer F.SilkS) (width 0.12))
-  (fp_line (start 2.3 -2.73) (end -2.3 -2.73) (layer F.SilkS) (width 0.12))
-  (fp_line (start -2.75 -2.5) (end 2.75 -2.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.75 -2.5) (end 2.75 2.5) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.75 2.5) (end -2.75 2.5) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.75 2.5) (end -2.75 -2.5) (layer F.Fab) (width 0.1))
-  (fp_text user %R (at 0 -3.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 2 smd roundrect (at 3.5 0) (size 2.4 5.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.125))
-  (pad 1 smd roundrect (at -3.5 0) (size 2.4 5.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.125))
-  (model ${AVR_KICAD_LIB}/3D/STEP/LDECD3470KA5N00.step
-    (offset (xyz -2.75 -2.75 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "C_2220"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 2220, hand soldering")
+	(tags "capacitor 2220")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "44279cfb-68ea-4374-9d15-50bf0269caf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_2220"
+		(at 0 3.75 0)
+		(layer "F.Fab")
+		(uuid "1a7e2a96-da2c-436f-b745-330d441af7c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "494f13cd-0836-4c29-b43e-22229ec78e48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d7db5bb-d4cb-4406-99b0-9355853d4b7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 2.73)
+		(end 2.3 2.73)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40d72470-11ec-421b-80b6-ba5fbd642e64")
+	)
+	(fp_line
+		(start 2.3 -2.73)
+		(end -2.3 -2.73)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fd0f5dd-927e-4cb0-bf1e-a987422898f5")
+	)
+	(fp_line
+		(start -4.95 -2.75)
+		(end -4.95 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fe55f5b-e12e-4a92-93bd-03ed04f060da")
+	)
+	(fp_line
+		(start -4.95 -2.75)
+		(end 4.95 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e50ec78-9559-4b6b-bb40-688060acbfa4")
+	)
+	(fp_line
+		(start 4.95 2.75)
+		(end -4.95 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61c39f87-104e-4e06-b9f6-55d010172aaf")
+	)
+	(fp_line
+		(start 4.95 2.75)
+		(end 4.95 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2eb3498f-1553-42ff-b12e-398e88000d30")
+	)
+	(fp_line
+		(start -2.75 -2.5)
+		(end 2.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf4b72fe-daf0-41d8-911d-f6ef7ea31884")
+	)
+	(fp_line
+		(start -2.75 2.5)
+		(end -2.75 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c78efa1-4ed8-4175-b726-40dee0c161f2")
+	)
+	(fp_line
+		(start 2.75 -2.5)
+		(end 2.75 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9b8940a-f5df-4a00-a57b-6bcedb750b91")
+	)
+	(fp_line
+		(start 2.75 2.5)
+		(end -2.75 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b02fce9-0a6f-48ce-8d2e-3da4354cce39")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(uuid "9c4937e0-8d81-4bce-bfc0-54bc8256af41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.5 0)
+		(size 2.4 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "154dc76d-1b59-47bf-8c2d-6b74a723acad")
+	)
+	(pad "2" smd roundrect
+		(at 3.5 0)
+		(size 2.4 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "c149ed19-b892-497a-8f62-ee98cc2a8063")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/LDECD3470KA5N00.step"
+		(offset
+			(xyz -3.25 -2.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

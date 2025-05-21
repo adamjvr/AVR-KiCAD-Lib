@@ -1,7 +1,7 @@
 (footprint "PTS636 SM43 SMTR LFS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.6 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d5e07baa-9868-46ad-b579-27452e5e1f7f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -10.3 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb1047aa-c095-4e5c-977a-e08c5151293a")
 		(effects
 			(font
 				(size 1 1)
@@ -142,7 +129,7 @@
 	(pad "1" smd roundrect
 		(at -3.85 0)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "b3704ff9-8d85-4e87-b0b6-26dd9784de32")
@@ -150,12 +137,13 @@
 	(pad "2" smd roundrect
 		(at 3.85 0)
 		(size 1.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "08d8cea0-e928-42fc-bd94-6f4ad095f5a1")
 	)
-	(model "${KICAD_AVR_3D}/STEP/PTS636SM43SMTRLFS.stp"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/PTS636SM43SMTRLFS.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "CP_Elec_4x5.3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMT capacitor, aluminium electrolytic, 4x5.3")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fdd6800b-43eb-4c81-b8c4-1727b53d014b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -250,7 +238,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f68a04f0-861c-4098-8548-36ef82b480b5")
 	)
@@ -290,18 +278,19 @@
 	(pad "1" smd roundrect
 		(at -1.8 0 180)
 		(size 2.6 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d985690a-815c-4c14-ba2f-841725f85d6b")
 	)
 	(pad "2" smd roundrect
 		(at 1.8 0 180)
 		(size 2.6 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "aad4ed3d-acd6-4cdc-b91d-f7e0cef4fe11")
 	)
-	(model "${KICAD_AVR_3D}/STEP/CAP_UCD_4X5P8_NCH-L.step"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/CAP_UCD_4X5P8_NCH-L.step"
 		(offset
 			(xyz 0 0 0)
 		)

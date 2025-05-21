@@ -145,15 +145,15 @@
 		(uuid "e42967ae-c38a-42e6-82a9-14624ce74520")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/adam/Documents/GitHub/footprints/3D/STEP/C1210.step"
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/1210_GB.stp"
 		(offset
-			(xyz -1.749999974 -0.799999988 0)
+			(xyz 1.6 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )

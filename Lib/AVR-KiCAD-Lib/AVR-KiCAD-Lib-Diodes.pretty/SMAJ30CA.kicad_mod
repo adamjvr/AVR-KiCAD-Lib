@@ -1,7 +1,7 @@
 (footprint "SMAJ30CA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.85 -3.05 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0633a619-a574-4425-9ec9-1bf673d20a49")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -545,16 +533,17 @@
 	(pad "1" smd rect
 		(at -1.7018 0 90)
 		(size 1.651 2.1844)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3ba922a8-557f-4705-87d3-dc0c18e17edb")
 	)
 	(pad "2" smd rect
 		(at 1.7018 0 90)
 		(size 1.651 2.1844)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "facdb7e2-a872-4276-85c3-0bf1c754780e")
 	)
-	(model "${KICAD_AVR_3D}/STEP/SMASeries-L.step"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/SMASeries-L.step"
 		(offset
 			(xyz 0 0 0)
 		)

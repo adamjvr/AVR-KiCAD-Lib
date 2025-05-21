@@ -1,7 +1,7 @@
 (footprint "SW_TL3330AF260QG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.635 -5.969 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4e10d3ec-fcd1-4aca-b808-86fc2a035596")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -179,7 +169,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a4864800-1cdc-47c5-a117-92c4b50bd61c")
 	)
@@ -360,39 +350,40 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c36eef3b-2c6f-4d63-8cf6-d971257f0ad4")
 	)
 	(pad "1" smd rect
 		(at -2.1 -0.885)
 		(size 0.9 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "41631b04-b0a5-4159-a8ef-bf94ef714934")
 	)
 	(pad "2" smd rect
 		(at 2.1 -0.885)
 		(size 0.9 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "30c54b5c-b19e-447e-b3b2-8ee5a74e5bd4")
 	)
 	(pad "S1" smd rect
 		(at -3.375 1)
 		(size 1.45 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "984200b6-b035-478e-aaae-4eb7b165ba6b")
 	)
 	(pad "S2" smd rect
 		(at 3.375 1)
 		(size 1.45 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "ed5a9ed7-4877-408e-baea-618fee6de4bd")
 	)
-	(model "${KICAD_AVR_3D}/STEP/TL3330AF260QG.step"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/TL3330AF260QG.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "R0805"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.937 0 0)
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "89febeba-70c9-4686-91f0-f7edd273e5df")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -186,7 +174,7 @@
 	(pad "1" smd roundrect
 		(at -0.95 0)
 		(size 1.016 1.651)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.102)
 		(uuid "da96a67c-8190-475b-8b92-8c5237c29a58")
@@ -194,12 +182,13 @@
 	(pad "2" smd roundrect
 		(at 0.95 0)
 		(size 1.016 1.651)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.102)
 		(uuid "b911480c-0d27-460f-aeb6-e7fa599e2f8f")
 	)
-	(model "${KICAD_AVR_3D}/STEP/RES0805.stp"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/RES0805.stp"
 		(offset
 			(xyz 0 0 0)
 		)

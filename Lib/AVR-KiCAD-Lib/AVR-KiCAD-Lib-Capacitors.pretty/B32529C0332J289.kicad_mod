@@ -1,14 +1,121 @@
-(module B32529C0332J289 (layer F.Cu) (tedit 5CD2485B)
-  (fp_text reference REF** (at -1.7 -1.95) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value B32529C0332J289 (at 0 2.1) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -3.6 -1.25) (end 3.6 -1.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start 3.6 -1.25) (end 3.6 1.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.6 1.25) (end 3.6 1.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.6 -1.25) (end -3.6 1.25) (layer F.SilkS) (width 0.2))
-  (pad 1 thru_hole circle (at -2.5 0) (size 1.4224 1.4224) (drill 0.746) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 2.5 0) (size 1.4224 1.4224) (drill 0.746) (layers *.Cu *.Mask))
+(footprint "B32529C0332J289"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.7 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "0a3de03b-e139-4538-a617-ab2a458e0a67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B32529C0332J289"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "a5e35329-546b-4cac-93ce-2202f5e635e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9846aa9e-b1c5-4b83-ad9f-47e7597b8438")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a17e0093-09a7-4db0-8ddc-c0bfc6bb8c25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.6 -1.25)
+		(end -3.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5558e788-f4c0-43c1-9afe-05174c4bf2ea")
+	)
+	(fp_line
+		(start -3.6 -1.25)
+		(end 3.6 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8260ad87-59ba-40fc-ac1b-d255168b9fab")
+	)
+	(fp_line
+		(start -3.6 1.25)
+		(end 3.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81bec515-030c-4be5-8e00-fc392e4dc583")
+	)
+	(fp_line
+		(start 3.6 -1.25)
+		(end 3.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "572cec53-b12c-45ed-8c0e-4cdd6027bec6")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.4224 1.4224)
+		(drill 0.746)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8b84e5f-ef77-4011-9f1a-7f6e70c8bc60")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.4224 1.4224)
+		(drill 0.746)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ae129fa-dffd-4fd2-add2-34f3e8f489fb")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/B32529C0223K189.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

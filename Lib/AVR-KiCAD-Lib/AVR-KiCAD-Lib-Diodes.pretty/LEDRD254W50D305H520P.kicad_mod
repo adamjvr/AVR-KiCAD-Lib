@@ -1,0 +1,116 @@
+(footprint "LEDRD254W50D305H520P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.37551 -2.93907 0)
+		(layer "F.SilkS")
+		(uuid "2ce3fe4c-16de-42df-9bad-1004d90029bd")
+		(effects
+			(font
+				(size 1.001386 1.001386)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LEDRD254W50D305H520P"
+		(at 9.30834 2.96767 0)
+		(layer "F.Fab")
+		(uuid "bd6ac00a-8532-478e-9c32-7b6f4d94f3ce")
+		(effects
+			(font
+				(size 1.000898 1.000898)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8fbff25-30a3-4894-b534-8d1acca7097a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6303845-a420-49fc-b1ce-a43f238325de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -1.34 -0.68)
+		(mid 0.006371 -1.523674)
+		(end 1.34 -0.66)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "273c187d-1870-4ca8-835b-5feae6757e26")
+	)
+	(fp_arc
+		(start 1.36 0.7)
+		(mid 0.013629 1.543674)
+		(end -1.32 0.68)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b0d4073-95e3-4ddd-8946-e62866eac81a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a0fb032f-b619-4941-84e9-fa427b5e4946")
+	)
+	(pad "A" thru_hole rect
+		(at -1.27 0)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d4cd0981-5a21-4c3b-a237-658083e1af97")
+	)
+	(pad "C" thru_hole circle
+		(at 1.27 0)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fcad59c1-1b80-4ccb-9ac2-d2dc24459660")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/OVLAW4CB7.step"
+		(offset
+			(xyz 0 0 13)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

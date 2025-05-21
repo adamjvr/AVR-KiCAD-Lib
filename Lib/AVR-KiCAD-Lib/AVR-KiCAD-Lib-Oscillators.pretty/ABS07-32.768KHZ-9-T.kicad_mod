@@ -1,27 +1,181 @@
-(module ABS07-32.768KHZ-9-T (layer F.Cu) (tedit 5EE8516A)
-  (fp_text reference REF** (at 0 -2.159) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value ABS07-32.768KHZ-9-T (at 0 2.159) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 1.397 -1.143) (end 2.032 -1.143) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.032 -0.508) (end 2.032 -1.143) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.397 1.143) (end 2.032 1.143) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.032 1.143) (end 2.032 0.508) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.032 1.143) (end -1.397 1.143) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.032 1.143) (end -2.032 0.508) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.032 -1.143) (end -2.032 -0.508) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.397 -1.143) (end -2.032 -1.143) (layer F.SilkS) (width 0.15))
-  (fp_line (start -0.508 0.762) (end 0.508 0.762) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.508 -0.762) (end 0.508 -0.762) (layer F.SilkS) (width 0.2))
-  (pad 2 smd roundrect (at 1.25 0) (size 1.1 1.9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-    (solder_mask_margin 0.102))
-  (pad 1 smd roundrect (at -1.25 0) (size 1.1 1.9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-    (solder_mask_margin 0.102))
-  (model ${AVR_KICAD_LIB}/3D/STEP/ABS07.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "ABS07-32.768KHZ-9-T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.159 0)
+		(layer "F.SilkS")
+		(uuid "0922cd2a-cede-433b-b978-8613252b211a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ABS07-32.768KHZ-9-T"
+		(at 0 2.159 0)
+		(layer "F.Fab")
+		(uuid "6112ed18-ea68-47e8-8aa1-13354e8f1a11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa707590-bc1a-4048-86b5-c4ac0fcfd13a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79ece1a6-e47f-4f65-bfff-eb14ab4c87a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.032 -1.143)
+		(end -2.032 -0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "244edd9f-4550-4907-ba74-fbd4e0dfe4a7")
+	)
+	(fp_line
+		(start -2.032 1.143)
+		(end -2.032 0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82104267-b29a-4924-9824-0b19b2d83a3c")
+	)
+	(fp_line
+		(start -2.032 1.143)
+		(end -1.397 1.143)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "976587e0-21f0-4b82-ad5a-1e5022b42b93")
+	)
+	(fp_line
+		(start -1.397 -1.143)
+		(end -2.032 -1.143)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c00bf48d-e751-4002-bc5e-cf3e3596598f")
+	)
+	(fp_line
+		(start -0.508 -0.762)
+		(end 0.508 -0.762)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70fd9f22-fde4-43db-b3f5-0c08dca889bd")
+	)
+	(fp_line
+		(start -0.508 0.762)
+		(end 0.508 0.762)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b37816eb-350a-4a03-8073-d3e5549ca38b")
+	)
+	(fp_line
+		(start 1.397 -1.143)
+		(end 2.032 -1.143)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03261c7d-96f2-4659-a8a0-0854ec582933")
+	)
+	(fp_line
+		(start 1.397 1.143)
+		(end 2.032 1.143)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76d3807e-282f-4297-a67d-e92d42c7f0ca")
+	)
+	(fp_line
+		(start 2.032 -0.508)
+		(end 2.032 -1.143)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c428d30-9f59-4297-b992-2311a6aea9b6")
+	)
+	(fp_line
+		(start 2.032 1.143)
+		(end 2.032 0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7087dc1-02a8-4266-a9f3-536ec137bc62")
+	)
+	(pad "1" smd roundrect
+		(at -1.25 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "ec97c670-2a64-4223-ac2e-8d4483064086")
+	)
+	(pad "2" smd roundrect
+		(at 1.25 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "1351fe4d-88dc-4aa0-8eb1-37a7d76d2286")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/ABS07.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
