@@ -2,6 +2,408 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+	(symbol "744775133"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "744775133"
+			(at 1.27 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AVR-KiCAD-Lib-Inductors:WE-PD2_7850"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744775133.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "33 µH Unshielded Drum Core, Wirewound Inductor 1.35 A 130mOhm Max Nonstandard"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1" "2.25000"
+			(at 2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 1000" "*"
+			(at 5.08 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 2500" "*"
+			(at 7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 5000" "*"
+			(at 10.16 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost QTY: 10000" "*"
+			(at 12.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Würth Elektronik"
+			(at 15.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR#" "744775133"
+			(at 17.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 20.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor #" "732-1288-2-ND"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Designer" "Adam Vadala-Roth"
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5mm"
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Created" "9/2/2025"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Date Modified" "9/2/2025"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead-Free ?" "Yes"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Levels" "1"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounting" "SMT"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count #" "2"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Inductor"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "*"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Proprietary"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "_Value_" "33uH"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Management_ID" "*"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "744775133_1_1"
+			(arc
+				(start -3.81 1.27)
+				(mid -2.9212 0.8966)
+				(end -2.54 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 1.27)
+				(mid -0.3812 0.8966)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 1.27)
+				(mid 2.1588 0.8966)
+				(end 2.54 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 1.27)
+				(mid 4.6988 0.8966)
+				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ASPI-0615FS-100M-T2"
 		(pin_names
 			(offset 1.016)
@@ -279,18 +681,6 @@
 		)
 		(symbol "ASPI-0615FS-100M-T2_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -303,9 +693,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -327,9 +717,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -351,9 +741,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -366,6 +756,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -690,18 +1092,6 @@
 		)
 		(symbol "ASPI-0628-3R9M-T1_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -714,9 +1104,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -738,9 +1128,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -762,9 +1152,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -777,6 +1167,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1101,18 +1503,6 @@
 		)
 		(symbol "BLM15HG601SN1D_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -1125,9 +1515,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1149,9 +1539,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1173,9 +1563,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1188,6 +1578,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1502,18 +1904,6 @@
 		)
 		(symbol "DFE201210U-2R2M=P2_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -1526,9 +1916,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1550,9 +1940,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1574,9 +1964,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1589,6 +1979,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1912,18 +2314,6 @@
 		)
 		(symbol "FBMJ1608HM180NTR_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -1936,9 +2326,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1960,9 +2350,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1984,9 +2374,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1999,6 +2389,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2322,18 +2724,6 @@
 		)
 		(symbol "L1210R2R2MDWIT_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -2346,9 +2736,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2370,9 +2760,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2394,9 +2784,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2409,6 +2799,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2733,18 +3135,6 @@
 		)
 		(symbol "MI0603K300R-10_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -2757,9 +3147,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2781,9 +3171,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2805,9 +3195,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2820,6 +3210,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3135,18 +3537,6 @@
 		)
 		(symbol "MMZ1608B601CTAH0_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -3159,9 +3549,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3183,9 +3573,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3207,9 +3597,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3222,6 +3612,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3546,18 +3948,6 @@
 		)
 		(symbol "SDR0403-120ML_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -3570,9 +3960,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3594,9 +3984,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3618,9 +4008,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3633,6 +4023,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3957,18 +4359,6 @@
 		)
 		(symbol "SDR0604-180YL_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -3981,9 +4371,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4005,9 +4395,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4029,9 +4419,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4044,6 +4434,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4368,18 +4770,6 @@
 		)
 		(symbol "SDR0805-3R9ML_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -4392,9 +4782,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4416,9 +4806,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4440,9 +4830,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4455,6 +4845,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4779,18 +5181,6 @@
 		)
 		(symbol "SRN8040-220M_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -4803,9 +5193,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4827,9 +5217,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4851,9 +5241,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4866,6 +5256,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5190,18 +5592,6 @@
 		)
 		(symbol "SRP6540-4R7M_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -5214,9 +5604,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5238,9 +5628,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5262,9 +5652,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5277,6 +5667,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5601,18 +6003,6 @@
 		)
 		(symbol "SRR4028-120Y_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -5625,9 +6015,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5649,9 +6039,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5673,9 +6063,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5688,6 +6078,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6012,18 +6414,6 @@
 		)
 		(symbol "SRR5028-180Y_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -6036,9 +6426,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6060,9 +6450,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6084,9 +6474,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6099,6 +6489,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6423,18 +6825,6 @@
 		)
 		(symbol "TEMPLATE_1_1"
 			(arc
-				(start -5.08 0)
-				(mid -4.7066 0.8888)
-				(end -3.81 1.27)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start -3.81 1.27)
 				(mid -2.9212 0.8966)
 				(end -2.54 0)
@@ -6447,9 +6837,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -2.1666 0.8888)
-				(end -1.27 1.27)
+				(start -5.08 0)
+				(mid -4.7066 0.8888)
+				(end -3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6471,9 +6861,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
-				(mid 0.3734 0.8888)
-				(end 1.27 1.27)
+				(start -2.54 0)
+				(mid -2.1666 0.8888)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6495,9 +6885,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 2.9134 0.8888)
-				(end 3.81 1.27)
+				(start 0 0)
+				(mid 0.3734 0.8888)
+				(end 1.27 1.27)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6510,6 +6900,18 @@
 				(start 3.81 1.27)
 				(mid 4.6988 0.8966)
 				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 2.9134 0.8888)
+				(end 3.81 1.27)
 				(stroke
 					(width 0)
 					(type solid)

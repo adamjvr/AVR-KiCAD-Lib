@@ -83,7 +83,7 @@
 		(layer "F.CrtYd")
 		(uuid "a0fb032f-b619-4941-84e9-fa427b5e4946")
 	)
-	(pad "A" thru_hole rect
+	(pad "1" thru_hole rect
 		(at -1.27 0)
 		(size 1.208 1.208)
 		(drill 0.7)
@@ -92,7 +92,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "d4cd0981-5a21-4c3b-a237-658083e1af97")
 	)
-	(pad "C" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 1.27 0)
 		(size 1.208 1.208)
 		(drill 0.7)
