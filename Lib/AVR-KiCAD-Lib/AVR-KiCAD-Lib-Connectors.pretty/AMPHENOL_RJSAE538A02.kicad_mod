@@ -1,7 +1,7 @@
 (footprint "AMPHENOL_RJSAE538A02"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -4.445 -26.035 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d37ba864-42e9-48d5-a27b-9f87b8c887d0")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -529,7 +517,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "0346166a-c9f1-423e-adb4-6690e73a1d41")
 	)
-	(model "${KICAD_AVR_3D}/STEP/RJSAE538A02.step"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/RJSAE538A02.step"
 		(offset
 			(xyz 0 0 0)
 		)

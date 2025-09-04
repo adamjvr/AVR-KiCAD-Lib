@@ -1,18 +1,112 @@
-(module CPOL16mmX27mm (layer F.Cu) (tedit 5C048C23)
-  (fp_text reference REF** (at -7.15 -8.75) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value CPOL16mmX27mm (at -3.7 -10.85) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 -0.05) (end 8 -0.05) (layer F.SilkS) (width 0.2))
-  (fp_line (start -8 -7) (end -8 -5) (layer F.SilkS) (width 0.2))
-  (fp_line (start -9 -6) (end -7 -6) (layer F.SilkS) (width 0.2))
-  (pad 1 thru_hole rect (at -3.75 0.05) (size 1.524 1.524) (drill 0.835) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 3.75 0.1) (size 1.524 1.524) (drill 0.835) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3D/STEP/User Library-CAPAER_D160_L275_P075_W008X030.STEP"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CPOL16mmX27mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.15 -8.75 0)
+		(layer "F.SilkS")
+		(uuid "66692135-0e36-497c-b97c-b00d09c41b7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CPOL16mmX27mm"
+		(at -3.7 -10.85 0)
+		(layer "F.Fab")
+		(uuid "ef3e7d7e-deb7-45c4-b0b3-db99159144c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81043f7f-c39f-4bec-8b3d-50daf9d54585")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6767f78c-9b92-45e4-aee9-50e4f0c05d36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9 -6)
+		(end -7 -6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95f8919f-7011-491c-b003-25a051f31268")
+	)
+	(fp_line
+		(start -8 -7)
+		(end -8 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44851663-027c-4c59-b975-06cf381678ff")
+	)
+	(fp_circle
+		(center 0 -0.05)
+		(end 8 -0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "97d8b4f3-3d4b-4861-82e6-12e923b29c2d")
+	)
+	(pad "1" thru_hole rect
+		(at -3.75 0.05)
+		(size 1.524 1.524)
+		(drill 0.835)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ddc0164-4535-4339-a710-99116dfb7652")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 0.1)
+		(size 1.524 1.524)
+		(drill 0.835)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df2f1330-4957-41c6-b179-9fcd342d2c8a")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/User Library-CAPAER_D160_L275_P075_W008X030.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

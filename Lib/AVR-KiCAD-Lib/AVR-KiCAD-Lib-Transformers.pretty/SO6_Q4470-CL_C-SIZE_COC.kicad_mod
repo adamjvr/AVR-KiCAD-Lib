@@ -1,7 +1,7 @@
 (footprint "SO6_Q4470-CL_C-SIZE_COC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Q4470-CLD ")
 	(property "Reference" "REF**"
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a6caec7b-76bc-4bae-b4b4-09a544bc8a0b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -591,40 +579,41 @@
 	(pad "1" smd rect
 		(at -4.0513 -2.54)
 		(size 1.4986 0.635)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2bca2e52-8ab0-4ff2-959e-2cb469b28011")
 	)
 	(pad "2" smd rect
 		(at -4.0513 0)
 		(size 1.4986 0.635)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "26004993-729d-4f85-b20e-ee07214e61e6")
 	)
 	(pad "3" smd rect
 		(at -4.0513 2.54)
 		(size 1.4986 0.635)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8146c616-88d5-4850-b551-42420627db67")
 	)
 	(pad "4" smd rect
 		(at 4.0513 2.54)
 		(size 1.4986 0.635)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c646b50a-2cb2-478d-845d-627171995442")
 	)
 	(pad "5" smd rect
 		(at 4.0513 0)
 		(size 1.4986 0.635)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5101e4cf-cc6a-42f8-8c67-911e0fca404b")
 	)
 	(pad "6" smd rect
 		(at 4.0513 -2.54)
 		(size 1.4986 0.635)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c395921b-98c3-45f7-bb55-249de96e5dfa")
 	)
-	(model ":KICAD_AVR_3D:STEP/SO6_Q4470-CL_C-SIZE_COC.step"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/SO6_Q4470-CL_C-SIZE_COC.step"
 		(offset
 			(xyz 0 0 0)
 		)

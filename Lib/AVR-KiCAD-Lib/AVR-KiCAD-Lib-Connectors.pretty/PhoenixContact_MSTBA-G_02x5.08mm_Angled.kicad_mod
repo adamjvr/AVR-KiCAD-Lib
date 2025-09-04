@@ -1,7 +1,7 @@
 (footprint "PhoenixContact_MSTBA-G_02x5.08mm_Angled"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Generic Phoenix Contact connector footprint for series: MSTBA-G; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
 	(tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3aca7801-a6bb-4720-959e-3dd28c5eef6e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -381,18 +369,8 @@
 		(remove_unused_layers no)
 		(uuid "66da1469-298b-4513-993c-01282f42e817")
 	)
-	(model "${AVR_KICAD_LIB}/3D/STEP/1757242.STEP"
-		(offset
-			(xyz 2.5 -4 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 0)
-		)
-	)
-	(model "${KICAD_AVR_3D}/STEP/1757242.STEP"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/1757242.STEP"
 		(offset
 			(xyz 2.5 -4 0)
 		)

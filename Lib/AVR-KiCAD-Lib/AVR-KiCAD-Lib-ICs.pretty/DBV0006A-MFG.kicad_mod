@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "LMR51610XDBVR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -2 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8b205c91-8e00-4b83-8aaa-1800cc9642ee")
@@ -20,6 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "39a84411-ceb0-480e-aaf6-12b22827743e")
 		(effects
 			(font
@@ -144,20 +145,8 @@
 		(layer "F.Fab")
 		(uuid "00501a66-8ef6-46c8-9fea-982beedd1d19")
 	)
-	(fp_text user "Designator126"
-		(at -2.3876 -3.048 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "064671d1-1a86-4635-8134-48022fe5bb53")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "57ff6108-9a9e-49b6-b04f-0580a380b95e")
@@ -205,4 +194,15 @@
 		(uuid "8034cd7b-398f-46c7-b864-212448381f33")
 	)
 	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/DBV0006A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

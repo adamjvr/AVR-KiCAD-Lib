@@ -1,26 +1,189 @@
-(module BU2032SM-JJ-GTR (layer F.Cu) (tedit 5EE855B6)
-  (fp_text reference REF** (at 0 -15.55) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value BU2032SM-JJ-GTR (at 0 -16.55) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -5.5 -3.5) (end 5.5 -3.5) (layer F.SilkS) (width 0.5))
-  (fp_line (start -5.5 3.5) (end 5.5 3.5) (layer F.SilkS) (width 0.5))
-  (fp_line (start 5.5 -3.5) (end 5.5 3.5) (layer F.SilkS) (width 0.65))
-  (fp_line (start -5.5 -3.5) (end -5.5 3.5) (layer F.SilkS) (width 0.65))
-  (fp_circle (center 0 0) (end 11 0) (layer F.SilkS) (width 0.65))
-  (fp_circle (center 0 0.1) (end 11 0.1) (layer Eco1.User) (width 0.12))
-  (fp_line (start 14.3 -3.5) (end -14.3 -3.5) (layer F.SilkS) (width 0.65))
-  (fp_line (start 14.3 3.5) (end -14.3 3.5) (layer F.SilkS) (width 0.65))
-  (fp_line (start -9.5 0) (end -7 0) (layer F.SilkS) (width 0.5))
-  (fp_line (start -8.25 1.25) (end -8.25 -1.25) (layer F.SilkS) (width 0.5))
-  (fp_line (start 7 0) (end 9.5 0) (layer F.SilkS) (width 0.5))
-  (pad 1 smd rect (at -14.65 0) (size 3.2 4.2) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 14.65 0) (size 3.2 4.2) (layers F.Cu F.Paste F.Mask))
-  (model ${AVR_KICAD_LIB}/3D/STEP/BU2032SM-JJ-GTR.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "BU2032SM-JJ-GTR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -15.55 0)
+		(layer "F.SilkS")
+		(uuid "3f503bde-94c6-463e-8895-ec385f072a19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BU2032SM-JJ-GTR"
+		(at 0 -16.55 0)
+		(layer "F.Fab")
+		(uuid "96cc49cb-5aaa-460f-bac1-03e498630c0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c50240f-4637-48ea-9a94-e224c1850b04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db63d031-8ffc-482d-9fef-9b53a850de10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.5 0)
+		(end -7 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "884219e8-520e-43ca-b1d5-e1565b561c42")
+	)
+	(fp_line
+		(start -8.25 1.25)
+		(end -8.25 -1.25)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "649bbce4-26f3-4e2e-bb42-127623101a4f")
+	)
+	(fp_line
+		(start -5.5 -3.5)
+		(end -5.5 3.5)
+		(stroke
+			(width 0.65)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76d162fc-c1f4-461e-b27c-c3511320c876")
+	)
+	(fp_line
+		(start -5.5 -3.5)
+		(end 5.5 -3.5)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "441e61fa-871d-48c9-b091-3ffdb37ffe52")
+	)
+	(fp_line
+		(start -5.5 3.5)
+		(end 5.5 3.5)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f149085-6f53-45e5-bb04-7642540070f8")
+	)
+	(fp_line
+		(start 5.5 -3.5)
+		(end 5.5 3.5)
+		(stroke
+			(width 0.65)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "676525dd-a009-4203-8911-ec744b52d231")
+	)
+	(fp_line
+		(start 7 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13e8978c-7bb4-4401-b8bc-b17c989e26d4")
+	)
+	(fp_line
+		(start 14.3 -3.5)
+		(end -14.3 -3.5)
+		(stroke
+			(width 0.65)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dab8245c-c1ba-43d6-bc88-d2e7e98978db")
+	)
+	(fp_line
+		(start 14.3 3.5)
+		(end -14.3 3.5)
+		(stroke
+			(width 0.65)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fed5823f-f42d-4c52-9b2d-8ee49bc028eb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11 0)
+		(stroke
+			(width 0.65)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "34d051e2-59f5-4fe3-b99a-dde4c611caef")
+	)
+	(fp_circle
+		(center 0 0.1)
+		(end 11 0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "f011822c-c31a-4f12-8e06-fce413a72cc4")
+	)
+	(pad "1" smd rect
+		(at -14.65 0)
+		(size 3.2 4.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3acc7fea-a4e7-42f3-ae21-d21c7b388e80")
+	)
+	(pad "2" smd rect
+		(at 14.65 0)
+		(size 3.2 4.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b4cd0ea-962e-4fbc-92fa-a9aa9ffce8f7")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/BU2032SM-JJ-GTR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

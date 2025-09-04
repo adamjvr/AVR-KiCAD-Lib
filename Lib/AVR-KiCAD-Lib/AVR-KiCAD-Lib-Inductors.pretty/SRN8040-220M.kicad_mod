@@ -1,38 +1,251 @@
-(module SRN8040-220M (layer F.Cu) (tedit 5F24E5B0)
-  (fp_text reference REF** (at -2.5 -4.6) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value IND_BOURNS_SRN8040 (at 0 5.3) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 4.4069 4.4069) (end -4.4069 4.4069) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start 4.4069 -4.4069) (end 4.4069 4.4069) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start -4.4069 -4.4069) (end 4.4069 -4.4069) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start -4.4069 4.4069) (end -4.4069 -4.4069) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start 2.07645 -4.1529) (end -2.07645 -4.1529) (layer F.Fab) (width 0.1524))
-  (fp_line (start 4.1529 -2.07645) (end 2.07645 -4.1529) (layer F.Fab) (width 0.1524))
-  (fp_line (start 4.1529 2.07645) (end 4.1529 -2.07645) (layer F.Fab) (width 0.1524))
-  (fp_line (start 2.07645 4.1529) (end 4.1529 2.07645) (layer F.Fab) (width 0.1524))
-  (fp_line (start -2.07645 4.1529) (end 2.07645 4.1529) (layer F.Fab) (width 0.1524))
-  (fp_line (start -4.1529 2.07645) (end -2.07645 4.1529) (layer F.Fab) (width 0.1524))
-  (fp_line (start -4.1529 -2.07645) (end -4.1529 2.07645) (layer F.Fab) (width 0.1524))
-  (fp_line (start -2.07645 -4.1529) (end -4.1529 -2.07645) (layer F.Fab) (width 0.1524))
-  (fp_line (start 1.571903 -4.2799) (end -1.571903 -4.2799) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -1.571903 4.2799) (end 1.571903 4.2799) (layer F.SilkS) (width 0.1524))
-  (fp_text user "Copyright 2016 Accelerated Designs. All rights reserved." (at 0 0) (layer Cmts.User)
-    (effects (font (size 0.127 0.127) (thickness 0.002)))
-  )
-  (fp_text user * (at -3.6449 0) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user * (at -3.6449 0) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -2.8575 0) (size 2.2098 8.001) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.8575 0) (size 2.2098 8.001) (layers F.Cu F.Paste F.Mask))
-  (model ${AVR_KICAD_LIB}/3D/STEP/srn8040.stp
-    (offset (xyz 0 0 3.9))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SRN8040-220M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.5 -4.6 0)
+		(layer "F.SilkS")
+		(uuid "cb08b2fe-9f4a-47d8-a3e7-2a64677b2049")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_BOURNS_SRN8040"
+		(at 0 5.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c8e3d8f-6d26-4f88-b763-c59845c96876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3e89644-b5da-47ae-b3b3-c052d2b2ca3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b788270-7fd8-4415-bd98-25e6b217d315")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.571903 4.2799)
+		(end 1.571903 4.2799)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b5151db-651f-43d3-9223-8488592d058e")
+	)
+	(fp_line
+		(start 1.571903 -4.2799)
+		(end -1.571903 -4.2799)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af2c17a6-a9fc-4fd3-acda-74f9f88db6ec")
+	)
+	(fp_line
+		(start -4.4069 -4.4069)
+		(end 4.4069 -4.4069)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59ff92a0-560c-4b86-a75d-11990051ddbe")
+	)
+	(fp_line
+		(start -4.4069 4.4069)
+		(end -4.4069 -4.4069)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8c65545-ad27-4c12-8cb6-df8d99cfa106")
+	)
+	(fp_line
+		(start 4.4069 -4.4069)
+		(end 4.4069 4.4069)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0381c16d-15d2-4d1a-a868-c4368da3bcd5")
+	)
+	(fp_line
+		(start 4.4069 4.4069)
+		(end -4.4069 4.4069)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b777d8b-3cb6-41f5-bbcf-43703113614f")
+	)
+	(fp_line
+		(start -4.1529 -2.07645)
+		(end -4.1529 2.07645)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28deeec0-a2cd-492a-bc89-bc0197a58ae7")
+	)
+	(fp_line
+		(start -4.1529 2.07645)
+		(end -2.07645 4.1529)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bf7ba5f-930a-40f3-8d91-0bfff12c419b")
+	)
+	(fp_line
+		(start -2.07645 -4.1529)
+		(end -4.1529 -2.07645)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "825a5c63-f8ad-46c6-8ace-e6acc053ee1e")
+	)
+	(fp_line
+		(start -2.07645 4.1529)
+		(end 2.07645 4.1529)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "479c5fd5-c0fb-488f-a7fb-6b15efa8d411")
+	)
+	(fp_line
+		(start 2.07645 -4.1529)
+		(end -2.07645 -4.1529)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c09527f-4a99-430e-b931-74fd7bd79a82")
+	)
+	(fp_line
+		(start 2.07645 4.1529)
+		(end 4.1529 2.07645)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aebb6dfa-54ef-4e34-99ee-040fad381785")
+	)
+	(fp_line
+		(start 4.1529 -2.07645)
+		(end 2.07645 -4.1529)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91709e65-cb62-4a9b-8b65-c3d8b8facc71")
+	)
+	(fp_line
+		(start 4.1529 2.07645)
+		(end 4.1529 -2.07645)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be38d65f-fda1-4fd6-8ffe-9a1ff2596f4d")
+	)
+	(fp_text user "Copyright 2016 Accelerated Designs. All rights reserved."
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(uuid "015fa5f8-807e-41b9-96d8-85336c747d74")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.002)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -3.6449 0 0)
+		(layer "F.Fab")
+		(uuid "75ab1ab7-877f-42b4-830b-84a09decdfe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -3.6449 0 0)
+		(layer "F.Fab")
+		(uuid "ce48f775-43a1-4954-8c0e-0628c9d8ad42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.8575 0)
+		(size 2.2098 8.001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3d3378e-1c60-48d2-9340-0c27b3d6c9b0")
+	)
+	(pad "2" smd rect
+		(at 2.8575 0)
+		(size 2.2098 8.001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0814b1c6-853b-4ac1-9ff9-c720d3c96001")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/srn8040.stp"
+		(offset
+			(xyz 0 0 3.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

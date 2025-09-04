@@ -1,7 +1,7 @@
 (footprint "LMB110S-TP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -10.16 0)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5a006771-4131-4c4a-849f-783c448deb18")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -139,7 +127,7 @@
 	(pad "1" smd roundrect
 		(at 2.05 -2.86)
 		(size 0.9 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "f2fb5e0c-f5ff-47b6-95d9-d6b6669224e2")
@@ -147,7 +135,7 @@
 	(pad "2" smd roundrect
 		(at 2.05 2.86)
 		(size 0.9 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "a642930b-2925-4602-8340-35943105a01c")
@@ -155,7 +143,7 @@
 	(pad "3" smd roundrect
 		(at -2.05 2.86)
 		(size 0.9 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "cdc5155f-756e-4476-b0b7-b2ddd115b4a9")
@@ -163,12 +151,13 @@
 	(pad "4" smd roundrect
 		(at -2.05 -2.86)
 		(size 0.9 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "a93cd98e-03b6-4a3f-87f4-b3722d3a6d23")
 	)
-	(model "${KICAD_AVR_3D}/STEP/LMB110S-TP.step"
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/LMB110S-TP.step"
 		(offset
 			(xyz -2.65 -2.35 0)
 		)
