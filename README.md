@@ -1,6 +1,6 @@
 # AVR-KiCAD-Lib
 
-An open-source library for KiCAD containing footprints and schematic symbols for all the components I use in my personal designs. This library is designed to share my personal collection of footprints and symbols so that they can be reused and extended by the open source community but also as a live example of how to employ the AVR-Method. 
+An open-source library for KiCAD containing footprints and schematic symbols for all the components I use in my personal designs. This library is designed to share my personal collection of footprints and symbols so that they can be reused and extended by the open source community but also as a live example of how to employ the AVR-Method.
 
 ## Features
 
@@ -30,6 +30,8 @@ Navigate to the symbols folder inside the cloned repository and select the AVR-K
 
 Give it a name like AVR-KiCAD-Lib and save it as a project or global library.
 
+![alt text](img/footprint_lib.png "Footprint Lib example")
+
 ### Add the Footprint Library to KiCAD
 
 Open KiCAD and go to Preferences > Manage Footprint Libraries...
@@ -39,6 +41,8 @@ Click the + button to add a new library.
 Navigate to the footprints folder inside the cloned repository and select the AVR-KiCAD-Lib.pretty folder.
 
 Give it a name like AVR-KiCAD-Lib.pretty and save it as a project or global library.
+
+![alt text](img/symbol_lib.png "Symbol Lib example")
 
 ## Usage
 
