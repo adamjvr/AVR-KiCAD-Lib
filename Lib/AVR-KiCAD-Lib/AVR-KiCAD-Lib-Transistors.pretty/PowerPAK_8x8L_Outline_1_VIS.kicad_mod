@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "SQJQ466E-T1_GE3 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.5 -9.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b06f2c56-1a11-4466-aff1-9c421bb03e70")
@@ -20,6 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "8ae85b12-1154-40fb-b7d7-1a6c31f3ff7b")
 		(effects
 			(font
@@ -53,20 +54,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy 4.05 -4) (xy 4.05 4) (xy 3.55 4) (xy 3.55 3.45) (xy -0.44 3.45) (xy -0.44 4.125) (xy -1.29 4.125)
-			(xy -1.29 3.055) (xy -0.54 3.055) (xy -0.54 -3.055) (xy -1.29 -3.055) (xy -1.29 -4.125) (xy -0.44 -4.125)
-			(xy -0.44 -3.45) (xy 3.55 -3.45) (xy 3.55 -4)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "2028e72a-4828-43df-a2e5-d630f96f5d4b")
-	)
 	(fp_poly
 		(pts
 			(xy 4.05 -4) (xy 4.05 4) (xy 3.55 4) (xy 3.55 3.45) (xy -0.44 3.45) (xy -0.44 4.125) (xy -1.29 4.125)
@@ -172,8 +159,8 @@
 		(uuid "cd4b55ec-678b-496a-9595-3d8da932b56f")
 	)
 	(fp_circle
-		(center -5.304 -3)
-		(end -5.2278 -3)
+		(center -3.918825 -4.207291)
+		(end -3.842625 -4.207291)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -459,7 +446,7 @@
 		(uuid "f3ee6bb5-76d9-42af-9cba-95ef27a89eeb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "aa4a7232-d6e3-43cb-9bfd-4b6107580734")
@@ -495,10 +482,34 @@
 		(uuid "421aeb6e-12b5-4bd3-a6ec-2f1267e399f0")
 	)
 	(pad "5" smd rect
-		(at 3.64 0)
-		(size 0.127 0.127)
+		(at -0.85 -3.6)
+		(size 0.858044 1.116426)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "831f494a-d484-46e0-bf80-4bc1113b9dc3")
+	)
+	(pad "5" smd rect
+		(at -0.85 3.6)
+		(size 0.858044 1.116426)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe82effd-b9c5-483c-bb48-bbcfb956d13c")
+	)
+	(pad "5" smd rect
+		(at 1.78 0.025)
+		(size 4.44 6.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "46eccf6f-364d-4011-99ad-7e83fbf860c6")
+	)
+	(pad "5" smd rect
+		(at 3.8 -3.3)
+		(size 0.51394 1.382572)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e26eb72a-5b66-4773-812b-081f7f60eb95")
+	)
+	(pad "5" smd rect
+		(at 3.8 3.3)
+		(size 0.51394 1.382572)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "deb73134-82ea-4668-9d9d-1de54255d7f3")
 	)
 	(embedded_fonts no)
 	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/SQJQ466E-T1.step"
