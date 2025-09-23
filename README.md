@@ -68,4 +68,4 @@ See the LICENSE
 
 ## Credits
 
-Created by adamjvr.
+Created by Adam Vadala-Roth
