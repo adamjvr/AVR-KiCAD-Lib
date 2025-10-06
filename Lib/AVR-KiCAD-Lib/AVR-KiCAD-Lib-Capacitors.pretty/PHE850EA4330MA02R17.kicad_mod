@@ -1,30 +1,212 @@
-(module PHE850EA4330MA02R17 (layer F.Cu) (tedit 5CD23A32)
-  (fp_text reference REF** (at -9.8 -3.25) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value PHE-AH (at -5.55 3.45) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user "Copyright 2016 Accelerated Designs. All rights reserved." (at 0 0) (layer Cmts.User)
-    (effects (font (size 0.127 0.127) (thickness 0.002)))
-  )
-  (fp_line (start 1.2954 -2.2479) (end -11.7094 -2.2479) (layer F.Fab) (width 0.1524))
-  (fp_line (start 1.2954 2.2479) (end -11.7094 2.2479) (layer F.Fab) (width 0.1524))
-  (fp_line (start 1.2954 -2.2479) (end 1.2954 2.2479) (layer F.Fab) (width 0.1524))
-  (fp_line (start -11.7094 -2.2479) (end -11.7094 2.2479) (layer F.Fab) (width 0.1524))
-  (fp_line (start 1.4224 -2.3749) (end -11.8364 -2.3749) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 1.4224 2.3749) (end -11.8364 2.3749) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 1.4224 -2.3749) (end 1.4224 2.3749) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -11.8364 -2.3749) (end -11.8364 2.3749) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -11.9634 2.5019) (end -11.9634 -2.5019) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start -11.9634 -2.5019) (end 1.5494 -2.5019) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start 1.5494 -2.5019) (end 1.5494 2.5019) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start 1.5494 2.5019) (end -11.9634 2.5019) (layer F.CrtYd) (width 0.1524))
-  (pad 1 thru_hole circle (at -10.207 0) (size 1.4224 1.4224) (drill 0.9144) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at -0.207 0) (size 1.4224 1.4224) (drill 0.9144) (layers *.Cu *.Mask))
-  (model ${AVR_KICAD_LIB}/3D/STEP/F850AK472M300A.step
-    (offset (xyz -11.75 2.5 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "PHE850EA4330MA02R17"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -9.8 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "8fc65705-7eb2-43f1-b588-2402aafc8480")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHE-AH"
+		(at -5.55 3.45 0)
+		(layer "F.Fab")
+		(uuid "a4258ed7-7ca4-42cc-9c91-0ab3380a7d1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d209ac8-7aa4-4ccc-8cfc-786cafb29310")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "909e519e-9f53-4e9b-a332-c9c9f61f413f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -11.8364 -2.3749)
+		(end -11.8364 2.3749)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b9d3dd2-912d-4b47-9775-df7bdc7f7b76")
+	)
+	(fp_line
+		(start 1.4224 -2.3749)
+		(end -11.8364 -2.3749)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d57be3be-20e6-4d1e-bd60-0f79237dc422")
+	)
+	(fp_line
+		(start 1.4224 -2.3749)
+		(end 1.4224 2.3749)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce3146dd-0951-4a17-977a-92c8527767ab")
+	)
+	(fp_line
+		(start 1.4224 2.3749)
+		(end -11.8364 2.3749)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e050ba3-bf02-4b95-bfa0-ed84a1696634")
+	)
+	(fp_line
+		(start -11.9634 -2.5019)
+		(end 1.5494 -2.5019)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "420051bc-8051-443c-a382-da1a8edc0db4")
+	)
+	(fp_line
+		(start -11.9634 2.5019)
+		(end -11.9634 -2.5019)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1aa52e22-0581-4b36-a968-5b9cd46f3788")
+	)
+	(fp_line
+		(start 1.5494 -2.5019)
+		(end 1.5494 2.5019)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a993c9c-1629-4e05-a978-3f29ff7aa115")
+	)
+	(fp_line
+		(start 1.5494 2.5019)
+		(end -11.9634 2.5019)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f0caf25-9e75-4694-9b82-e9924da4eb4c")
+	)
+	(fp_line
+		(start -11.7094 -2.2479)
+		(end -11.7094 2.2479)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a117ffa-9f6c-4ed2-8c84-bcf328a4bad6")
+	)
+	(fp_line
+		(start 1.2954 -2.2479)
+		(end -11.7094 -2.2479)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53cf7246-75e0-408a-9d89-3050fdc477e5")
+	)
+	(fp_line
+		(start 1.2954 -2.2479)
+		(end 1.2954 2.2479)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db887a13-6ae3-4713-91c3-8ac2b030a95f")
+	)
+	(fp_line
+		(start 1.2954 2.2479)
+		(end -11.7094 2.2479)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ac62307-4bce-4ce8-9bcb-0fac199b8959")
+	)
+	(fp_text user "Copyright 2016 Accelerated Designs. All rights reserved."
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(uuid "d9876ebe-3ac2-4fdd-9494-30a3a94ffa30")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.002)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10.207 0)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "144c0b28-1fc8-43c1-8e28-acea546bc766")
+	)
+	(pad "2" thru_hole circle
+		(at -0.207 0)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "70f5a098-5da4-4b2b-a820-8c2bedd52ee9")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/F850AK472M300A.step"
+		(offset
+			(xyz -11.75 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

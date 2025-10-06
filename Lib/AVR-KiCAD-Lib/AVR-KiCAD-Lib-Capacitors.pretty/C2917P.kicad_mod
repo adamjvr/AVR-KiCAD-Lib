@@ -1,0 +1,159 @@
+(footprint "C2917P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "9480bcf0-150f-4103-81a7-608eadd13ab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C2917P"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "f9a83319-e2ab-44bb-919c-8b6d7730b9ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b3f1efa-ae43-4185-957c-86824f1733c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eb7b721-460e-4ea6-8f57-a6001d577f6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.6 -1.25)
+		(end 0.6 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0c35f6f-cb4e-472f-827d-066cd878c0ae")
+	)
+	(fp_line
+		(start -0.6 1.25)
+		(end 0.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13fa9a2c-a930-4a4a-8e46-c19b82be42dc")
+	)
+	(fp_line
+		(start -0.45 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8f59bb64-4a77-44a9-a310-b3da832bf3ee")
+	)
+	(fp_line
+		(start 0 -0.45)
+		(end 0 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6c86b6b2-28e1-4250-879d-bec494cfd6f5")
+	)
+	(fp_line
+		(start -3.65 -1.25)
+		(end 3.65 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "2a10b984-af8e-470c-a9c2-d9bb18124c8e")
+	)
+	(fp_line
+		(start -3.65 1.25)
+		(end -3.65 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "9c303d4e-1873-40a1-b7be-2a23610c36e8")
+	)
+	(fp_line
+		(start -3.65 1.25)
+		(end 3.65 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "afbf4df5-e59b-466f-a121-68c31de2242c")
+	)
+	(fp_line
+		(start 3.65 1.25)
+		(end 3.65 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "970d710f-07d4-4f1b-9e1c-19e5b8abc95e")
+	)
+	(pad "1" smd roundrect
+		(at -3.2 0 180)
+		(size 2.6 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "720cf93b-a6d8-48c3-942d-2b3e5b780583")
+	)
+	(pad "2" smd roundrect
+		(at 3.2 0 180)
+		(size 2.6 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e42967ae-c38a-42e6-82a9-14624ce74520")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/tantalum 330uF.stp"
+		(offset
+			(xyz -3.65 -2.15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

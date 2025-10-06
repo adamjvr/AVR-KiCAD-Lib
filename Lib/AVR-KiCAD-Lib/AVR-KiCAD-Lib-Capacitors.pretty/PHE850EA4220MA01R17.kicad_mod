@@ -1,19 +1,121 @@
-(module PHE850EA4220MA01R17 (layer F.Cu) (tedit 5CD22E5A)
-  (fp_text reference REF** (at -4.6 -2.7) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value PHE850EA4220MA01R17 (at 0 2.9) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -6.5 -2) (end 6.5 -2) (layer F.SilkS) (width 0.2))
-  (fp_line (start 6.5 -2) (end 6.5 2) (layer F.SilkS) (width 0.2))
-  (fp_line (start -6.5 2) (end 6.5 2) (layer F.SilkS) (width 0.2))
-  (fp_line (start -6.5 -2) (end -6.5 2) (layer F.SilkS) (width 0.2))
-  (pad 1 thru_hole circle (at -5 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 5 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${AVR_KICAD_LIB}/3D/STEP/F850AK472M300A.step
-    (offset (xyz -6.5 2.5 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "PHE850EA4220MA01R17"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.6 -2.7 0)
+		(layer "F.SilkS")
+		(uuid "b8ecc0d0-8b96-4596-91d9-debe49151819")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHE850EA4220MA01R17"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "5dea5310-13c3-446b-9a0c-37c5b3eba018")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d62b7c2-aef8-46c1-a9e8-a1bacc8b138a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "020fca30-2621-4d8c-ae7d-f28c0b7f83a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.5 -2)
+		(end -6.5 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f64e844b-8afe-4047-96d1-01954ace61ce")
+	)
+	(fp_line
+		(start -6.5 -2)
+		(end 6.5 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3edc879-56c3-4380-89ea-1a8988355c00")
+	)
+	(fp_line
+		(start -6.5 2)
+		(end 6.5 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca1d2beb-c3b4-4e9f-88ae-06dc6046796d")
+	)
+	(fp_line
+		(start 6.5 -2)
+		(end 6.5 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92444416-0429-4530-adaf-59554e5a99ea")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f947f544-1008-4b6e-963d-902ad7a1ecb3")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66a3569c-8e25-4ed6-88e1-44f517f5a2e9")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/F850AK472M300A.step"
+		(offset
+			(xyz -6.5 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

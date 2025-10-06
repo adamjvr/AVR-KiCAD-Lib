@@ -1,19 +1,122 @@
-(module RV16AF-42-15R1 (layer F.Cu) (tedit 5FB46952)
-  (fp_text reference REF** (at -4.15 -4.45) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value RV16AF-42-15R1 (at 0.6 -2.65) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 -14.3) (end 3.75 -14.3) (layer Dwgs.User) (width 0.12))
-  (fp_circle (center 0 -14.3) (end 8.5 -14.3) (layer Dwgs.User) (width 0.12))
-  (fp_circle (center 0 -14.3) (end 9 -14.3) (layer F.SilkS) (width 0.12))
-  (pad 1 thru_hole circle (at -5 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 0 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at 5 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
-  (model "${AVR_KICAD_LIB}/3D/STEP/16mm PCB Pot.step"
-    (offset (xyz 0 16.5 1.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "RV16AF-42-15R1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.15 -4.45 0)
+		(layer "F.SilkS")
+		(uuid "4e7fd302-4f9f-4980-a98d-0da85dac6f88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV16AF-42-15R1"
+		(at 0.6 -2.65 0)
+		(layer "F.Fab")
+		(uuid "0fb48c81-37cd-4f72-bfd5-e5df3eb16261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64903680-b745-4e0b-b009-722b21f5aac3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "024b0cbc-1ba9-4fad-a38b-d5295f78b2ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 -16.35)
+		(end 9 -16.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a5e5d90e-3f1a-43d2-a236-aa7f11201b4d")
+	)
+	(fp_circle
+		(center 0 -16.35)
+		(end 3.75 -16.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "c5812c25-cab7-4694-a3d4-6952d4517a68")
+	)
+	(fp_circle
+		(center 0 -16.35)
+		(end 8.5 -16.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "39766b7e-8212-4ebd-8e0c-8e2b6fb14f63")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c43d6803-135f-436a-9642-d990fcfaaff8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f282a767-fec4-4c94-9983-dc96bcec6b82")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c279ef1a-2561-467a-a27b-6fe30bd23fbc")
+	)
+	(embedded_fonts no)
+	(model "/home/adamjvr/GitHub/AVR-KiCAD-Lib/Lib/AVR-KiCAD-Lib/3D/STEP/16mm PCB Pot.step"
+		(offset
+			(xyz 0 16.5 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
